@@ -18,7 +18,7 @@ if_openmain(xplamp);
 [if_button,xplamp:smithing] @xplamp_select(smithing);
 [if_button,xplamp:fishing] @xplamp_select(fishing);
 [if_button,xplamp:cooking] @xplamp_select(cooking);
-[if_button,xplamp:firemaking] @xplamp_select(firemaking);
+[if_button,xplamp:survival] @xplamp_select(survival);
 [if_button,xplamp:woodcutting] @xplamp_select(woodcutting);
 [if_button,xplamp:fletching] @xplamp_select(fletching);
 
@@ -43,7 +43,7 @@ switch_int (%xplamp) {
     case ^xplamp_smithing : @xplamp_confirm(smithing);
     case ^xplamp_fishing : @xplamp_confirm(fishing);
     case ^xplamp_cooking : @xplamp_confirm(cooking);
-    case ^xplamp_firemaking : @xplamp_confirm(firemaking);
+    case ^xplamp_survival : @xplamp_confirm(survival);
     case ^xplamp_woodcutting : @xplamp_confirm(woodcutting);
     case ^xplamp_fletching : @xplamp_confirm(fletching);
 }
@@ -72,7 +72,7 @@ switch_stat ($stat) {
     case smithing : @xplamp_select_stat(^xplamp_smithing);
     case fishing : @xplamp_select_stat(^xplamp_fishing);
     case cooking : @xplamp_select_stat(^xplamp_cooking);
-    case firemaking : @xplamp_select_stat(^xplamp_firemaking);
+    case survival : @xplamp_select_stat(^xplamp_survival);
     case woodcutting : @xplamp_select_stat(^xplamp_woodcutting);
     case fletching : @xplamp_select_stat(^xplamp_fletching);
 }
