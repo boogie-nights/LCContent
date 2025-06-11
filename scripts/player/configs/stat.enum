@@ -18,7 +18,7 @@ val=13,mining
 val=14,smithing
 val=15,fishing
 val=16,cooking
-val=17,survival
+val=17,firemaking
 val=18,woodcutting
 val=19,fletching
 
@@ -39,7 +39,7 @@ val=10,mining
 val=11,smithing
 val=12,fishing
 val=13,cooking
-val=14,survival
+val=14,firemaking
 val=15,woodcutting
 
 [stat_names]
@@ -62,7 +62,7 @@ val=mining,Mining
 val=smithing,Smithing
 val=fishing,Fishing
 val=cooking,Cooking
-val=survival,Survival
+val=firemaking,Firemaking
 val=woodcutting,Woodcutting
 val=fletching,Fletching
 
@@ -86,6 +86,6 @@ val=mining,^false
 val=smithing,^false
 val=fishing,^false
 val=cooking,^false
-val=survival,^false
+val=firemaking,^false
 val=woodcutting,^false
 val=fletching,^true

@@ -14,7 +14,7 @@ if (p_finduid(uid) = true) {
     stat_advance(woodcutting, $max_xp);
     stat_advance(fletching, $max_xp);
     stat_advance(fishing, $max_xp);
-    stat_advance(survival, $max_xp);
+    stat_advance(firemaking, $max_xp);
     stat_advance(crafting, $max_xp);
     stat_advance(smithing, $max_xp);
     stat_advance(mining, $max_xp);

@@ -435,7 +435,7 @@ val=80
 val=82
 val=91
 
-[levelup_unlocks_survival]
+[levelup_unlocks_firemaking]
 inputtype=autoint
 outputtype=int
 default=null

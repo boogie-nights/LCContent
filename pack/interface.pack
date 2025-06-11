@@ -2826,7 +2826,7 @@
 2825=xplamp:smithing
 2826=xplamp:fishing
 2827=xplamp:cooking
-2828=xplamp:survival
+2828=xplamp:firemaking
 2829=xplamp:woodcutting
 2830=xplamp:fletching
 2831=xplamp:confirm
@@ -4280,11 +4280,11 @@
 4279=levelup_agility:line2
 4280=levelup_agility:continue
 4281=levelup_agility:icon
-4282=levelup_survival
-4283=levelup_survival:line1
-4284=levelup_survival:line2
-4285=levelup_survival:continue
-4286=levelup_survival:icon
+4282=levelup_firemaking
+4283=levelup_firemaking:line1
+4284=levelup_firemaking:line2
+4285=levelup_firemaking:continue
+4286=levelup_firemaking:icon
 4287=music:com_2
 4288=music:com_3
 4289=music:com_4

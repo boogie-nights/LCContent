@@ -16,7 +16,7 @@
 [advancestat,smithing] @levelup(enum(int, stat, stats, ^smithing));
 [advancestat,fishing] @levelup(enum(int, stat, stats, ^fishing));
 [advancestat,cooking] @levelup(enum(int, stat, stats, ^cooking));
-[advancestat,survival] @levelup(enum(int, stat, stats, ^survival));
+[advancestat,firemaking] @levelup(enum(int, stat, stats, ^firemaking));
 [advancestat,woodcutting] @levelup(enum(int, stat, stats, ^woodcutting));
 [advancestat,fletching] @levelup(enum(int, stat, stats, ^fletching));
 
