@@ -242,7 +242,7 @@ graphic=miscgraphics3,0
 activegraphic=miscgraphics3,1
 option=Advance Cooking
 
-[firemaking]
+[survival]
 type=graphic
 x=276
 y=212
@@ -253,7 +253,7 @@ script1op1=pushvar,xplamp
 script1=eq,17
 graphic=miscgraphics3,0
 activegraphic=miscgraphics3,1
-option=Advance Firemaking
+option=Advance Survival
 
 [woodcutting]
 type=graphic

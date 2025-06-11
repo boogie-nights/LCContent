@@ -63,7 +63,7 @@ stat_sub(attack, 5, 5);
 stat_sub(defence, 5, 5);
 stat_sub(woodcutting, 5, 5);
 stat_sub(fletching, 5, 5);
-stat_sub(firemaking, 5, 5);
+stat_sub(survival, 5, 5);
 mes("The room seems to be swaying.");
 p_delay(2);
 %barcrawl_progress = setbit(%barcrawl_progress, ^forestersarms_index);

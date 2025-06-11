@@ -7,8 +7,8 @@
 [label,tut_light_logs_ground]
 def_obj $log = obj_type;
 def_int $level = oc_param($log, levelrequire);
-if (stat(firemaking) < $level) {
-    mes("You need a Firemaking level of <tostring($level)> to burn <oc_name($log)>.");
+if (stat(survival) < $level) {
+    mes("You need a Survival level of <tostring($level)> to burn <oc_name($log)>.");
     return;
 }
 // check if the coord is already occupied by an interactable loc
@@ -38,7 +38,7 @@ anim(null, 0);
 def_obj $log = inv_getobj(inv, $slot);
 def_int $level = oc_param($log, levelrequire);
 
-if (stat(firemaking) < $level) {
+if (stat(survival) < $level) {
     mes("You need a Firemaking level of <tostring($level)> to burn <oc_name($log)>.");
     return;
 }
@@ -71,7 +71,7 @@ anim(null, 0);
 
 [proc,tut_firemaking_success](coord $fire_coord, obj $log)
 obj_del();
-~tutorial_give_xp(firemaking, 400);
+~tutorial_give_xp(survival, 400);
 sound_synth(fire_lit, 0, 0);
 facesquare($fire_coord);
 if (%tutorial_progress = ^newbie_survival_instructor_build_fire) {
