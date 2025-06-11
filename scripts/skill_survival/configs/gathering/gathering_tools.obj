@@ -1,6 +1,6 @@
 [secateurs]
 name=Secateurs
-desc=These'll help me gather herbs.
+desc=For gathering useful plants.
 model=model_2620_obj
 manwear=model_525_obj_wear,0
 womanwear=model_525_obj_wear,6
@@ -9,3 +9,122 @@ womanwear=model_525_obj_wear,6
 2dyan=136
 2dxan=300
 weight=4oz
+category=gathering_tool
+param=gathering_animation,human_gathering_bush_steel
+
+[bronze_secateurs]
+name=Bronze Secateurs
+desc=For gathering useful plants.
+model=model_2620_obj
+manwear=model_525_obj_wear,0
+womanwear=model_525_obj_wear,6
+recol1s=15855
+recol1d=8354
+2dyof=15
+2dzoom=710
+2dyan=136
+2dxan=300
+weight=4oz
+category=gathering_tool
+param=levelrequire,0
+param=gathering_animation,human_gathering_bush_bronze
+
+[iron_secateurs]
+name=Iron Secateurs
+desc=For gathering useful plants.
+model=model_2620_obj
+manwear=model_525_obj_wear,0
+womanwear=model_525_obj_wear,6
+recol1s=15855
+recol1d=8456
+2dyof=15
+2dzoom=710
+2dyan=136
+2dxan=300
+weight=4oz
+category=gathering_tool
+param=levelrequire,0
+param=gathering_animation,human_gathering_bush_iron
+
+[steel_secateurs]
+name=Steel Secateurs
+desc=For gathering useful plants.
+model=model_2620_obj
+manwear=model_525_obj_wear,0
+womanwear=model_525_obj_wear,6
+2dyof=15
+2dzoom=710
+2dyan=136
+2dxan=300
+weight=4oz
+category=gathering_tool
+param=levelrequire,6
+param=gathering_animation,human_gathering_bush_steel
+
+[mithril_secateurs]
+name=Mithril Secateurs
+desc=For gathering useful plants.
+model=model_2620_obj
+manwear=model_525_obj_wear,0
+womanwear=model_525_obj_wear,6
+recol1s=15855
+recol1d=6346
+2dyof=15
+2dzoom=710
+2dyan=136
+2dxan=300
+weight=1oz
+category=gathering_tool
+param=levelrequire,21
+param=gathering_animation,human_gathering_bush_mithril
+
+[adamant_secateurs]
+name=Adamant Secateurs
+desc=For gathering useful plants.
+model=model_2620_obj
+manwear=model_525_obj_wear,0
+womanwear=model_525_obj_wear,6
+recol1s=15855
+recol1d=6438
+2dyof=15
+2dzoom=710
+2dyan=136
+2dxan=300
+weight=4oz
+category=gathering_tool
+param=levelrequire,31
+param=gathering_animation,human_gathering_bush_adamant
+
+[rune_secateurs]
+name=Rune Secateurs
+desc=For gathering useful plants.
+model=model_2620_obj
+manwear=model_525_obj_wear,0
+womanwear=model_525_obj_wear,6
+recol1s=15855
+recol1d=6476
+2dyof=15
+2dzoom=710
+2dyan=136
+2dxan=300
+weight=4oz
+category=gathering_tool
+param=levelrequire,41
+param=gathering_animation,human_gathering_bush_rune
+
+[black_secateurs]
+name=Black Secateurs
+desc=For gathering useful plants.
+model=model_2620_obj
+manwear=model_525_obj_wear,0
+womanwear=model_525_obj_wear,6
+recol1s=15855
+recol1d=0
+2dyof=15
+2dzoom=710
+2dyan=136
+2dxan=300
+weight=4oz
+category=gathering_tool
+param=levelrequire,11
+param=gathering_animation,human_gathering_bush_black

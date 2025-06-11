@@ -4,7 +4,7 @@ desc=It's been picked clean!
 model=model_loc_1122
 width=2
 length=2
-mapscene=6
+mapscene=21
 blockrange=no
 
 [herb_bush_common]
@@ -16,7 +16,7 @@ length=2
 blockrange=no
 op1=Pick
 op3=hidden
-mapscene=12
+mapscene=21
 blockrange=no
 param=next_loc_stage,herb_bush_empty
 //category=mining_rock_normal
@@ -31,7 +31,7 @@ length=2
 blockrange=no
 op1=Pick
 op3=hidden
-mapscene=12
+mapscene=21
 blockrange=no
 param=next_loc_stage,herb_bush_empty
 
@@ -44,7 +44,7 @@ length=2
 blockrange=no
 op1=Pick
 op3=hidden
-mapscene=12
+mapscene=21
 blockrange=no
 param=next_loc_stage,herb_bush_empty
 
@@ -57,6 +57,6 @@ length=2
 blockrange=no
 op1=Pick
 op3=hidden
-mapscene=12
+mapscene=21
 blockrange=no
 param=next_loc_stage,herb_bush_empty

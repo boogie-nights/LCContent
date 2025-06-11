@@ -1,0 +1,21 @@
+[proc,secateurs_checker]()(obj)
+def_int $lvl0 = stat(survival);
+if ($lvl0 >= oc_param(rune_secateurs, levelrequire) & (inv_total(inv, rune_secateurs) > 0)) {
+    return(rune_secateurs);
+}
+if ($lvl0 >= oc_param(adamant_secateurs, levelrequire) & (inv_total(inv, adamant_secateurs) > 0)) {
+    return(adamant_secateurs);
+}
+if ($lvl0 >= oc_param(mithril_secateurs, levelrequire) & (inv_total(inv, mithril_secateurs) > 0)) {
+    return(mithril_secateurs);
+}
+if ($lvl0 >= oc_param(steel_secateurs, levelrequire) & (inv_total(inv, steel_secateurs) > 0)) {
+    return(steel_secateurs);
+}
+if ($lvl0 >= oc_param(iron_secateurs, levelrequire) & (inv_total(inv, iron_secateurs) > 0)) {
+    return(iron_secateurs);
+}
+if ($lvl0 >= oc_param(bronze_secateurs, levelrequire) & (inv_total(inv, bronze_secateurs) > 0)) {
+    return(bronze_secateurs);
+}
+return(null);
