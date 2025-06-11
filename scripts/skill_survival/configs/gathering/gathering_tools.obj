@@ -1,0 +1,11 @@
+[secateurs]
+name=Secateurs
+desc=These'll help me gather herbs.
+model=model_2620_obj
+manwear=model_525_obj_wear,0
+womanwear=model_525_obj_wear,6
+2dyof=15
+2dzoom=710
+2dyan=136
+2dxan=300
+weight=4oz

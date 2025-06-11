@@ -1,0 +1,7 @@
+[herb_nodes]
+column=levelrequired,int
+column=node,loc
+column=productexp,int
+column=product,namedobj
+column=respawnrate,int
+column=successchance,int,int
