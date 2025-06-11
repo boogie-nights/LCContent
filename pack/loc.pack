@@ -3385,5 +3385,8 @@
 3384=cavewall_top_mudtogrey
 3385=cavewall_top_mudtogrey_endl
 3386=cavewall_top_mudtogrey_endr
-3387=empty_node_herb
-3388=node_guam
+3387=herb_bush_empty
+3388=herb_bush_common
+3389=herb_bush_uncommon
+3390=herb_bush_rare
+3391=herb_bush_very_rare

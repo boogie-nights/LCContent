@@ -1,8 +1,8 @@
-[node_guam]
+[herb_bush_common]
 table=herb_nodes
-data=node,node_guam
-data=levelrequired,3
-data=productexp,150
+data=node,herb_bush_common
+data=levelrequired,20
+data=productexp,400
 data=product,unidentified_guam
 data=respawnrate,150
 data=successchance,96,300

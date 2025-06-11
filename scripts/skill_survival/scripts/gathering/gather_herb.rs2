@@ -1,5 +1,5 @@
-[oploc1,node_guam] @attempt_herb_harvest;
-[oploc3,node_guam] @herb_harvest;
+[oploc1,herb_bush_common] @attempt_herb_harvest;
+[oploc3,herb_bush_common] @herb_harvest;
 
 [label,attempt_herb_harvest]
 db_find(herb_nodes:node, loc_type);

@@ -1,0 +1,62 @@
+[herb_bush_empty]
+name=Bush
+desc=It's been picked clean!
+model=model_loc_1122
+width=2
+length=2
+mapscene=6
+blockrange=no
+
+[herb_bush_common]
+name=Herby Plant
+desc=Now that's an herby plant.
+model=model_loc_1392
+width=2
+length=2
+blockrange=no
+op1=Pick
+op3=hidden
+mapscene=12
+blockrange=no
+param=next_loc_stage,herb_bush_empty
+//category=mining_rock_normal
+//param=mining_rock_empty,1
+
+[herb_bush_uncommon]
+name=Herby Plant
+desc=Now that's an herby plant.
+model=model_loc_1392
+width=2
+length=2
+blockrange=no
+op1=Pick
+op3=hidden
+mapscene=12
+blockrange=no
+param=next_loc_stage,herb_bush_empty
+
+[herb_bush_rare]
+name=Herby Plant
+desc=Now that's an herby plant.
+model=model_loc_1392
+width=2
+length=2
+blockrange=no
+op1=Pick
+op3=hidden
+mapscene=12
+blockrange=no
+param=next_loc_stage,herb_bush_empty
+
+[herb_bush_very_rare]
+name=Herby Plant
+desc=Now that's an herby plant.
+model=model_loc_1392
+width=2
+length=2
+blockrange=no
+op1=Pick
+op3=hidden
+mapscene=12
+blockrange=no
+param=next_loc_stage,herb_bush_empty
