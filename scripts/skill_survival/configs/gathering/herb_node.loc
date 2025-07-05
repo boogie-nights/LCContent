@@ -1,7 +1,7 @@
 [herb_bush_empty]
 name=Bush
 desc=It's been picked clean!
-model=model_loc_1122
+model=bush_empty
 width=2
 length=2
 mapscene=21
@@ -10,7 +10,8 @@ blockrange=no
 [herb_bush_common]
 name=Herby Plant
 desc=Now that's an herby plant.
-model=model_loc_1392
+model=bush_empty
+//model2=bush_berries_full
 width=2
 length=2
 blockrange=no
