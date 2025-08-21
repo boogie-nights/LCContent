@@ -45,7 +45,7 @@ param=next_loc_stage,openbankdoor_r
 [inaccastledoubledoorropen]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 raiseobject=no
@@ -55,7 +55,7 @@ param=next_loc_stage,desertdoor_animate
 [desertdoor_animate]
 name=Door
 desc=The door is open.
-model=mcannondoor
+model=door
 active=yes
 op1=Close
 raiseobject=no
@@ -65,7 +65,7 @@ param=next_loc_stage,inaccastledoubledoorropen
 [desertdoorclosed]
 name=Door
 desc=A nicely fitted door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -79,7 +79,7 @@ param=next_loc_stage,desertdooropen
 [desertdooropen]
 name=Door
 desc=A nicely fitted door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -93,7 +93,7 @@ param=next_loc_stage,desertdoorclosed
 [poordooropen]
 name=Door
 desc=An ornately-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -107,7 +107,7 @@ param=next_loc_stage,poordoor_cross
 [poordoor_cross]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -144,7 +144,7 @@ param=close_sound,sound_321
 [loc_11707]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=17865
 recol2s=13569
@@ -167,7 +167,7 @@ param=next_loc_stage,loc_11708
 [loc_11708]
 name=Door
 desc=The door is open.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=17865
 recol2s=13569
@@ -190,7 +190,7 @@ param=next_loc_stage,loc_11707
 [loc_11709]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=17865
 recol2s=13569
@@ -214,7 +214,7 @@ param=next_loc_stage,loc_11710
 [loc_11710]
 name=Door
 desc=The door is open.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=17865
 recol2s=13569
@@ -238,7 +238,7 @@ param=next_loc_stage,loc_11709
 [loc_11711]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=17865
 recol2s=13569
@@ -262,7 +262,7 @@ param=next_loc_stage,loc_11712
 [loc_11712]
 name=Door
 desc=The door is open.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=17865
 recol2s=13569

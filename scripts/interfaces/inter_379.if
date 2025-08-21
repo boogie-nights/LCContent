@@ -15,7 +15,7 @@ y=152
 width=32
 height=32
 model=obj_fade_to_black_inv
-anim=anma_chopping_failed_infernal_axe
+anim=seq_2115
 zoom=130
 xan=512
 

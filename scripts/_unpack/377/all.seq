@@ -384,7 +384,7 @@ delay7=5
 frame8=anim_5076
 delay8=5
 
-[anma_chopping_failed_trailblazer_axe_no_infernal]
+[seq_22]
 frame1=anim_5076
 frame2=anim_5067
 frame3=anim_5059
@@ -394,7 +394,7 @@ frame6=anim_5088
 frame7=anim_5081
 frame8=anim_5075
 
-[human_canoeing_carve_trailblazer_axe_no_infernal]
+[seq_23]
 frame1=anim_5085
 frame2=anim_5045
 frame3=anim_5051
@@ -404,7 +404,7 @@ frame6=anim_5072
 frame7=anim_5080
 frame8=anim_5087
 
-[human_woodcutting_trailblazer_axe_no_infernal]
+[seq_24]
 frame1=anim_5071
 frame2=anim_5079
 frame3=anim_5086
@@ -1162,7 +1162,7 @@ frame10=anim_31608
 frame11=anim_31609
 frame12=anim_31610
 
-[human_woodcrafting_axe_trailblazer_no_infernal]
+[seq_85]
 priority=6
 frame1=anim_5442
 frame2=anim_5432
@@ -1192,7 +1192,7 @@ frame10=anim_5449
 frame11=anim_5451
 frame12=anim_5453
 
-[brut_human_canoeing_carve_trailblazer_axe_no_infernal]
+[seq_87]
 priority=6
 frame1=anim_5466
 frame2=anim_5456
@@ -1207,7 +1207,7 @@ frame10=anim_5460
 frame11=anim_5462
 frame12=anim_5464
 
-[human_harpoon_trailblazer_no_infernal]
+[seq_88]
 priority=6
 frame1=anim_5474
 frame2=anim_5476
@@ -24292,7 +24292,7 @@ delay15=5
 frame16=anim_5754
 delay16=20001
 
-[mm2_hunter_maniacal_monkey_idle]
+[seq_786]
 frame1=anim_5750
 frame2=anim_5756
 delay2=4
@@ -31607,7 +31607,7 @@ frame7=anim_9395
 frame8=anim_9396
 frame9=anim_9397
 
-[anma_chopping_failed_mithril_axe]
+[seq_1254]
 loops=1
 frame1=anim_9372
 frame2=anim_9381
@@ -31643,7 +31643,7 @@ delay16=5
 frame17=anim_9380
 delay17=5
 
-[anma_chopping_failed_adamant_axe]
+[seq_1255]
 loops=1
 frame1=anim_9380
 frame2=anim_9379
@@ -31679,7 +31679,7 @@ delay16=5
 frame17=anim_9372
 delay17=5
 
-[anma_chopping_failed_rune_axe]
+[seq_1256]
 loops=1
 frame1=anim_9380
 frame2=anim_9378
@@ -34070,7 +34070,7 @@ loops=1
 frame1=anim_9012
 frame2=anim_9013
 
-[searchcape_pestle]
+[seq_1376]
 loops=1
 frame1=anim_10445
 frame2=anim_10444
@@ -34192,7 +34192,7 @@ delay59=5
 frame60=anim_10445
 delay60=5
 
-[searchcape_grapple]
+[seq_1377]
 loops=1
 frame1=anim_10445
 frame2=anim_10444
@@ -34534,7 +34534,7 @@ delay169=5
 frame170=anim_10445
 delay170=5
 
-[dragon_warhammer_sa_player]
+[seq_1378]
 loops=1
 frame1=anim_10437
 frame2=anim_10446
@@ -39706,7 +39706,7 @@ delay3=4
 frame4=anim_12694
 delay4=5
 
-[corpbeast_death]
+[seq_1676]
 priority=6
 frame1=anim_12697
 frame2=anim_12698
@@ -39717,7 +39717,7 @@ frame6=anim_12699
 frame7=anim_12698
 frame8=anim_12697
 
-[corpbeast_defend]
+[seq_1677]
 loops=4
 frame1=anim_12698
 delay1=5
@@ -39728,7 +39728,7 @@ delay3=4
 frame4=anim_12698
 delay4=5
 
-[corpbeast_idle]
+[seq_1678]
 priority=6
 frame1=anim_12623
 frame2=anim_12624
@@ -39738,7 +39738,7 @@ frame5=anim_25495
 frame6=anim_25496
 frame7=anim_25497
 
-[corpbeast_sprite_shoot_1]
+[seq_1679]
 loops=4
 frame1=anim_12624
 delay1=6
@@ -39749,7 +39749,7 @@ delay3=6
 frame4=anim_12624
 delay4=6
 
-[corpbeast_sprite_shoot_2]
+[seq_1680]
 priority=6
 frame1=anim_12627
 frame2=anim_12628
@@ -39760,7 +39760,7 @@ frame6=anim_12629
 frame7=anim_12628
 frame8=anim_12627
 
-[corpbeast_sprite_shoot_3]
+[seq_1681]
 loops=4
 frame1=anim_12628
 delay1=5
@@ -39771,7 +39771,7 @@ delay3=4
 frame4=anim_12628
 delay4=5
 
-[corpbeast_stomp_attack]
+[seq_1682]
 priority=6
 frame1=anim_12631
 frame2=anim_12632
@@ -39782,7 +39782,7 @@ frame6=anim_12633
 frame7=anim_12632
 frame8=anim_12631
 
-[corpbeast_swiping_attack]
+[seq_1683]
 loops=4
 frame1=anim_12632
 delay1=5
@@ -39793,7 +39793,7 @@ delay3=4
 frame4=anim_12632
 delay4=5
 
-[corpbeast_walking]
+[seq_1684]
 priority=6
 frame1=anim_12635
 frame2=anim_12636
@@ -39815,7 +39815,7 @@ delay3=4
 frame4=anim_12636
 delay4=5
 
-[corp_double_stomp]
+[seq_1686]
 priority=6
 frame1=anim_12643
 frame2=anim_12644
@@ -39826,7 +39826,7 @@ frame6=anim_12645
 frame7=anim_12644
 frame8=anim_12643
 
-[corpbeast_doublestomp_spotanim]
+[seq_1687]
 loops=4
 frame1=anim_12644
 delay1=5
@@ -40057,7 +40057,7 @@ delay3=4
 frame4=anim_12662
 delay4=5
 
-[hw07_arm_from_the_ground_emote]
+[seq_1708]
 priority=6
 frame1=anim_12688
 frame2=anim_12689
@@ -40123,7 +40123,7 @@ delay3=4
 frame4=anim_12620
 delay4=5
 
-[armadyl_special_attack]
+[seq_1714]
 priority=6
 frame1=anim_12683
 frame2=anim_12684
@@ -40134,7 +40134,7 @@ frame6=anim_12685
 frame7=anim_12684
 frame8=anim_12683
 
-[elysian_shield_defend]
+[seq_1715]
 loops=4
 frame1=anim_12684
 delay1=5
@@ -40156,7 +40156,7 @@ frame6=anim_12668
 frame7=anim_12667
 frame8=anim_12666
 
-[hw07_arm_from_the_ground_spotanim]
+[seq_1717]
 loops=4
 frame1=anim_12667
 delay1=5
@@ -40200,7 +40200,7 @@ frame6=anim_12681
 frame7=anim_12680
 frame8=anim_12679
 
-[snakeboss_pet_idle]
+[seq_1721]
 loops=3
 frame1=anim_12680
 delay1=5
@@ -40726,7 +40726,7 @@ delay11=21
 frame12=anim_12830
 delay12=21
 
-[snakeboss_pet_attack]
+[seq_1741]
 priority=6
 frame1=anim_12847
 frame2=anim_12848
@@ -40737,7 +40737,7 @@ frame6=anim_12849
 frame7=anim_12848
 frame8=anim_12847
 
-[snakeboss_pet_defend]
+[seq_1742]
 loops=4
 frame1=anim_12848
 delay1=5
@@ -49053,7 +49053,7 @@ frame7=anim_16293
 frame8=anim_16292
 frame9=anim_16291
 
-[anma_chopping_failed_dragon_axe]
+[seq_2114]
 loops=1
 frame1=anim_10440
 frame2=anim_10439
@@ -49385,7 +49385,7 @@ delay164=5
 frame165=anim_10440
 delay165=5
 
-[anma_chopping_failed_infernal_axe]
+[seq_2115]
 loops=1
 frame1=anim_10437
 frame2=anim_10446
@@ -49411,7 +49411,7 @@ delay11=5
 frame12=anim_10440
 delay12=5
 
-[human_canoeing_carve_infernal_axe]
+[seq_2116]
 loops=1
 frame1=anim_10450
 frame2=anim_10449
@@ -49731,7 +49731,7 @@ delay158=5
 frame159=anim_10450
 delay159=5
 
-[human_woodcutting_infernal_axe]
+[seq_2117]
 loops=1
 frame1=anim_10437
 frame2=anim_10446
@@ -55549,7 +55549,7 @@ frame3=anim_18587
 frame4=anim_18588
 frame5=anim_18589
 
-[snakeboss_pet_walk_forward]
+[seq_2405]
 priority=6
 frame1=anim_18717
 frame2=anim_18718
@@ -55560,7 +55560,7 @@ frame6=anim_18719
 frame7=anim_18718
 frame8=anim_18717
 
-[snakeboss_pet_walk_back]
+[seq_2406]
 loops=4
 frame1=anim_18718
 delay1=5
@@ -55571,7 +55571,7 @@ delay3=4
 frame4=anim_18718
 delay4=5
 
-[snakeboss_pet_walk_left]
+[seq_2407]
 priority=6
 frame1=anim_18713
 frame2=anim_18714
@@ -55582,7 +55582,7 @@ frame6=anim_18715
 frame7=anim_18714
 frame8=anim_18713
 
-[snakeboss_pet_death]
+[seq_2408]
 loops=4
 frame1=anim_18714
 delay1=5
@@ -55673,7 +55673,7 @@ frame7=anim_18723
 frame8=anim_18724
 frame9=anim_18725
 
-[snakeboss_pet_spawn]
+[seq_2413]
 frame1=anim_18750
 frame2=anim_18758
 delay2=5
@@ -55706,7 +55706,7 @@ delay15=5
 frame16=anim_18757
 delay16=5
 
-[snakeboss_pet_walk_right]
+[seq_2414]
 frame1=anim_18766
 frame2=anim_18774
 delay2=5
@@ -55739,7 +55739,7 @@ delay15=5
 frame16=anim_18773
 delay16=5
 
-[snakeboss_pet_chathead_talk]
+[seq_2415]
 frame1=anim_18782
 frame2=anim_18790
 delay2=5
@@ -59225,7 +59225,7 @@ delay10=4
 frame11=anim_20249
 delay11=4
 
-[ds2_fleet_whiteknight_steeringwheel]
+[seq_2685]
 loops=6
 frame1=anim_20355
 frame2=anim_20360
@@ -59244,7 +59244,7 @@ frame14=anim_20358
 frame15=anim_20357
 frame16=anim_20358
 
-[ds2_memory_pool_idle]
+[seq_2686]
 frame1=anim_20376
 frame2=anim_20377
 frame3=anim_20378
@@ -66363,7 +66363,7 @@ frame17=anim_23120
 frame18=anim_23121
 frame19=anim_23122
 
-[snakeboss_fletching]
+[seq_3015]
 frame1=anim_23296
 frame2=anim_23298
 frame3=anim_23299
@@ -69831,7 +69831,7 @@ frame17=anim_25071
 frame18=anim_25070
 frame19=anim_25062
 
-[human_woodcrafting_axe_infernal]
+[seq_3183]
 loops=17
 frame1=anim_25078
 delay1=6
@@ -69868,7 +69868,7 @@ delay16=7
 frame17=anim_25086
 delay17=7
 
-[brut_human_canoeing_carve_infernal_axe]
+[seq_3184]
 loops=7
 frame1=anim_25095
 frame2=anim_25096
@@ -78422,7 +78422,7 @@ frame18=anim_29627
 frame19=anim_29628
 delay19=50
 
-[human_play_wwf_snow_leopard]
+[seq_3541]
 loops=1
 frame1=anim_10440
 frame2=anim_10439
@@ -84760,7 +84760,7 @@ frame55=anim_31987
 frame56=anim_31988
 delay56=200
 
-[easter07_flapping_emote]
+[seq_3859]
 stretches=yes
 frame1=anim_32259
 frame2=anim_32270

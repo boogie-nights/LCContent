@@ -7,8 +7,3 @@ protect=no
 scope=perm
 size=14
 protect=no
-
-[bank]
-scope=perm
-size=240
-stackall=yes

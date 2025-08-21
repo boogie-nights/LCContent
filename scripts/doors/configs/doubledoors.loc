@@ -1,4 +1,4 @@
-[mm2_lab_wall_window_right]
+[loc_1506]
 name=Large door
 desc=A sturdy wooden door.
 model=mm2_lab_wall_window_right
@@ -7,9 +7,9 @@ op1=Open
 mirror=yes
 raiseobject=no
 category=door_right_closed
-param=next_loc_stage,mm2_lab_wall_join01
+param=next_loc_stage,loc_1507
 
-[mm2_lab_wall_join01]
+[loc_1507]
 name=Large door
 desc=A sturdy wooden door.
 model=mm2_lab_wall_join01
@@ -18,9 +18,9 @@ op1=Close
 mirror=yes
 raiseobject=no
 category=door_right_opened
-param=next_loc_stage,mm2_lab_wall_window_right
+param=next_loc_stage,loc_1506
 
-[mm2_lab_wall_join02]
+[loc_1508]
 name=Large door
 desc=A sturdy wooden door.
 model=mm2_lab_wall_window_right
@@ -38,7 +38,7 @@ active=yes
 op1=Close
 raiseobject=no
 category=door_left_opened
-param=next_loc_stage,mm2_lab_wall_join02
+param=next_loc_stage,loc_1508
 
 [openbankdoor_l]
 name=Large door

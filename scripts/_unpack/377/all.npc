@@ -9613,149 +9613,6 @@ readyanim=smallscorpion_ready
 op2=Attack
 vislevel=12
 
-[banker1]
-name=Banker
-desc=He can look after my money.
-model1=obj_viking_helmet_manwear
-model2=idk_man_jaw_none
-model3=obj_priest_gown_manwear
-model4=obj_viking_top_darkbrown_manwear
-model5=obj_cert_drill_top_manwear3
-model6=obj_macro_mime_legs_manwear
-model7=idk_42
-model8=idk_man_torso_jacket
-recol1s=2340
-recol1d=11627
-recol2s=14724
-recol2d=11627
-recol3s=15855
-recol3d=24075
-recol4s=6273
-recol4d=10570
-vislevel=hide
-walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
-readyanim=human_ready
-op1=Talk-to
-op3=Bank
-head1=obj_pickpocket_guide_man
-
-[banker2]
-name=Banker
-desc=Good with money.
-model1=idk_woman_hair_bun
-model2=obj_viking_top_darkbrown_womanwear2
-model3=idk_woman_arms_large_cuffs
-model4=obj_cert_drill_top_womanwear3
-model5=obj_macro_mime_legs_womanwear
-model6=idk_79
-recol1s=2340
-recol1d=11627
-recol2s=14724
-recol2d=11627
-recol3s=6273
-recol3d=10570
-recol4s=14724
-recol4d=11627
-vislevel=hide
-walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
-readyanim=human_ready
-op1=Talk-to
-op3=Bank
-head1=idk_woman_hair_bun_head
-
-[kharidbanker1]
-name=Banker
-desc=A financial expert.
-model1=obj_viking_helmet_manwear
-model2=idk_man_jaw_none
-model3=obj_priest_gown_manwear
-model4=obj_viking_top_darkbrown_manwear
-model5=obj_cert_drill_top_manwear3
-model6=obj_macro_mime_legs_manwear
-model7=idk_42
-model8=idk_man_torso_jacket
-recol1s=2340
-recol1d=11627
-recol2s=14724
-recol2d=11627
-recol3s=15855
-recol3d=24075
-recol4s=6273
-recol4d=10570
-recol5s=24075
-recol5d=15652
-vislevel=hide
-walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
-readyanim=human_ready
-op1=Talk-to
-op3=Bank
-head1=obj_pickpocket_guide_man
-
-[kharidbanker2]
-name=Banker
-desc=Looks after your money.
-model1=idk_woman_hair_bun
-model2=obj_viking_top_darkbrown_womanwear2
-model3=idk_woman_arms_large_cuffs
-model4=obj_cert_drill_top_womanwear3
-model5=obj_macro_mime_legs_womanwear
-model6=idk_79
-recol1s=2340
-recol1d=11627
-recol2s=14724
-recol2d=11627
-recol3s=6273
-recol3d=10570
-recol4s=14724
-recol4d=11627
-recol5s=24075
-recol5d=15652
-vislevel=hide
-walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
-readyanim=human_ready
-op1=Talk-to
-op3=Bank
-head1=idk_woman_hair_bun_head
-
-[fairy_banker]
-name=Banker
-desc=Manages money momentarily.
-model1=npc_fairy_banker
-vislevel=hide
-walkanim=fairy_walk
-readyanim=fairy_ready
-op1=Talk-to
-op3=Bank
-head1=npc_fairy_banker_head
-
-[shilobanker]
-name=Banker
-desc=He can look after my money.
-model1=idk_man_hair_wildspikes
-model2=idk_man_jaw_none
-model3=obj_priest_gown_manwear
-model4=obj_viking_top_darkbrown_manwear
-model5=obj_cert_drill_top_manwear3
-model6=idk_man_legs_shorts
-model7=idk_42
-model8=idk_man_torso_jacket
-recol1s=2340
-recol1d=11627
-recol2s=14724
-recol2d=11627
-recol3s=15855
-recol3d=24075
-recol4s=6273
-recol4d=10570
-recol5s=24075
-recol5d=20804
-vislevel=hide
-walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
-readyanim=human_ready
-op1=Talk-to
-op3=Bank
-head1=idk_man_hair_wildspikes_head
-
 [mosol_rei]
 name=Mosol Rei
 desc=A warrior from Shilo Village.
@@ -15945,7 +15802,7 @@ head1=npc_kittenpet1_head
 [kittens_mew]
 name=Crate
 desc=Can I hear kittens?
-model1=mcannoncrate_8
+model1=crate_8
 vislevel=hide
 op1=Search
 minimap=no
@@ -35252,8 +35109,8 @@ model1=npc_1721
 recol1s=5218
 recol1d=12548
 size=2
-walkanim=corpbeast_defend
-readyanim=corpbeast_defend
+walkanim=seq_1677
+readyanim=seq_1677
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35263,8 +35120,8 @@ name=Dead tree
 desc=This tree has long been dead.
 model1=npc_1722
 size=2
-walkanim=corpbeast_sprite_shoot_1
-readyanim=corpbeast_sprite_shoot_1
+walkanim=seq_1679
+readyanim=seq_1679
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35276,8 +35133,8 @@ model1=npc_1722
 recol1s=4194
 recol1d=13602
 size=2
-walkanim=corpbeast_sprite_shoot_1
-readyanim=corpbeast_sprite_shoot_1
+walkanim=seq_1679
+readyanim=seq_1679
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35290,8 +35147,8 @@ recol1s=6240
 recol1d=5218
 recol2s=7296
 recol2d=5218
-walkanim=corpbeast_sprite_shoot_3
-readyanim=corpbeast_sprite_shoot_3
+walkanim=seq_1681
+readyanim=seq_1681
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35304,8 +35161,8 @@ recol1s=7296
 recol1d=3203
 recol2s=6240
 recol2d=3203
-walkanim=corpbeast_sprite_shoot_3
-readyanim=corpbeast_sprite_shoot_3
+walkanim=seq_1681
+readyanim=seq_1681
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35314,8 +35171,8 @@ op3=hidden
 name=Dead tree
 desc=It's only useful for firewood now.
 model1=npc_1724
-walkanim=corpbeast_sprite_shoot_3
-readyanim=corpbeast_sprite_shoot_3
+walkanim=seq_1681
+readyanim=seq_1681
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35328,8 +35185,8 @@ recol1s=7296
 recol1d=4194
 recol2s=6240
 recol2d=4194
-walkanim=corpbeast_sprite_shoot_3
-readyanim=corpbeast_sprite_shoot_3
+walkanim=seq_1681
+readyanim=seq_1681
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35339,8 +35196,8 @@ name=Dead tree
 desc=It's only useful for firewood now.
 model1=npc_1728
 size=2
-walkanim=corpbeast_swiping_attack
-readyanim=corpbeast_swiping_attack
+walkanim=seq_1683
+readyanim=seq_1683
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35351,8 +35208,8 @@ desc=It's only useful for firewood now.
 model1=npc_1724
 recol1s=7296
 recol1d=30619
-walkanim=corpbeast_sprite_shoot_3
-readyanim=corpbeast_sprite_shoot_3
+walkanim=seq_1681
+readyanim=seq_1681
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35386,8 +35243,8 @@ name=Dead tree
 desc=This tree has long been dead.
 model1=npc_1732
 size=2
-walkanim=corpbeast_doublestomp_spotanim
-readyanim=corpbeast_doublestomp_spotanim
+walkanim=seq_1687
+readyanim=seq_1687
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35467,8 +35324,8 @@ name=Oak
 desc=A beautiful old oak.
 model1=npc_1739
 size=3
-walkanim=snakeboss_pet_idle
-readyanim=snakeboss_pet_idle
+walkanim=seq_1721
+readyanim=seq_1721
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35555,8 +35412,8 @@ name=Tree
 desc=A tree.
 model1=npc_1747
 size=3
-walkanim=elysian_shield_defend
-readyanim=elysian_shield_defend
+walkanim=seq_1715
+readyanim=seq_1715
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35568,8 +35425,8 @@ model1=npc_1747
 size=3
 resizeh=64
 resizev=84
-walkanim=elysian_shield_defend
-readyanim=elysian_shield_defend
+walkanim=seq_1715
+readyanim=seq_1715
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -35582,8 +35439,8 @@ recol1s=8352
 recol1d=7428
 recol2s=7330
 recol2d=5283
-walkanim=hw07_arm_from_the_ground_spotanim
-readyanim=hw07_arm_from_the_ground_spotanim
+walkanim=seq_1717
+readyanim=seq_1717
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -36327,8 +36184,8 @@ recol2s=12684
 recol2d=5314
 recol3s=10570
 recol3d=7298
-walkanim=snakeboss_pet_defend
-readyanim=snakeboss_pet_defend
+walkanim=seq_1742
+readyanim=seq_1742
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -36338,8 +36195,8 @@ name=Jungle Tree
 desc=This is a fairly tall tree with sparse foliage.
 model1=npc_1792
 size=2
-walkanim=snakeboss_pet_defend
-readyanim=snakeboss_pet_defend
+walkanim=seq_1742
+readyanim=seq_1742
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -40741,7 +40598,7 @@ model1=tog_weeping_wall_offr_q
 vislevel=hide
 head1=npc_2023_head
 
-[npc_2024]
+[barrows_oldman]
 name=Strange Old Man
 desc=Wonder how long he's been here...
 model1=obj_ham_hood_manwear
@@ -40772,7 +40629,7 @@ op1=Talk-to
 head1=obj_pickpocket_guide_mham
 head2=idk_man_jaw_long_head
 
-[npc_2025]
+[barrows_ahrim]
 name=Ahrim the Blighted
 desc=A vengeful spirit corrupted by dark magic.
 model1=npc_2025
@@ -40784,7 +40641,7 @@ contrast=50
 alwaysontop=yes
 vislevel=98
 
-[npc_2026]
+[barrows_dharok]
 name=Dharok the Wretched
 desc=A vengeful spirit corrupted by dark magic.
 model1=npc_2026
@@ -40801,7 +40658,7 @@ contrast=50
 alwaysontop=yes
 vislevel=115
 
-[npc_2027]
+[barrows_guthan]
 name=Guthan the Infested
 desc=A vengeful spirit corrupted by dark magic.
 model1=npc_2027
@@ -40818,7 +40675,7 @@ contrast=50
 alwaysontop=yes
 vislevel=115
 
-[npc_2028]
+[barrows_karil]
 name=Karil the Tainted
 desc=A vengeful spirit corrupted by dark magic.
 model1=npc_2028
@@ -40830,7 +40687,7 @@ contrast=50
 alwaysontop=yes
 vislevel=98
 
-[npc_2029]
+[barrows_torag]
 name=Torag the Corrupted
 desc=A vengeful spirit corrupted by dark magic.
 model1=npc_2029
@@ -40847,7 +40704,7 @@ contrast=50
 alwaysontop=yes
 vislevel=115
 
-[npc_2030]
+[barrows_verac]
 name=Verac the Defiled
 desc=A vengeful spirit corrupted by dark magic.
 model1=npc_2030
@@ -40860,7 +40717,7 @@ contrast=50
 alwaysontop=yes
 vislevel=115
 
-[npc_2031]
+[barrows_bloodworm]
 name=Bloodworm
 desc=Think I should keep my distance...
 model1=npc_2031
@@ -40879,7 +40736,7 @@ readyanim=bloodworm_ready
 op2=Attack
 vislevel=52
 
-[npc_2032]
+[barrows_rat]
 name=Crypt rat
 desc=A nasty little rodent.
 model1=npc_witchrat
@@ -40893,7 +40750,7 @@ op2=Attack
 minimap=no
 vislevel=43
 
-[npc_2033]
+[barrows_giantrat]
 name=Giant crypt rat
 desc=A nasty overgrown rodent.
 model1=npc_giantrat
@@ -40913,7 +40770,7 @@ readyanim=giantrat_ready
 op2=Attack
 vislevel=76
 
-[npc_2034]
+[barrows_spider]
 name=Crypt spider
 desc=Incey wincey.
 model1=npc_spider
@@ -40923,7 +40780,7 @@ walkanim=spider_walk
 op2=Attack
 vislevel=56
 
-[npc_2035]
+[barrows_giantspider]
 name=Giant crypt spider
 desc=Not very incey wincey...
 model1=poh_giantspider_8
@@ -40938,7 +40795,7 @@ readyanim=giantspider_ready
 op2=Attack
 vislevel=79
 
-[npc_2036]
+[barrows_skeleton_unarmed]
 name=Skeleton
 desc=Could do with gaining a few pounds.
 model1=npc_dragonslayer_skeleton
@@ -40952,7 +40809,7 @@ readyanim=human_ready
 op2=Attack
 vislevel=77
 
-[npc_2037]
+[barrows_skeleton_armed]
 name=Skeleton
 desc=Could do with gaining a few pounds.
 model1=npc_dragonslayer_skeleton
@@ -51084,8 +50941,8 @@ name=Mahogany
 desc=A beautiful old mahogany tree.
 model1=npc_2534
 size=3
-walkanim=snakeboss_pet_death
-readyanim=snakeboss_pet_death
+walkanim=seq_2408
+readyanim=seq_2408
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -51094,8 +50951,8 @@ op3=hidden
 name=Teak
 desc=A beautiful old teak tree.
 model1=npc_2535
-walkanim=snakeboss_pet_walk_back
-readyanim=snakeboss_pet_walk_back
+walkanim=seq_2406
+readyanim=seq_2406
 vislevel=hide
 op1=Chop down
 op3=hidden
@@ -53099,7 +52956,7 @@ head1=npc_2591_head
 [npc_2626]
 name=Rocks
 desc=Stoney!
-model1=loc_450_8
+model1=rock1_8
 minimap=no
 vislevel=1
 
@@ -65358,8 +65215,8 @@ head2=npc_master_fisher_head
 name=Taper
 desc=Useful for lighting things.
 model1=npc_3208
-walkanim=human_woodcrafting_axe_infernal
-readyanim=human_woodcrafting_axe_infernal
+walkanim=seq_3183
+readyanim=seq_3183
 vislevel=hide
 turnspeed=0
 minimap=no

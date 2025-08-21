@@ -14479,133 +14479,29 @@ model=obj_iron_warhammer
 certlink=rune_warhammer
 certtemplate=template_for_cert
 
-[iron_axe]
-name=Iron axe
-desc=A woodcutter's axe.
-recol1s=15855
-recol1d=8456
-cost=56
-model=loc_14912_8
-2dxof=-15
-2dzoom=1060
-2dyan=1196
-2dxan=520
-iop2=Wield
-manwear=obj_iron_axe_manwear,0
-womanwear=obj_iron_axe_manwear,6
-
 [cert_iron_axe]
 certlink=iron_axe
 certtemplate=template_for_cert
-
-[bronze_axe]
-name=Bronze axe
-desc=A woodcutter's axe.
-recol1s=15855
-recol1d=8354
-cost=16
-model=loc_14912_8
-2dxof=-15
-2dzoom=1060
-2dyan=1196
-2dxan=520
-iop2=Wield
-manwear=obj_iron_axe_manwear,0
-womanwear=obj_iron_axe_manwear,6
 
 [cert_bronze_axe]
 certlink=bronze_axe
 certtemplate=template_for_cert
 
-[steel_axe]
-name=Steel axe
-desc=A woodcutter's axe.
-cost=200
-model=loc_14912_8
-2dxof=-15
-2dzoom=1060
-2dyan=1196
-2dxan=520
-iop2=Wield
-manwear=obj_iron_axe_manwear,0
-womanwear=obj_iron_axe_manwear,6
-
 [cert_steel_axe]
 certlink=steel_axe
 certtemplate=template_for_cert
-
-[mithril_axe]
-name=Mithril axe
-desc=A powerful axe.
-recol1s=15855
-recol1d=6346
-cost=520
-model=loc_14912_8
-2dxof=-15
-2dzoom=1060
-2dyan=1196
-2dxan=520
-iop2=Wield
-manwear=obj_iron_axe_manwear,0
-womanwear=obj_iron_axe_manwear,6
 
 [cert_mithril_axe]
 certlink=mithril_axe
 certtemplate=template_for_cert
 
-[adamant_axe]
-name=Adamant axe
-desc=A powerful axe.
-recol1s=15855
-recol1d=6438
-cost=1280
-model=loc_14912_8
-2dxof=-15
-2dzoom=1060
-2dyan=1196
-2dxan=520
-iop2=Wield
-manwear=obj_iron_axe_manwear,0
-womanwear=obj_iron_axe_manwear,6
-
 [cert_adamant_axe]
 certlink=adamant_axe
 certtemplate=template_for_cert
 
-[rune_axe]
-name=Rune axe
-desc=A powerful axe.
-recol1s=15855
-recol1d=6476
-model=loc_14912_8
-2dxof=-15
-2dzoom=1060
-2dyan=1196
-2dxan=520
-iop2=Wield
-manwear=obj_iron_axe_manwear,0
-womanwear=obj_iron_axe_manwear,6
-cost=12800
-
 [cert_rune_axe]
 certlink=rune_axe
 certtemplate=template_for_cert
-
-[black_axe]
-name=Black axe
-desc=A sinister looking axe.
-recol1s=15855
-recol1d=0
-model=loc_14912_8
-model=loc_14912_8
-2dxof=-15
-2dzoom=1060
-2dyan=1196
-2dxan=520
-manwear=obj_iron_axe_manwear,0
-womanwear=obj_iron_axe_manwear,6
-cost=384
-iop2=Wield
 
 [cert_black_axe]
 certlink=black_axe
@@ -34933,7 +34829,7 @@ cost=1
 model=obj_eadgar_fade_to_black_inv
 2dzoom=130
 2dxan=512
-code10=anma_chopping_failed_adamant_axe
+code10=seq_1255
 
 [cert_eadgar_fade_to_black_inv]
 name=Whoopsie
@@ -75474,21 +75370,6 @@ members=yes
 [cert_berzerker_ring]
 certlink=berzerker_ring
 certtemplate=template_for_cert
-
-[dragon_axe]
-name=Dragon axe
-desc=A very powerful axe.
-model=obj_dragon_axe
-manwear=obj_dragon_axe_manwear,0
-womanwear=obj_dragon_axe_manwear,6
-iop2=Wield
-cost=55000
-2dxof=-6
-2dyof=6
-2dzoom=1450
-2dyan=1288
-2dxan=520
-members=yes
 
 [cert_dragon_axe]
 certlink=dragon_axe

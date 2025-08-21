@@ -1,18 +1,18 @@
-[soul_wars_immune]
+[spot_0]
 model=spot_soul_wars_immune
-anim=human_woodcrafting_axe_trailblazer_no_infernal
+anim=seq_85
 
 [firebreath_attack]
 model=spot_firebreath_attack
 anim=dragon_firebreath_attack
 
-[osb8_skillcape_banana_spotanim]
+[spot_2]
 model=spot_osb8_skillcape_banana_spotanim
-anim=human_harpoon_trailblazer_no_infernal
+anim=seq_88
 
-[tempoross_fishing_spotanim]
+[spot_3]
 model=spot_tempoross_fishing_spotanim
-anim=brut_human_canoeing_carve_trailblazer_axe_no_infernal
+anim=seq_87
 
 [portal]
 model=spot_portal
@@ -305,11 +305,11 @@ anim=firebreath_travel
 model=spot_gnomeball_travel
 anim=vial_travel
 
-[raids_vanguard_swirl_low_health_spotanim]
+[seq_56]
 model=obj_bronze_sword_manwear
 anim=chateasterbunny4
 
-[raids_vanguard_swirl_high_health_spotanim]
+[seq_57]
 model=portcullis_upass_8
 anim=portcullisclose
 
@@ -1371,7 +1371,7 @@ model=spot_bronze_javelin_travel
 recol1s=15855
 recol1d=6476
 
-[mm2_kruk_ninjastar]
+[spot_206]
 model=spot_mm2_kruk_ninjastar
 anim=human_blown_middle_priority
 recol1s=15855
@@ -2029,48 +2029,48 @@ model=spot_goblin_rpg_travel
 recol1s=15855
 recol1d=8456
 
-[corp_spirit_beast_weak_proj]
+[spot_314]
 model=spot_goblin_rpg_travel
 
-[corp_spirit_beast_mid_proj]
+[spot_315]
 model=spot_goblin_rpg_travel
 recol1s=15855
 recol1d=6346
 
-[corp_spirit_beast_strong_proj]
+[spot_316]
 model=spot_goblin_rpg_travel
 recol1s=15855
 recol1d=6438
 
-[ga_beast_rock_fall]
+[spot_317]
 model=spot_goblin_rpg_travel
 recol1s=15855
 recol1d=6476
 
-[corp_ground_stomp]
+[spot_318]
 model=spot_corp_ground_stomp
 recol1s=15855
 recol1d=8354
 
-[dark_core_jump]
+[spot_319]
 model=spot_corp_ground_stomp
 recol1s=15855
 recol1d=8456
 
-[hw07_arm_from_the_ground_spotanim]
+[spot_320]
 model=spot_corp_ground_stomp
 
-[elysian_shield_defend_spotanim]
+[spot_321]
 model=spot_corp_ground_stomp
 recol1s=15855
 recol1d=6346
 
-[lunar_tan_leather]
+[seq_322]
 model=spot_corp_ground_stomp
 recol1s=15855
 recol1d=6438
 
-[skillcape_diary_spotanim]
+[seq_323]
 model=spot_corp_ground_stomp
 recol1s=15855
 recol1d=6476
@@ -2571,13 +2571,13 @@ recol2d=16871
 recol3s=5504
 recol3d=13506
 
-[charge_infernal_axe]
+[seq_416]
 model=spot_charge_infernal_axe
 anim=paint_frog_travel
 resizeh=115
 resizev=115
 
-[charge_infernal_pickaxe]
+[seq_417]
 model=spot_chompy_toad_exploding
 anim=paint_frog_hit
 resizeh=115
@@ -3955,7 +3955,7 @@ recol1d=18471
 
 [smoke_devil_cloud_spotanim]
 model=spot_smoke_devil_cloud_spotanim
-anim=easter07_flapping_emote
+anim=seq_3859
 
 [smoke_devil_smoke_player_spotanim]
 model=spot_smoke_devil_smoke_player_spotanim

@@ -1,0 +1,59 @@
+[willowtree]
+name=Willow
+desc=These trees are found near water.
+model=mm2_lab_wall_outer_02
+width=2
+length=2
+mapscene=3
+op1=Chop down
+op3=hidden
+ambient=25
+category=tree
+param=next_loc_stage,treestump2_green
+param=ent,macro_ent_willow
+
+[loc_5551]
+name=Willow
+desc=A droopy tree.
+model=loc_5551
+recol1s=11490
+recol1d=8419
+width=2
+length=2
+mapscene=3
+op1=Chop down
+op3=hidden
+category=tree
+param=next_loc_stage,loc_5554
+param=ent,macro_ent_willow
+
+[loc_5552]
+name=Willow
+desc=These trees are found near water.
+model=loc_5551
+recol1s=11490
+recol1d=8419
+width=2
+length=2
+mirror=yes
+mapscene=3
+op1=Chop down
+op3=hidden
+category=tree
+param=next_loc_stage,loc_5554
+param=ent,macro_ent_willow
+
+[loc_5553]
+name=Willow
+desc=These trees are found near water.
+model=loc_5553
+recol1s=11490
+recol1d=8419
+width=2
+length=2
+mapscene=3
+op1=Chop down
+op3=hidden
+category=tree
+param=next_loc_stage,loc_5554
+param=ent,macro_ent_willow
