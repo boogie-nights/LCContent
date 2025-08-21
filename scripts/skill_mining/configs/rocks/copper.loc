@@ -1,0 +1,25 @@
+[loc_2090]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_450
+recol1s=6342
+recol1d=14596
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+category=mining_rock_normal
+
+[loc_2091]
+name=Rocks
+desc=A rocky outcrop.
+model=mcannonrock
+recol1s=6342
+recol1d=14596
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+category=mining_rock_normal

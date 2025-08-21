@@ -3683,46 +3683,6 @@ model=loc_449
 width=2
 length=4
 
-[loc_450]
-name=Rocks
-desc=Stoney!
-model=loc_450
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-
-[loc_451]
-name=Rocks
-desc=Stoney!
-model=mcannonrock
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-
-[loc_452]
-name=Rocks
-desc=Stoney!
-model=mcannonrock
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-
-[loc_453]
-name=Rocks
-desc=Stoney!
-model=loc_453
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-
 [loc_454]
 name=Cave rocks
 desc=Solid rock from the cave floor.
@@ -15135,78 +15095,6 @@ sharelight=yes
 name=Rockery
 desc=Ornamental.
 model=rockery
-
-[loc_2090]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_450
-recol1s=6342
-recol1d=14596
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-
-[loc_2091]
-name=Rocks
-desc=A rocky outcrop.
-model=mcannonrock
-recol1s=6342
-recol1d=14596
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-
-[loc_2092]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_450
-recol1s=6342
-recol1d=6242
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-
-[loc_2093]
-name=Rocks
-desc=A rocky outcrop.
-model=mcannonrock
-recol1s=6342
-recol1d=6242
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-
-[loc_2094]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_450
-recol1s=6342
-recol1d=13741
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-
-[loc_2095]
-name=Rocks
-desc=A rocky outcrop.
-model=mcannonrock
-recol1s=6342
-recol1d=13741
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
 
 [loc_2096]
 name=Rocks

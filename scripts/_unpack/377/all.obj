@@ -13747,119 +13747,25 @@ womanwear=obj_dragon_spear_manwear,6
 certlink=dragon_spear_p
 certtemplate=template_for_cert
 
-[bronze_pickaxe]
-name=Bronze pickaxe
-desc=Used for mining.
-recol1s=15855
-recol1d=8354
-cost=1
-model=loc_14910_8
-manwear=obj_bronze_pickaxe_manwear,0
-womanwear=obj_bronze_pickaxe_manwear,6
-2dxof=-2
-2dyof=-19
-2dzoom=1070
-2dyan=1056
-2dxan=224
-iop2=Wield
-
 [cert_bronze_pickaxe]
 certlink=bronze_pickaxe
 certtemplate=template_for_cert
-
-[iron_pickaxe]
-name=Iron pickaxe
-desc=Used for mining.
-recol1s=15855
-recol1d=8456
-cost=140
-model=loc_14910_8
-manwear=obj_bronze_pickaxe_manwear,0
-womanwear=obj_bronze_pickaxe_manwear,6
-2dxof=-2
-2dyof=-19
-2dzoom=1070
-2dyan=1056
-2dxan=224
-iop2=Wield
 
 [cert_iron_pickaxe]
 certlink=iron_pickaxe
 certtemplate=template_for_cert
 
-[steel_pickaxe]
-name=Steel pickaxe
-desc=Used for mining.
-cost=500
-model=loc_14910_8
-manwear=obj_bronze_pickaxe_manwear,0
-womanwear=obj_bronze_pickaxe_manwear,6
-2dxof=-2
-2dyof=-19
-2dzoom=1070
-2dyan=1056
-2dxan=224
-iop2=Wield
-
 [cert_steel_pickaxe]
 certlink=steel_pickaxe
 certtemplate=template_for_cert
-
-[adamant_pickaxe]
-name=Adamant pickaxe
-desc=Used for mining.
-recol1s=15855
-recol1d=6438
-cost=3200
-model=loc_14910_8
-manwear=obj_bronze_pickaxe_manwear,0
-womanwear=obj_bronze_pickaxe_manwear,6
-2dxof=-2
-2dyof=-19
-2dzoom=1070
-2dyan=1056
-2dxan=224
-iop2=Wield
 
 [cert_adamant_pickaxe]
 certlink=adamant_pickaxe
 certtemplate=template_for_cert
 
-[mithril_pickaxe]
-name=Mithril pickaxe
-desc=Used for mining.
-recol1s=15855
-recol1d=6346
-cost=1300
-model=loc_14910_8
-manwear=obj_bronze_pickaxe_manwear,0
-womanwear=obj_bronze_pickaxe_manwear,6
-2dxof=-2
-2dyof=-19
-2dzoom=1070
-2dyan=1056
-2dxan=224
-iop2=Wield
-
 [cert_mithril_pickaxe]
 certlink=mithril_pickaxe
 certtemplate=template_for_cert
-
-[rune_pickaxe]
-name=Rune pickaxe
-desc=Used for mining.
-recol1s=15855
-recol1d=6476
-cost=32000
-model=loc_14910_8
-manwear=obj_bronze_pickaxe_manwear,0
-womanwear=obj_bronze_pickaxe_manwear,6
-2dxof=-2
-2dyof=-19
-2dzoom=1070
-2dyan=1056
-2dxan=224
-iop2=Wield
 
 [cert_rune_pickaxe]
 certlink=rune_pickaxe

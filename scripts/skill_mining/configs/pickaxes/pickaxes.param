@@ -1,0 +1,12 @@
+[mining_animation]
+type=seq
+default=null
+
+[mining_rate]
+type=int
+default=0
+
+// TODO: This lives in combat.param later
+[levelrequire]
+type=int
+default=0

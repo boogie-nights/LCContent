@@ -1,0 +1,10 @@
+[copper_rock_table]
+table=standard_rock_table
+data=rock,loc_2090
+data=rock,loc_2091
+data=ore_name,copper
+data=rock_output,copper_ore
+data=rock_level,1
+data=rock_exp,175
+data=rock_successchance,128,400
+data=rock_respawnrate,10
