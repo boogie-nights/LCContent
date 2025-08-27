@@ -30,7 +30,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-// Named using surrounding locs
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
 [rimmington_mine_macro_clayrock1]
 name=Rocks
 desc=A rocky outcrop.
@@ -47,7 +47,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-// Named using surrounding locs
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
 [rimmington_mine_macro_clayrock2]
 name=Rocks
 desc=A rocky outcrop.
@@ -64,7 +64,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-// Named using surrounding locs
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
 [rimmington_mine_macro_clayrock3]
 name=Rocks
 desc=A rocky outcrop.

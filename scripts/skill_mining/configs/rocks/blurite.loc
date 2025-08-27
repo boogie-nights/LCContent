@@ -15,5 +15,5 @@ blockrange=no
 ambient=10
 ambient=20
 category=mining_rock_normal
-param=next_loc_stage_mining,plainrock2
+param=next_loc_stage_mining,rocks2
 param=macro_gas,macro_bluriterock

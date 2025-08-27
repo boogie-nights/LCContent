@@ -10,5 +10,5 @@ op2=Prospect
 op3=hidden
 mapscene=12
 blockrange=no
-param=next_loc_stage_mining,plainrock2
+param=next_loc_stage_mining,rocks2
 param=macro_gas,macro_gemrock

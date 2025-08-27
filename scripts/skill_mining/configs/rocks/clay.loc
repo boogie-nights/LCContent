@@ -11,7 +11,7 @@ op3=hidden
 mapscene=12
 blockrange=no
 category=mining_rock_normal
-param=next_loc_stage_mining,plainrock1
+param=next_loc_stage_mining,rocks1
 param=macro_gas,macro_clayrock1
 
 // todo: name used from 244
@@ -27,7 +27,7 @@ op3=hidden
 mapscene=12
 blockrange=no
 category=mining_rock_normal
-param=next_loc_stage_mining,plainrock2
+param=next_loc_stage_mining,rocks2
 param=macro_gas,macro_clayrock2
 
 // Named off of surrounding locs
@@ -46,7 +46,7 @@ mapscene=24
 blockrange=no
 ambient=10
 category=mining_rock_normal
-param=next_loc_stage_mining,rimmington_mine_plainrock1
+param=next_loc_stage_mining,rimmington_mine_rocks1_empty
 param=macro_gas,rimmington_mine_macro_clayrock1
 
 [rimmington_mine_clayrock2]
@@ -64,7 +64,7 @@ mapscene=25
 blockrange=no
 ambient=10
 category=mining_rock_normal
-param=next_loc_stage_mining,rimmington_mine_plainrock2
+param=next_loc_stage_mining,rimmington_mine_rocks2_empty
 param=macro_gas,rimmington_mine_macro_clayrock2
 
 [rimmington_mine_clayrock3]
@@ -82,5 +82,5 @@ mapscene=25
 blockrange=no
 ambient=10
 category=mining_rock_normal
-param=next_loc_stage_mining,rimmington_mine_plainrock3
+param=next_loc_stage_mining,rimmington_mine_rocks3_empty
 param=macro_gas,rimmington_mine_macro_clayrock3

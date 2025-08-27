@@ -1,0 +1,15 @@
+// todo: name used from 244
+[macro_gemrock]
+name=Rocks
+desc=A rocky outcrop.
+model=gas_rock2
+recol1s=6342
+recol1d=15407
+recol2s=28538
+recol2d=21070
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+anim=gas
+blockrange=no

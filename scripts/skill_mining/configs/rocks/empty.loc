@@ -1,5 +1,5 @@
-// todo: name used from 244
-[plainrock1]
+// todo: referenced rocks1 OSRS dump https://media.z-kris.com/2025/08/232.1%20loc.txt
+[rocks1]
 name=Rocks
 desc=Stoney!
 model=rock1
@@ -11,8 +11,8 @@ blockrange=no
 category=mining_rock_normal
 param=mining_rock_empty,1
 
-// todo: name used from 244
-[plainrock1_alt]
+// todo: referenced rocks1 OSRS dump https://media.z-kris.com/2025/08/232.1%20loc.txt
+[rocks1_alt]
 name=Rocks
 desc=Stoney!
 model=rock2
@@ -24,8 +24,8 @@ blockrange=no
 category=mining_rock_normal
 param=mining_rock_empty,1
 
-// todo: name used from 244
-[plainrock2]
+// todo: referenced rocks1 OSRS dump https://media.z-kris.com/2025/08/232.1%20loc.txt
+[rocks2]
 name=Rocks
 desc=Stoney!
 model=rock2
@@ -37,8 +37,8 @@ blockrange=no
 category=mining_rock_normal
 param=mining_rock_empty,1
 
-// todo: name used from 244
-[plainrock3]
+// todo: referenced rocks1 OSRS dump https://media.z-kris.com/2025/08/232.1%20loc.txt
+[rocks3]
 name=Rocks
 desc=Stoney!
 model=rock3
@@ -50,8 +50,8 @@ blockrange=no
 category=mining_rock_normal
 param=mining_rock_empty,1
 
-// swamp_cave_plainrock1 based off of loc names around it
-[swamp_cave_plainrock1]
+// todo: swamp_cave_rocks2_empty based off of loc names around it
+[swamp_cave_rocks1_empty]
 name=Rocks
 desc=A rocky outcrop.
 model=elemental_workshop_valve1
@@ -67,8 +67,8 @@ blockrange=no
 category=mining_rock_normal
 param=mining_rock_empty,1
 
-// swamp_cave_plainrock2 based off of loc names around it
-[swamp_cave_plainrock2]
+// todo:swamp_cave_rocks2_empty based off of loc names around it
+[swamp_cave_rocks2_empty]
 name=Rocks
 desc=A rocky outcrop.
 model=harmless_dead_tree
@@ -84,8 +84,8 @@ blockrange=no
 category=mining_rock_normal
 param=mining_rock_empty,1
 
-// Orange empty rock1 (tall)
-[rimmington_mine_plainrock1]
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_rocks1_empty]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_9723
@@ -100,8 +100,8 @@ op3=hidden
 category=mining_rock_normal
 param=mining_rock_empty,1
 
-// Orange empty rock2 (low)
-[rimmington_mine_plainrock2]
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_rocks2_empty]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_9724
@@ -116,8 +116,8 @@ op3=hidden
 category=mining_rock_normal
 param=mining_rock_empty,1
 
-// Orange empty rock3 (medium)
-[rimmington_mine_plainrock3]
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_rocks3_empty]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_9725

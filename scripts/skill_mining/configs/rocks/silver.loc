@@ -11,7 +11,7 @@ op3=hidden
 mapscene=12
 blockrange=no
 category=mining_rock_normal
-param=next_loc_stage_mining,plainrock1
+param=next_loc_stage_mining,rocks1
 param=macro_gas,macro_silverrock1
 
 // todo: name used from 244
@@ -27,7 +27,7 @@ op3=hidden
 mapscene=12
 blockrange=no
 category=mining_rock_normal
-param=next_loc_stage_mining,plainrock2
+param=next_loc_stage_mining,rocks2
 param=macro_gas,macro_silverrock2
 
 // swamp_cave_silverrock1 based off of loc names around it
@@ -45,7 +45,7 @@ op3=hidden
 mapscene=12
 blockrange=no
 category=mining_rock_normal
-param=next_loc_stage_mining,swamp_cave_plainrock1
+param=next_loc_stage_mining,swamp_cave_rocks1_empty
 
 // swamp_cave_silverrock2 based off of loc names around it
 [swamp_cave_silverrock2]
@@ -62,4 +62,4 @@ op3=hidden
 mapscene=12
 blockrange=no
 category=mining_rock_normal
-param=next_loc_stage_mining,swamp_cave_plainrock2
+param=next_loc_stage_mining,swamp_cave_rocks2_empty

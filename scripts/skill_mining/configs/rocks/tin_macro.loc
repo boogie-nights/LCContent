@@ -1,0 +1,27 @@
+// todo: name used from 244
+[macro_tinrock1]
+name=Rocks
+desc=A rocky outcrop.
+model=gas_rock1
+recol1s=6342
+recol1d=13741
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+anim=gas
+blockrange=no
+
+// todo: name used from 244
+[macro_tinrock2]
+name=Rocks
+desc=A rocky outcrop.
+model=gas_rock2
+recol1s=6342
+recol1d=13741
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+anim=gas
+blockrange=no
