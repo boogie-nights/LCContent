@@ -1,0 +1,31 @@
+// todo: name used from 244
+[adamantiterock1]
+name=Rocks
+desc=A rocky outcrop.
+model=rock1
+recol1s=6342
+recol1d=6438
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+category=mining_rock_normal
+param=next_loc_stage_mining,plainrock1
+param=macro_gas,macro_adamantiterock1
+
+// todo: name used from 244
+[adamantiterock2]
+name=Rocks
+desc=A rocky outcrop.
+model=rock2
+recol1s=6342
+recol1d=6438
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+category=mining_rock_normal
+param=next_loc_stage_mining,plainrock2
+param=macro_gas,macro_adamantiterock2

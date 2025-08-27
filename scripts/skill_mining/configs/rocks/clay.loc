@@ -1,10 +1,10 @@
 // todo: name used from 244
-[copperrock1]
+[clayrock1]
 name=Rocks
 desc=A rocky outcrop.
 model=rock1
 recol1s=6342
-recol1d=14596
+recol1d=18854
 op1=Mine
 op2=Prospect
 op3=hidden
@@ -12,15 +12,15 @@ mapscene=12
 blockrange=no
 category=mining_rock_normal
 param=next_loc_stage_mining,plainrock1
-param=macro_gas,macro_copperrock1
+param=macro_gas,macro_clayrock1
 
 // todo: name used from 244
-[copperrock2]
+[clayrock2]
 name=Rocks
 desc=A rocky outcrop.
 model=rock2
 recol1s=6342
-recol1d=14596
+recol1d=18854
 op1=Mine
 op2=Prospect
 op3=hidden
@@ -28,49 +28,59 @@ mapscene=12
 blockrange=no
 category=mining_rock_normal
 param=next_loc_stage_mining,plainrock2
-param=macro_gas,macro_copperrock2
+param=macro_gas,macro_clayrock2
 
-[loc_9708]
+// Named off of surrounding locs
+[rimmington_mine_clayrock1]
 name=Rocks
 desc=A rocky outcrop.
 model=elemental_workshop_valve1
 recol1s=15854
 recol1d=12480
 recol2s=6342
-recol2d=26981
+recol2d=22025
 op1=Mine
 op2=Prospect
 op3=hidden
 mapscene=24
 blockrange=no
 ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,rimmington_mine_plainrock1
+param=macro_gas,rimmington_mine_macro_clayrock1
 
-[loc_9709]
+[rimmington_mine_clayrock2]
 name=Rocks
 desc=A rocky outcrop.
 model=harmless_dead_tree
 recol1s=9513
 recol1d=12480
 recol2s=6342
-recol2d=26981
+recol2d=22025
 op1=Mine
 op2=Prospect
 op3=hidden
 mapscene=25
 blockrange=no
 ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,rimmington_mine_plainrock2
+param=macro_gas,rimmington_mine_macro_clayrock2
 
-[loc_9710]
+[rimmington_mine_clayrock3]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_2110
 recol1s=9513
 recol1d=12480
 recol2s=6342
-recol2d=26981
+recol2d=22025
 op1=Mine
 op2=Prospect
 op3=hidden
-mapscene=12
+mapscene=25
 blockrange=no
 ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,rimmington_mine_plainrock3
+param=macro_gas,rimmington_mine_macro_clayrock3

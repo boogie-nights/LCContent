@@ -1,39 +1,133 @@
-[loc_450]
+// todo: name used from 244
+[plainrock1]
 name=Rocks
 desc=Stoney!
-model=loc_450
+model=rock1
 op1=Mine
 op2=Prospect
 op3=hidden
 mapscene=12
 blockrange=no
+category=mining_rock_normal
+param=mining_rock_empty,1
 
-[loc_451]
+// todo: name used from 244
+[plainrock1_alt]
 name=Rocks
 desc=Stoney!
-model=mcannonrock
+model=rock2
 op1=Mine
 op2=Prospect
 op3=hidden
 mapscene=12
 blockrange=no
+category=mining_rock_normal
+param=mining_rock_empty,1
 
-[loc_452]
+// todo: name used from 244
+[plainrock2]
 name=Rocks
 desc=Stoney!
-model=mcannonrock
+model=rock2
 op1=Mine
 op2=Prospect
 op3=hidden
 mapscene=12
 blockrange=no
+category=mining_rock_normal
+param=mining_rock_empty,1
 
-[loc_453]
+// todo: name used from 244
+[plainrock3]
 name=Rocks
 desc=Stoney!
-model=loc_453
+model=rock3
 op1=Mine
 op2=Prospect
 op3=hidden
 mapscene=12
 blockrange=no
+category=mining_rock_normal
+param=mining_rock_empty,1
+
+// swamp_cave_plainrock1 based off of loc names around it
+[swamp_cave_plainrock1]
+name=Rocks
+desc=A rocky outcrop.
+model=elemental_workshop_valve1
+recol1s=15854
+recol1d=5284
+recol2s=6342
+recol2d=5284
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+category=mining_rock_normal
+param=mining_rock_empty,1
+
+// swamp_cave_plainrock2 based off of loc names around it
+[swamp_cave_plainrock2]
+name=Rocks
+desc=A rocky outcrop.
+model=harmless_dead_tree
+recol1s=9513
+recol1d=5284
+recol2s=6342
+recol2d=5284
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+category=mining_rock_normal
+param=mining_rock_empty,1
+
+// Orange empty rock1 (tall)
+[rimmington_mine_plainrock1]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_9723
+recol1s=15854
+recol1d=12480
+mapscene=24
+blockrange=no
+ambient=10
+op1=Mine
+op2=Prospect
+op3=hidden
+category=mining_rock_normal
+param=mining_rock_empty,1
+
+// Orange empty rock2 (low)
+[rimmington_mine_plainrock2]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_9724
+recol1s=15854
+recol1d=12480
+mapscene=25
+blockrange=no
+ambient=10
+op1=Mine
+op2=Prospect
+op3=hidden
+category=mining_rock_normal
+param=mining_rock_empty,1
+
+// Orange empty rock3 (medium)
+[rimmington_mine_plainrock3]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_9725
+recol1s=15854
+recol1d=12480
+mapscene=12
+blockrange=no
+ambient=10
+op1=Mine
+op2=Prospect
+op3=hidden
+category=mining_rock_normal
+param=mining_rock_empty,1

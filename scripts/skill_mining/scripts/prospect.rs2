@@ -17,5 +17,5 @@ if ($is_empty = ^true) {
     if ($data = null) {
         return;
     }
-    mes("this rock contains <db_getfield($data, standard_rock_table:ore_name, 0)>.");
+    mes("This rock contains <db_getfield($data, standard_rock_table:ore_name, 0)>.");
 }

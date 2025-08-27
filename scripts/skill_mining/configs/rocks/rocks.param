@@ -4,7 +4,7 @@ default=0
 
 [next_loc_stage_mining]
 type=loc
-default=loc_450
+default=plainrock1
 
 [macro_gas]
 type=loc

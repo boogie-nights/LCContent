@@ -1,7 +1,8 @@
-[loc_2094]
+// todo: name used from 244
+[tinrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=loc_450
+model=rock1
 recol1s=6342
 recol1d=13741
 op1=Mine
@@ -9,11 +10,15 @@ op2=Prospect
 op3=hidden
 mapscene=12
 blockrange=no
+category=mining_rock_normal
+param=next_loc_stage_mining,plainrock1
+param=macro_gas,macro_tinrock1
 
-[loc_2095]
+// todo: name used from 244
+[tinrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=mcannonrock
+model=rock2
 recol1s=6342
 recol1d=13741
 op1=Mine
@@ -21,3 +26,63 @@ op2=Prospect
 op3=hidden
 mapscene=12
 blockrange=no
+category=mining_rock_normal
+param=next_loc_stage_mining,plainrock2
+param=macro_gas,macro_tinrock2
+
+// todo: fabricated name
+[lightbrown_tinrock1]
+name=Rocks
+desc=A rocky outcrop.
+model=elemental_workshop_valve1
+recol1s=15854
+recol1d=10500
+recol2s=6342
+recol2d=13741
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=24
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,loc_9723
+param=macro_gas,macro_tinrock1
+
+// todo: fabricated name
+[lightbrown_tinrock2]
+name=Rocks
+desc=A rocky outcrop.
+model=harmless_dead_tree
+recol1s=9513
+recol1d=10500
+recol2s=6342
+recol2d=13741
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=25
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,loc_9724
+param=macro_gas,macro_tinrock1
+
+// todo: fabricated name
+[lightbrown_tinrock3]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_2110
+recol1s=9513
+recol1d=10500
+recol2s=6342
+recol2d=13741
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=25
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,loc_9725
+param=macro_gas,macro_tinrock1
