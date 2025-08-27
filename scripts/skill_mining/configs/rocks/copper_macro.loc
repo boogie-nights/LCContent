@@ -11,6 +11,7 @@ op3=hidden
 mapscene=12
 anim=gas
 blockrange=no
+category=mining_rock_macro_gas
 
 // todo: name used from 244
 [macro_copperrock2]
@@ -25,6 +26,7 @@ op3=hidden
 mapscene=12
 anim=gas
 blockrange=no
+category=mining_rock_macro_gas
 
 // todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
 [rimmington_mine_macro_copperrock1]
@@ -42,6 +44,7 @@ op3=hidden
 mapscene=12
 anim=gas
 blockrange=no
+category=mining_rock_macro_gas
 
 // todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
 [rimmington_mine_macro_copperrock2]
@@ -59,6 +62,7 @@ op3=hidden
 mapscene=12
 anim=gas
 blockrange=no
+category=mining_rock_macro_gas
 
 // todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
 [rimmington_mine_macro_copperrock3]
@@ -76,3 +80,4 @@ op3=hidden
 mapscene=12
 anim=gas
 blockrange=no
+category=mining_rock_macro_gas

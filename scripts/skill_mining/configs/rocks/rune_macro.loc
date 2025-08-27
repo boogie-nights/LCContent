@@ -13,6 +13,7 @@ op3=hidden
 mapscene=12
 anim=gas
 blockrange=no
+category=mining_rock_macro_gas
 
 // todo: name used from 244
 [macro_runiterock2]
@@ -29,3 +30,4 @@ op3=hidden
 mapscene=12
 anim=gas
 blockrange=no
+category=mining_rock_macro_gas
