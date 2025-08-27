@@ -46,7 +46,7 @@ mapscene=24
 blockrange=no
 ambient=10
 category=mining_rock_normal
-param=next_loc_stage_mining,loc_9723
+param=next_loc_stage_mining,rimmington_mine_rocks1_empty
 param=macro_gas,macro_tinrock1
 
 // todo: fabricated name
@@ -65,7 +65,7 @@ mapscene=25
 blockrange=no
 ambient=10
 category=mining_rock_normal
-param=next_loc_stage_mining,loc_9724
+param=next_loc_stage_mining,rimmington_mine_rocks2_empty
 param=macro_gas,macro_tinrock1
 
 // todo: fabricated name
@@ -84,5 +84,62 @@ mapscene=25
 blockrange=no
 ambient=10
 category=mining_rock_normal
-param=next_loc_stage_mining,loc_9725
+param=next_loc_stage_mining,rimmington_mine_rocks3_empty
 param=macro_gas,macro_tinrock1
+
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_tinrock1]
+name=Rocks
+desc=A rocky outcrop.
+model=elemental_workshop_valve1
+recol1s=15854
+recol1d=12480
+recol2s=6342
+recol2d=14798
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,rimmington_mine_rocks1_empty
+param=macro_gas,rimmington_mine_macro_tinrock1
+
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_tinrock2]
+name=Rocks
+desc=A rocky outcrop.
+model=harmless_dead_tree
+recol1s=9513
+recol1d=12480
+recol2s=6342
+recol2d=14798
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,rimmington_mine_rocks2_empty
+param=macro_gas,rimmington_mine_macro_tinrock2
+
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_tinrock3]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_2110
+recol1s=9513
+recol1d=12480
+recol2s=6342
+recol2d=14798
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,rimmington_mine_rocks3_empty
+param=macro_gas,rimmington_mine_macro_tinrock3

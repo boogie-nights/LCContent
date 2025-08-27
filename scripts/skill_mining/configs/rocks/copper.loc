@@ -30,7 +30,8 @@ category=mining_rock_normal
 param=next_loc_stage_mining,rocks2
 param=macro_gas,macro_copperrock2
 
-[loc_9708]
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_copperrock1]
 name=Rocks
 desc=A rocky outcrop.
 model=elemental_workshop_valve1
@@ -44,8 +45,12 @@ op3=hidden
 mapscene=24
 blockrange=no
 ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,rimmington_mine_rocks1_empty
+param=macro_gas,rimmington_mine_macro_copperrock1
 
-[loc_9709]
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_copperrock2]
 name=Rocks
 desc=A rocky outcrop.
 model=harmless_dead_tree
@@ -59,8 +64,12 @@ op3=hidden
 mapscene=25
 blockrange=no
 ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,rimmington_mine_rocks2_empty
+param=macro_gas,rimmington_mine_macro_copperrock2
 
-[loc_9710]
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_copperrock3]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_2110
@@ -74,3 +83,6 @@ op3=hidden
 mapscene=12
 blockrange=no
 ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,rimmington_mine_rocks3_empty
+param=macro_gas,rimmington_mine_macro_copperrock3

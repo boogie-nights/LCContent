@@ -29,3 +29,54 @@ op3=hidden
 mapscene=12
 anim=gas
 blockrange=no
+
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_macro_ironrock1]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_9726
+model2=loc_2139i2
+recol1s=15854
+recol1d=12480
+recol2s=6342
+recol2d=6242
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+anim=gas
+blockrange=no
+
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_macro_ironrock2]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_9728
+model2=loc_2139i2
+recol1s=9513
+recol1d=12480
+recol2s=6342
+recol2d=6242
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+anim=gas
+blockrange=no
+
+// todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[rimmington_mine_macro_ironrock3]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_2139
+model2=loc_2139i2
+recol1s=9513
+recol1d=12480
+recol2s=6342
+recol2d=6242
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+anim=gas
+blockrange=no
