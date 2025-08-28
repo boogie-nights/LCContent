@@ -99652,22 +99652,6 @@ desc=This must let me out of the arena somehow...
 model=magearena_lever_in
 op1=Pull
 
-[loc_9726]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_9726
-model2=loc_2139i2
-recol1s=15854
-recol1d=24511
-recol2s=6342
-recol2d=382
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-anim=gas
-blockrange=no
-
 [loc_9727]
 name=Rocks
 desc=A rocky outcrop.
@@ -108822,86 +108806,6 @@ recol2d=17010
 recol3s=26390
 recol3d=26390
 
-[loc_10583]
-name=Rocks
-desc=A rocky outcrop.
-model=elemental_workshop_valve1
-recol1s=15854
-recol1d=24511
-recol2s=6342
-recol2d=382
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=24
-blockrange=no
-ambient=10
-ambient=20
-
-[loc_10584]
-name=Rocks
-desc=A rocky outcrop.
-model=harmless_dead_tree
-recol1s=9513
-recol1d=24511
-recol2s=6342
-recol2d=382
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=25
-blockrange=no
-ambient=10
-ambient=20
-
-[loc_10585]
-name=Rocks
-desc=A rocky outcrop.
-model=elemental_workshop_valve1
-recol1s=15854
-recol1d=24511
-recol2s=6342
-recol2d=24511
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=24
-blockrange=no
-ambient=10
-ambient=20
-
-[loc_10586]
-name=Rocks
-desc=A rocky outcrop.
-model=harmless_dead_tree
-recol1s=9513
-recol1d=24511
-recol2s=6342
-recol2d=24511
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=25
-blockrange=no
-ambient=10
-ambient=20
-
-[loc_10587]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_2110
-recol1s=9513
-recol1d=24511
-recol2s=6342
-recol2d=24511
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=25
-blockrange=no
-ambient=10
-ambient=20
-
 [wyvern_cave_wall]
 model=loc_4533
 recol1s=10535
@@ -115051,38 +114955,6 @@ ambient=10
 op1=Mine
 op2=Prospect
 op3=hidden
-
-[loc_11166]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_9726
-model2=loc_2139i2
-recol1s=15854
-recol1d=24511
-recol2s=6342
-recol2d=382
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-anim=gas
-blockrange=no
-
-[loc_11167]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_9728
-model2=loc_2139i2
-recol1s=9513
-recol1d=24511
-recol2s=6342
-recol2d=382
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-anim=gas
-blockrange=no
 
 [loc_11183]
 name=Rocks

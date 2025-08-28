@@ -131,3 +131,52 @@ op2=Prospect
 op3=hidden
 category=mining_rock_normal
 param=mining_rock_empty,1
+
+// Asgarnia Ice Dungeon empty, 1, 2, 3
+[loc_10585]
+name=Rocks
+desc=A rocky outcrop.
+model=elemental_workshop_valve1
+recol1s=15854
+recol1d=24511
+recol2s=6342
+recol2d=24511
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=24
+blockrange=no
+ambient=10
+ambient=20
+
+[loc_10586]
+name=Rocks
+desc=A rocky outcrop.
+model=harmless_dead_tree
+recol1s=9513
+recol1d=24511
+recol2s=6342
+recol2d=24511
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=25
+blockrange=no
+ambient=10
+ambient=20
+
+[loc_10587]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_2110
+recol1s=9513
+recol1d=24511
+recol2s=6342
+recol2d=24511
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=25
+blockrange=no
+ambient=10
+ambient=20

@@ -17,3 +17,35 @@ ambient=20
 category=mining_rock_normal
 param=next_loc_stage_mining,rocks2
 param=macro_gas,macro_bluriterock
+
+[loc_10583]
+name=Rocks
+desc=A rocky outcrop.
+model=elemental_workshop_valve1
+recol1s=15854
+recol1d=24511
+recol2s=6342
+recol2d=382
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=24
+blockrange=no
+ambient=10
+ambient=20
+
+[loc_10584]
+name=Rocks
+desc=A rocky outcrop.
+model=harmless_dead_tree
+recol1s=9513
+recol1d=24511
+recol2s=6342
+recol2d=382
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=25
+blockrange=no
+ambient=10
+ambient=20
