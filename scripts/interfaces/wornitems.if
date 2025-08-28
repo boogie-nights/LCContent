@@ -279,7 +279,7 @@ shadowed=yes
 text=Magic: +120
 colour=0x6B6F33
 
-[com_34]
+[rangeattack]
 layer=com_23
 type=text
 x=12

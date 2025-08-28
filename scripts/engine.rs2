@@ -252,6 +252,8 @@
 [command,p_preventlogout](string $message, int $duration)
 // info: Prevent logout for a duration on the secondary pointer
 [command,.p_preventlogout](string $message, int $duration)
+// info: Set a model component's xan, yan, and zoom. 
+[command,if_setangle](component $component, int $xan, int $yan, int $zoom)
 // info: Set a component's colour
 [command,if_setcolour](component $component, int $colour)
 // info: Open a modal in the chat box
@@ -272,6 +274,8 @@
 [command,.if_setobject](component $component, obj $obj, int $scale)
 // info: Set a component's model
 [command,if_setmodel](component $component, int $model)
+// info: Set a model component's x and y angular velocity. 
+[command,if_setrotation](component $component, int $xAngleSpeed, int $yAngleSpeed)
 // info: Recolor a component's model
 [command,if_setrecol](component $component, int $src, int $dest)
 // info: Open the tutorial modal mode ("sticky" interface)
@@ -300,6 +304,8 @@
 [command,.if_openoverlay](interface $interface)
 // info: Open a modal in the side tab
 [command,if_openside](interface $interface)
+// info: Open a fullscreen interface
+[command,if_openfull](interface $overlayInterface, interface $mainInterface)
 // info: Set a component's model to the local player's chat head
 [command,if_setplayerhead](component $component)
 // info: Set a component's text
@@ -494,6 +500,8 @@
 [command,p_run](int $state)
 // info: Check player's membership status
 [command,playermember]()(int)
+// info: set an option for a player
+[command,set_player_op](string $text, int $index, int $primary)
 
 // Npc ops (2500-2999)
 // info: Get access to the npc if they are in the world
@@ -734,8 +742,10 @@
 [command,nc_debugname](npc $npc)(string)
 // info: Get the display name from a npc config
 [command,nc_op](npc $npc, int $op)(string)
-// info: Get size form a npc config
+// info: Get size from a npc config
 [command,nc_size](npc $npc)(int)
+// info: Get the visible level from a npc config
+[command,nc_vislevel](npc $npc)(int)
 
 // Loc config ops (4100-4199)
 // info: Get the name from a loc config
@@ -994,17 +1004,28 @@
 [command,abs](int $num)(int)
 
 // DB ops (7500-7599)
-[command,db_find_with_count]
-[command,db_findnext]()(dbrow)
-[command,db_getfield]
-[command,db_getfieldcount](dbrow $dbrow0, dbcolumn $dbcolumn1)(int)
-[command,db_listall_with_count](dbtable $dbtable0)(int)
-[command,db_getrowtable](dbrow $dbrow0)(dbtable)
-[command,db_findbyindex](int $index)(dbrow)
-[command,db_find_refine_with_count]
-[command,db_find]
-[command,db_find_refine]
+// info: Query all rows in a table filtered on an indexed column
+[command,db_find]/*(dbcolumn $tableColumn, dynamic $query)*/
+// info: Query all rows in a table filtered on an indexed column, then return how many results there are
+[command,db_find_with_count]/*(dbcolumn $tableColumn, dynamic $query)(int)*/
+// info: Query all rows in a table
 [command,db_listall](dbtable $dbtable0)()
+// info: Query all rows in a table, then return how many rows there are
+[command,db_listall_with_count](dbtable $dbtable0)(int)
+// info: Get the next dbrow in the active result set
+[command,db_findnext]()(dbrow)
+// info: Get a column's value from a dbrow
+[command,db_getfield]/*(dbrow $row, dbcolumn $tableColumn, int $listIndex)(dynamic)*/
+// info: Get number of data fields for this dbrow's column
+[command,db_getfieldcount](dbrow $dbrow0, dbcolumn $dbcolumn1)(int)
+// info: Get a specific dbrow by indexing db_find's result set
+[command,db_findbyindex](int $index)(dbrow)
+// info: Filter previous db_find with a new query on an indexed column
+[command,db_find_refine]/*(dbcolumn $tableColumn, dynamic $query)*/
+// info: Filter previous db_find with a new query on an indexed column, then return how many results there are
+[command,db_find_refine_with_count]/*(dbcolumn $tableColumn, dynamic $query)(int)*/
+// info: Get a dbtable from a dbrow
+[command,db_getrowtable](dbrow $dbrow0)(dbtable)
 
 // Debug ops (10000-11000)
 // info: Raise a script error on the server

@@ -10047,6 +10047,13 @@ readyanim=human_ready
 op1=Talk-to
 op3=Trade
 head1=idk_man_hair_cropped_head
+category=shop_keeper
+param=owned_shop,axeshop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,20
+param=shop_title,Bob's Brilliant Axes.
+moverestrict=indoors
 
 [generalshopkeeper1]
 name=Shop keeper
@@ -10074,6 +10081,13 @@ readyanim=human_ready
 op1=Talk-to
 op3=Trade
 head1=obj_pickpocket_guide_man
+category=shop_keeper
+param=owned_shop,generalshop1
+param=shop_sell_multiplier,1300
+param=shop_buy_multiplier,400
+param=shop_delta,30
+param=shop_title,Lumbridge General Store
+moverestrict=indoors
 
 [generalassistant1]
 name=Shop assistant
@@ -10101,6 +10115,13 @@ readyanim=human_ready
 op1=Talk-to
 op3=Trade
 head1=idk_man_hair_cropped_head
+category=shop_keeper
+param=owned_shop,generalshop1
+param=shop_sell_multiplier,1300
+param=shop_buy_multiplier,400
+param=shop_delta,30
+param=shop_title,Lumbridge General Store
+moverestrict=indoors
 
 [generalshopkeeper2]
 name=Shop keeper
@@ -10130,6 +10151,13 @@ op1=Talk-to
 op3=Trade
 head1=obj_pickpocket_guide_man
 head2=npc_doctor_orbon_head
+category=shop_keeper
+param=owned_shop,generalshop2
+param=shop_sell_multiplier,1300
+param=shop_buy_multiplier,400
+param=shop_delta,30
+param=shop_title,Varrock General Store
+moverestrict=indoors
 
 [generalassistant2]
 name=Shop assistant
@@ -10157,6 +10185,13 @@ readyanim=human_ready
 op1=Talk-to
 op3=Trade
 head1=obj_pickpocket_guide_farmer
+category=shop_keeper
+param=owned_shop,generalshop2
+param=shop_sell_multiplier,1300
+param=shop_buy_multiplier,400
+param=shop_delta,30
+param=shop_title,Varrock General Store
+moverestrict=indoors
 
 [generalshopkeeper3]
 name=Shop keeper
@@ -10834,6 +10869,13 @@ readyanim=human_ready
 op1=Talk-to
 op3=Trade
 head1=obj_pickpocket_guide_warrior
+category=shop_keeper
+param=owned_shop,clotheshop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,550
+param=shop_delta,10
+param=shop_title,Thessalia Fine Clothes.
+moverestrict=indoors
 
 [horvik_the_armourer]
 name=Horvik
@@ -10862,6 +10904,13 @@ readyanim=human_ready
 op1=Talk-to
 op3=Trade
 head1=obj_pickpocket_guide_man
+category=shop_keeper
+param=owned_shop,armourshop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,20
+param=shop_title,Horvik's Armour Shop.
+moverestrict=indoors
 
 [lowe]
 name=Lowe
@@ -10886,6 +10935,13 @@ readyanim=human_ready
 op1=Talk-to
 op3=Trade
 head1=idk_man_hair_cropped_head
+category=shop_keeper
+param=owned_shop,archeryshop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,550
+param=shop_delta,10
+param=shop_title,Lowe's Archery Emporium
+moverestrict=indoors
 
 [swordshop1]
 name=Shop keeper
@@ -10914,6 +10970,13 @@ op1=Talk-to
 op3=Trade
 head1=obj_pickpocket_guide_man
 head2=idk_man_jaw_short_head
+category=shop_keeper
+param=owned_shop,swordshop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,20
+param=shop_title,Varrock Swordshop.
+moverestrict=indoors
 
 [swordshop2]
 name=Shop assistant
@@ -10941,6 +11004,13 @@ readyanim=human_ready
 op1=Talk-to
 op3=Trade
 head1=idk_man_hair_cropped_head
+category=shop_keeper
+param=owned_shop,swordshop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,20
+param=shop_title,Varrock Swordshop.
+moverestrict=indoors
 
 [aubury]
 name=Aubury
@@ -10967,6 +11037,13 @@ op3=Trade
 op4=Teleport
 head1=obj_pickpocket_guide_man
 head2=idk_man_jaw_short_head
+category=shop_keeper
+param=owned_shop,runeshop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,1
+param=shop_title,Aubury's Rune Shop.
+moverestrict=indoors
 
 [tailorp]
 name=Fancy dress shop owner
@@ -10997,6 +11074,13 @@ head1=obj_pickpocket_guide_man
 head2=idk_man_jaw_medium_head
 head3=npc_doctor_orbon_head
 head4=obj_cavalier_brown_manhead
+category=shop_keeper
+param=owned_shop,fancyclothesstore
+param=shop_sell_multiplier,1300
+param=shop_buy_multiplier,400
+param=shop_delta,20
+param=shop_title,Fancy Clothes Store
+moverestrict=indoors
 
 [khazard_shopkeeper]
 name=Shop keeper
@@ -12089,6 +12173,12 @@ op1=Talk-to
 op3=Trade
 head1=idk_man_hair_cropped_head
 head2=idk_man_jaw_moustache_head
+wanderrange=2
+param=owned_shop,teashop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,20
+param=shop_title,Ye Olde Tea Shoppe
 
 [fat_tony]
 name=Fat Tony
@@ -76997,7 +77087,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=idk_woman_hair_pigtails_head
 
-[npc_3807]
+[gillie_the_milkmaid]
 name=Gillie Groats
 desc=Gillie the Milkmaid milks cows. She's udderly fantastic at it.
 model1=obj_viking_helmet_womanwear
@@ -77007,7 +77097,7 @@ model4=npc_3792i2
 model5=npc_3137i3
 model6=npc_3164
 model7=idk_79
-model8=npc_3807
+model8=gillie_the_milkmaid
 recol1s=6144
 recol1d=132
 recol2s=8258
@@ -77860,4 +77950,3 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=83
-

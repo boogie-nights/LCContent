@@ -29,7 +29,7 @@ y=6
 buttontype=toggle
 width=34
 height=34
-script1op1=pushvar,varp_85
+script1op1=pushvar,prayer2
 script1=eq,1
 activegraphic=prayerglow,0
 
@@ -40,7 +40,7 @@ y=6
 buttontype=toggle
 width=34
 height=34
-script1op1=pushvar,varp_86
+script1op1=pushvar,prayer3
 script1=eq,1
 activegraphic=prayerglow,0
 
@@ -51,7 +51,7 @@ y=42
 buttontype=toggle
 width=34
 height=34
-script1op1=pushvar,varp_87
+script1op1=pushvar,prayer4
 script1=eq,1
 activegraphic=prayerglow,0
 
@@ -62,7 +62,7 @@ y=42
 buttontype=toggle
 width=34
 height=34
-script1op1=pushvar,varp_88
+script1op1=pushvar,prayer5
 script1=eq,1
 activegraphic=prayerglow,0
 
@@ -73,7 +73,7 @@ y=42
 buttontype=toggle
 width=34
 height=34
-script1op1=pushvar,varp_89
+script1op1=pushvar,prayer6
 script1=eq,1
 activegraphic=prayerglow,0
 
@@ -84,7 +84,7 @@ y=42
 buttontype=toggle
 width=34
 height=34
-script1op1=pushvar,varp_90
+script1op1=pushvar,prayer7
 script1=eq,1
 activegraphic=prayerglow,0
 
@@ -95,7 +95,7 @@ y=78
 buttontype=toggle
 width=34
 height=34
-script1op1=pushvar,varp_91
+script1op1=pushvar,prayer8
 script1=eq,1
 activegraphic=prayerglow,0
 
@@ -150,7 +150,7 @@ y=115
 buttontype=toggle
 width=34
 height=34
-script1op1=pushvar,varp_96
+script1op1=pushvar,prayer13
 script1=eq,1
 activegraphic=prayerglow,0
 
@@ -161,7 +161,7 @@ y=115
 buttontype=toggle
 width=34
 height=34
-script1op1=pushvar,varp_97
+script1op1=pushvar,prayer14
 script1=eq,1
 activegraphic=prayerglow,0
 

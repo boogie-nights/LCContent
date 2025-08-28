@@ -1,19 +1,20 @@
 [login,_]
 mes("Welcome to RuneScape.");
 
-bas_readyanim(human_ready);
-bas_turnonspot(human_turnonspot);
-bas_walk_f(human_walk_f);
-bas_walk_b(human_walk_b);
-bas_walk_l(human_walk_l);
-bas_walk_r(human_walk_r);
-bas_running(human_running);
-buildappearance(worn);
+%musicplay = 1; // set to auto on login
+
+~update_all(inv_getobj(worn, ^wearpos_rhand));
+cam_reset;
 
 inv_transmit(inv, inventory:inv);
 inv_transmit(worn, wornitems:worn);
 
-if_settab("combat-unarmed", ^tab_combat);
+set_player_op(null, 2, ^false);
+set_player_op("Follow", 3, ^false);
+set_player_op("Trade with", 4, ^false);
+set_player_op(null, 5, ^false);
+
+if_settab("combat_unarmed", ^tab_combat);
 if_settab(stats, ^tab_stats);
 if_settab(questlist, ^tab_quests);
 if_settab(inventory, ^tab_inv);
@@ -31,4 +32,13 @@ if (lowmemory = false) {
 } else {
     if_settab(options_ld, ^tab_options);
     if_settab(music_ld, ^tab_music);
+}
+
+if (map_production = true) {
+    if_openfull(inter_353, inter_313);
+    if_settext(inter_353:com_1,"Did you know, all the weapon stats are listed on our new");
+    if_settext(inter_353:com_2,"Knowledge Base?");
+    // todo: Set if player has pin? 
+    if_settext(inter_313:com_19,"You do not have a Bank PIN. Please visit a bank\\nif you would like one.");
+    last_login_info;
 }

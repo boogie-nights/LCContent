@@ -141,6 +141,26 @@ category=door_opened
 param=next_loc_stage,inactivepoordoor
 param=close_sound,sound_321
 
+[farmdoor]
+name=Door
+desc=The door is closed.
+model=farmdoor
+active=yes
+op1=Open
+raiseobject=no
+category=door_closed
+param=next_loc_stage,farmdooropen
+
+[farmdooropen]
+name=Door
+desc=The door is open.
+model=farmdoor
+active=yes
+op1=Close
+raiseobject=no
+category=door_opened
+param=next_loc_stage,farmdoor
+
 [loc_11707]
 name=Door
 desc=The door is closed.

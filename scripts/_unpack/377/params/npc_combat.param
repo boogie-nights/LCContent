@@ -16,7 +16,7 @@ default=null
 
 [attack_sound]
 type=synth
-default=sound_417
+default=unarmed_punch
 
 [defend_sound]
 type=synth

@@ -168,7 +168,7 @@ anim=arrow_launch
 [crossbowbolt_travel]
 model=spot_crossbowbolt_travel
 
-[dragon_tknife_travel]
+[crossbowbolt_launch]
 model=spot_dragon_tknife_travel
 anim=poh_nexus
 
@@ -4088,4 +4088,3 @@ anim=swan_pot_spotanim
 model=spot_corp_ground_stomp
 recol1s=15855
 recol1d=0
-
