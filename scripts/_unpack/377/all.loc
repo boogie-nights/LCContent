@@ -98099,54 +98099,6 @@ desc=This must let me out of the arena somehow...
 model=magearena_lever_in
 op1=Pull
 
-[loc_9727]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_9726
-model2=loc_2139i2
-recol1s=15854
-recol1d=12579
-recol2s=6342
-recol2d=31393
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-anim=gas
-blockrange=no
-
-[loc_9728]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_9728
-model2=loc_2139i2
-recol1s=9513
-recol1d=12579
-recol2s=6342
-recol2d=31393
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-anim=gas
-blockrange=no
-
-[loc_9729]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_2139
-model2=loc_2139i2
-recol1s=9513
-recol1d=12579
-recol2s=6342
-recol2d=31393
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-anim=gas
-blockrange=no
-
 [loc_9730]
 name=Rocks
 desc=A rocky outcrop.
@@ -98242,32 +98194,6 @@ op3=hidden
 mapscene=12
 anim=gas
 blockrange=no
-
-[loc_9736]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_9723
-recol1s=15854
-recol1d=12579
-mapscene=24
-blockrange=no
-ambient=10
-op1=Mine
-op2=Prospect
-op3=hidden
-
-[loc_9737]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_9724
-recol1s=15854
-recol1d=12579
-mapscene=25
-blockrange=no
-ambient=10
-op1=Mine
-op2=Prospect
-op3=hidden
 
 [loc_9738]
 name=Ruined Pillar
@@ -113133,64 +113059,6 @@ width=2
 op1=Empty
 forceapproach=east
 sharelight=yes
-
-[loc_11165]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_9725
-recol1s=15854
-recol1d=12579
-mapscene=12
-blockrange=no
-ambient=10
-op1=Mine
-op2=Prospect
-op3=hidden
-
-[loc_11183]
-name=Rocks
-desc=A rocky outcrop.
-model=elemental_workshop_valve1
-recol1s=15854
-recol1d=12579
-recol2s=6342
-recol2d=31393
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-ambient=10
-
-[loc_11184]
-name=Rocks
-desc=A rocky outcrop.
-model=harmless_dead_tree
-recol1s=9513
-recol1d=12579
-recol2s=6342
-recol2d=31393
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-ambient=10
-
-[loc_11185]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_2110
-recol1s=9513
-recol1d=12579
-recol2s=6342
-recol2d=31393
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-blockrange=no
-ambient=10
 
 [loc_11186]
 name=Rocks

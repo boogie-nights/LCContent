@@ -86,3 +86,60 @@ ambient=10
 category=mining_rock_normal
 param=next_loc_stage_mining,rimmington_mine_rocks3_empty
 param=macro_gas,rimmington_mine_macro_goldrock3
+
+// todo: Named using craftingguild_door locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[craftingguild_mine_goldrock1]
+name=Rocks
+desc=A rocky outcrop.
+model=elemental_workshop_valve1
+recol1s=15854
+recol1d=12579
+recol2s=6342
+recol2d=31393
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,craftingguild_mine_rocks1_empty
+param=macro_gas,craftingguild_mine_macro_goldrock1
+
+// todo: Named using craftingguild_door locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[craftingguild_mine_goldrock2]
+name=Rocks
+desc=A rocky outcrop.
+model=harmless_dead_tree
+recol1s=9513
+recol1d=12579
+recol2s=6342
+recol2d=31393
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,craftingguild_mine_rocks2_empty
+param=macro_gas,craftingguild_mine_macro_goldrock2
+
+// todo: Named using craftingguild_door loc and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
+[craftingguild_mine_goldrock3]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_2110
+recol1s=9513
+recol1d=12579
+recol2s=6342
+recol2d=31393
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=12
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=next_loc_stage_mining,craftingguild_mine_rocks3_empty
+param=macro_gas,craftingguild_mine_macro_goldrock3

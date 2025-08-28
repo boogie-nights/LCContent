@@ -16,34 +16,40 @@ if ($data = null) {
     ~displaymessage(^dm_default);
     return;
 }
+
 if (inv_freespace(inv) < 1) {
     anim(null, 0);
     ~mesbox("Your inventory is too full to hold any more <db_getfield($data, standard_rock_table:ore_name, 0)>.");
     return;
 }
+
 def_int $levelreq = db_getfield($data, standard_rock_table:rock_level, 0);
 if (stat(mining) < $levelreq) {
     anim(null, 0);
     ~mesbox("You need a mining level of <tostring($levelreq)> to mine this rock.");
     return;
 }
+
 // Macro events
-// if (afk_event = ^true & loc_category ! mining_rock_macro_gas) {
-//     if (loc_param(macro_gas) = null) jump(macro_randomminingrune);
-//     jump(macro_randommining);
-// }
+if (afk_event = ^true & loc_category ! mining_rock_macro_gas) {
+    //if (loc_param(macro_gas) = null) jump(macro_randomminingrune);
+    //jump(macro_randommining);
+}
+
 def_obj $pickaxe = ~pickaxe_checker;
 if ($pickaxe = null) {
     anim(null, 0);
     ~mesbox("You need a pickaxe to mine this rock. You do not have a pickaxe which you have the Mining level to use.");
     return;
 }
+
 def_int $mining_rate = oc_param($pickaxe, mining_rate);
 if (%action_delay < map_clock) {
     %action_delay = calc(map_clock + $mining_rate);
     p_oploc(1);
     return;
 }
+
 anim(oc_param($pickaxe, mining_animation), 0);
 mes("You swing your pick at the rock.");
 if (%action_delay = map_clock) {
@@ -99,9 +105,9 @@ if ($data = null) {
 // roll for gem
 def_int $chance = 256;
 def_obj $neck = inv_getobj(worn, ^wearpos_front);
-// if ($neck ! null & oc_category($neck) = category_557 & map_members = ^true) {
-//     $chance = 86;
-// }
+if ($neck ! null & oc_category($neck) = category_557 & map_members = ^true) {
+    $chance = 86;
+}
 if (random($chance) = ^true) {
     def_namedobj $gem = ~mining_gem_table;
     if ($gem ! null) {

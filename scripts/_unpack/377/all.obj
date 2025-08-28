@@ -18703,6 +18703,7 @@ iop2=Wear
 iop4=Rub
 manwear=obj_amulet_of_accuracy_manwear,0
 womanwear=obj_amulet_of_accuracy_womanwear,0
+category=category_557
 
 [cert_amulet_of_glory_1]
 certlink=amulet_of_glory_1
@@ -18729,6 +18730,7 @@ iop2=Wear
 iop4=Rub
 manwear=obj_amulet_of_accuracy_manwear,0
 womanwear=obj_amulet_of_accuracy_womanwear,0
+category=category_557
 
 [cert_amulet_of_glory_2]
 certlink=amulet_of_glory_2
@@ -18755,6 +18757,7 @@ iop2=Wear
 iop4=Rub
 manwear=obj_amulet_of_accuracy_manwear,0
 womanwear=obj_amulet_of_accuracy_womanwear,0
+category=category_557
 
 [cert_amulet_of_glory_3]
 certlink=amulet_of_glory_3
@@ -18781,6 +18784,7 @@ iop2=Wear
 iop4=Rub
 manwear=obj_amulet_of_accuracy_manwear,0
 womanwear=obj_amulet_of_accuracy_womanwear,0
+category=category_557
 
 [cert_amulet_of_glory_4]
 certlink=amulet_of_glory_4
