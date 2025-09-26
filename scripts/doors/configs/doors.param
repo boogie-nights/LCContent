@@ -8,8 +8,8 @@ default=null
 
 [open_sound]
 type=synth
-default=sound_318
+default=door_open
 
 [close_sound]
 type=synth
-default=sound_326
+default=door_close

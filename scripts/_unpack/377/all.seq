@@ -2958,7 +2958,7 @@ frame4=anim_4188
 frame5=anim_4166
 delay5=20000
 
-[wild_cave_chainmace_ready]
+[scorpion_walk]
 frame1=anim_4835
 delay1=7
 frame2=anim_4838
@@ -2968,13 +2968,13 @@ delay3=7
 frame4=anim_4824
 delay4=7
 
-[wild_cave_chainmace_crush]
+[scorpion_ready]
 frame1=anim_4831
 delay1=26
 frame2=anim_4834
 delay2=26
 
-[wild_cave_chainmace_stab]
+[scorpion_attack]
 priority=6
 frame1=anim_4825
 frame2=anim_4827
@@ -2983,7 +2983,7 @@ frame4=anim_4833
 frame5=anim_4837
 frame6=anim_4827
 
-[wild_cave_chainmace_walk]
+[scorpion_parry]
 frame1=anim_4840
 frame2=anim_4823
 frame3=anim_4826
@@ -2992,7 +2992,7 @@ frame5=anim_4826
 frame6=anim_4823
 frame7=anim_4840
 
-[wild_cave_chainmace_run]
+[scorpion_death]
 priority=10
 frame1=anim_4829
 frame2=anim_4832

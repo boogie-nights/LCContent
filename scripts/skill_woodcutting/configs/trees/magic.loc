@@ -1,7 +1,7 @@
 [magictree]
 name=Magic tree
 desc=The tree shimmers with a magical force.
-model=mm2_lab_cage_broken_door
+model=loc_8405
 width=2
 length=2
 op1=Chop down

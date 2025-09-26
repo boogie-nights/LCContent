@@ -1,7 +1,7 @@
 [willowtree]
 name=Willow
 desc=These trees are found near water.
-model=mm2_lab_wall_outer_02
+model=loc_8484
 width=2
 length=2
 mapscene=3

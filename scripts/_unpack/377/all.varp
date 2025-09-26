@@ -41,8 +41,6 @@ transmit=yes
 
 [varp_28]
 
-[cookquest]
-
 [drunkmonkquest]
 
 [doricquest]
@@ -167,7 +165,9 @@ transmit=yes
 
 [barcrawl]
 
-[varp_78]
+[pk_skull]
+protect=no
+scope=perm
 
 [varp_79]
 
@@ -272,11 +272,17 @@ transmit=yes
 
 [varp_118]
 
-[varp_119]
+[pk_predator1]
+protect=no
+type=player_uid
 
-[varp_120]
+[pk_predator2]
+protect=no
+type=player_uid
 
-[varp_121]
+[pk_predator3]
+protect=no
+type=player_uid
 
 [squire]
 
@@ -357,9 +363,10 @@ transmit=yes
 
 [ibanmulti]
 
-[varp_163]
+[open_book]
+type=obj
 
-[varp_164]
+[book_page]
 
 [elenaquest]
 
@@ -380,8 +387,6 @@ transmit=yes
 [dragonquestvar]
 
 [vampire]
-
-[sheep]
 
 [fluffs]
 
@@ -459,11 +464,15 @@ transmit=yes
 
 [varp_216]
 
-[varp_217]
+[pk_prey1]
+protect=no
+type=player_uid
 
-[varp_218]
+[pk_prey2]
+protect=no
+type=player_uid
 
-[varp_219]
+[death]
 
 [varp_220]
 
@@ -539,10 +548,6 @@ transmit=yes
 
 [varp_256]
 
-[varp_257]
-
-[varp_258]
-
 [attack]
 
 [varp_260]
@@ -610,7 +615,8 @@ transmit=yes
 
 [varp_289]
 
-[varp_290]
+[ring_of_recoil]
+scope=perm
 
 [varp_291]
 
@@ -625,14 +631,12 @@ transmit=yes
 [elemental_workshop_bits]
 
 [sa_energy]
+scope=perm
 transmit=yes
 
 [sa_attack]
+protect=no
 transmit=yes
-
-[priestperil]
-
-[varp_303]
 
 [bankinsert]
 transmit=yes
@@ -830,10 +834,6 @@ transmit=yes
 [varp_392]
 
 [karam_dungeon_varbit]
-
-[slayer_count]
-
-[slayer_target]
 
 [varp_396]
 

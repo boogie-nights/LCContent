@@ -1,5 +1,5 @@
 [spot_0]
-model=spot_soul_wars_immune
+model=spot_0
 anim=seq_85
 
 [firebreath_attack]
@@ -7,11 +7,11 @@ model=spot_firebreath_attack
 anim=dragon_firebreath_attack
 
 [spot_2]
-model=spot_osb8_skillcape_banana_spotanim
+model=spot_2
 anim=seq_88
 
 [spot_3]
-model=spot_tempoross_fishing_spotanim
+model=spot_3
 anim=seq_87
 
 [portal]
@@ -1372,35 +1372,35 @@ recol1s=15855
 recol1d=6476
 
 [spot_206]
-model=spot_mm2_kruk_ninjastar
+model=spot_206
 anim=human_blown_middle_priority
 recol1s=15855
 recol1d=8354
 
-[monkey_hunting_run]
-model=spot_mm2_kruk_ninjastar
+[spot_207]
+model=spot_206
 anim=human_blown_middle_priority
 recol1s=15855
 recol1d=8456
 
-[monkey_hunting_run_sans_tail]
-model=spot_mm2_kruk_ninjastar
+[spot_208]
+model=spot_206
 anim=human_blown_middle_priority
 
-[ii_impling11_escape]
-model=spot_mm2_kruk_ninjastar
+[spot_209]
+model=spot_206
 anim=human_blown_middle_priority
 recol1s=15855
 recol1d=3174
 
-[ii_impling11_kick]
-model=spot_mm2_kruk_ninjastar
+[spot_210]
+model=spot_206
 anim=human_blown_middle_priority
 recol1s=15855
 recol1d=6438
 
-[ii_impling11_travel]
-model=spot_mm2_kruk_ninjastar
+[spot_211]
+model=spot_206
 anim=human_blown_middle_priority
 recol1s=15855
 recol1d=6476
@@ -2019,59 +2019,59 @@ ambient=30
 model=spot_summon_spell
 anim=summon_spell
 
-[goblin_rpg_travel]
-model=spot_goblin_rpg_travel
+[spot_312]
+model=spot_312
 recol1s=15855
 recol1d=8354
 
-[goblin_rpg_splash]
-model=spot_goblin_rpg_travel
+[spot_313]
+model=spot_312
 recol1s=15855
 recol1d=8456
 
 [spot_314]
-model=spot_goblin_rpg_travel
+model=spot_312
 
 [spot_315]
-model=spot_goblin_rpg_travel
+model=spot_312
 recol1s=15855
 recol1d=6346
 
 [spot_316]
-model=spot_goblin_rpg_travel
+model=spot_312
 recol1s=15855
 recol1d=6438
 
 [spot_317]
-model=spot_goblin_rpg_travel
+model=spot_312
 recol1s=15855
 recol1d=6476
 
 [spot_318]
-model=spot_corp_ground_stomp
+model=spot_318
 recol1s=15855
 recol1d=8354
 
 [spot_319]
-model=spot_corp_ground_stomp
+model=spot_318
 recol1s=15855
 recol1d=8456
 
 [spot_320]
-model=spot_corp_ground_stomp
+model=spot_318
 
 [spot_321]
-model=spot_corp_ground_stomp
+model=spot_318
 recol1s=15855
 recol1d=6346
 
 [seq_322]
-model=spot_corp_ground_stomp
+model=spot_318
 recol1s=15855
 recol1d=6438
 
 [seq_323]
-model=spot_corp_ground_stomp
+model=spot_318
 recol1s=15855
 recol1d=6476
 
@@ -3299,33 +3299,33 @@ model=spot_balloon_spot
 anim=balloon_pop
 ambient=20
 
-[tempoross_harpoonfish_projectile]
-model=spot_tempoross_harpoonfish_projectile
+[spot_525]
+model=spot_525
 anim=snp_fire_boss_ready
 ambient=50
 
 [enakh_boneguard_glow_small_attack]
-model=spot_tempoross_harpoonfish_projectile
+model=spot_525
 anim=enakh_boneguard_glow_small_attack
 ambient=50
 
 [enakh_boneguard_glow_small_block]
-model=spot_tempoross_harpoonfish_projectile
+model=spot_525
 anim=enakh_boneguard_glow_small_block
 ambient=50
 
-[tempoross_harpoonfish_projectile_raw]
-model=spot_tempoross_harpoonfish_projectile
+[spot_528]
+model=spot_525
 anim=snp_fire_boss_walk
 ambient=50
 
 [enakh_boneguard_glow_small_death]
-model=spot_tempoross_harpoonfish_projectile
+model=spot_525
 anim=enakh_boneguard_glow_small_death
 ambient=50
 
 [enakh_boneguard_glow_large_ready]
-model=spot_tempoross_harpoonfish_projectile
+model=spot_525
 anim=enakh_boneguard_glow_large_ready
 ambient=50
 recol1s=31533
@@ -3334,7 +3334,7 @@ recol2s=29526
 recol2d=31105
 
 [enakh_boneguard_glow_large_attack]
-model=spot_tempoross_harpoonfish_projectile
+model=spot_525
 anim=enakh_boneguard_glow_large_attack
 ambient=50
 recol1s=31533
@@ -3343,7 +3343,7 @@ recol2s=29526
 recol2d=31105
 
 [enakh_boneguard_glow_large_block]
-model=spot_tempoross_harpoonfish_projectile
+model=spot_525
 anim=enakh_boneguard_glow_large_block
 ambient=50
 recol1s=31533
@@ -3352,7 +3352,7 @@ recol2s=29526
 recol2d=31105
 
 [enakh_boneguard_glow_large_walk]
-model=spot_tempoross_harpoonfish_projectile
+model=spot_525
 anim=enakh_boneguard_glow_large_walk
 ambient=50
 recol1s=31533
@@ -3361,7 +3361,7 @@ recol2s=29526
 recol2d=31105
 
 [enakh_boneguard_glow_large_death]
-model=spot_tempoross_harpoonfish_projectile
+model=spot_525
 anim=enakh_boneguard_glow_large_death
 ambient=50
 recol1s=31533
@@ -3370,7 +3370,7 @@ recol2s=29526
 recol2d=31105
 
 [enakh_enakhra_transform_spotanim]
-model=spot_tempoross_harpoonfish_projectile
+model=spot_525
 anim=enakh_enakhra_transform_spotanim
 ambient=50
 recol1s=31533
@@ -4084,7 +4084,7 @@ anim=swan_stone_throw_launch
 model=spot_swan_pot_spotanim
 anim=swan_pot_spotanim
 
-[toxic_tots_casting]
-model=spot_corp_ground_stomp
+[spot_665]
+model=spot_318
 recol1s=15855
 recol1d=0

@@ -558,6 +558,8 @@
 [command,.npc_findexact](coord $coord, npc $npc)(boolean)
 // info: Return true if the player that has dealt the most damage to this npc is in the world
 [command,npc_findhero]()(int)
+// info: Return true if the secondary player that has dealt the most damage to this npc is in the world
+[command,.npc_findhero]()(int)
 // info: Get a param on the current npc
 [command,npc_param]/*(param $param)(dynamic)*/
 // info: Queue a script on a npc
@@ -620,6 +622,10 @@
 [command,npc_tele](coord $coord)
 // info: Teleport the secondary npc to $coord, short distances (1-2 tiles) will visually walk/run
 [command,.npc_tele](coord $coord)
+// info: Telejump the npc to $coord
+[command,npc_telejump](coord $coord)
+// info: Telejump the secondary npc to $coord
+[command,.npc_telejump](coord $coord)
 // info: Change the npc's current type - new npc properties will be inherited
 [command,npc_changetype](npc $type, int $duration)
 // info: Change the npc's current type - new npc properties will be inherited

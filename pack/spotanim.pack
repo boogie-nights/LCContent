@@ -205,11 +205,11 @@
 204=adamant_javelin_travel
 205=rune_javelin_travel
 206=spot_206
-207=monkey_hunting_run
-208=monkey_hunting_run_sans_tail
-209=ii_impling11_escape
-210=ii_impling11_kick
-211=ii_impling11_travel
+207=spot_207
+208=spot_208
+209=spot_209
+210=spot_210
+211=spot_211
 212=bronze_tknife_travel
 213=iron_tknife_travel
 214=steel_tknife_travel
@@ -310,8 +310,8 @@
 309=pickaxe_travel_spotanim
 310=misty
 311=summon_spell
-312=goblin_rpg_travel
-313=goblin_rpg_splash
+312=spot_312
+313=spot_313
 314=spot_314
 315=spot_315
 316=spot_316
@@ -523,10 +523,10 @@
 522=magictraining_bone_drop3
 523=magictraining_bone_drop4
 524=balloon_spot
-525=tempoross_harpoonfish_projectile
+525=spot_525
 526=enakh_boneguard_glow_small_attack
 527=enakh_boneguard_glow_small_block
-528=tempoross_harpoonfish_projectile_raw
+528=spot_528
 529=enakh_boneguard_glow_small_death
 530=enakh_boneguard_glow_large_ready
 531=enakh_boneguard_glow_large_attack
@@ -663,4 +663,4 @@
 662=skeleton_mage_smoke
 663=swan_stone_throw_launch
 664=swan_pot_spotanim
-665=toxic_tots_casting
+665=spot_665

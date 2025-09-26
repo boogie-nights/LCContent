@@ -65,7 +65,7 @@ if ($axe = null) {
 // https://youtu.be/T3IRz4hZcjc?si=4jBFvTwMwqPXuAxf&t=63
 // sound on first chop
 anim(struct_param(oc_param($axe, woodcutting_struct), skill_anim), 0);
-sound_synth(sound_472, 0, 0);
+sound_synth(woodchop1, 0, 0);
 mes("You swing your axe at the tree.");
 if (%action_delay = map_clock) {
     @get_logs($data, $axe);
@@ -134,7 +134,7 @@ if (stat_random(woodcutting, $tree_chance_low, $tree_chance_high) = true) {
     if (random($deplete_chance) = 0) {
         $respawnrate = ~scale_by_playercount($respawnrate);
         loc_change(loc_param(next_loc_stage), $respawnrate);
-        sound_synth(sound_1312, 1, 0);
+        sound_synth(tree_fall, 1, 0);
         anim(null, 0);
         return;
     }

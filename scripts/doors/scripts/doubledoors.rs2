@@ -11,14 +11,14 @@
 ~close_double_doors_right(500, door_left_opened, loc_param(close_sound));
 
 // for members
-[oploc1,inactivesecretdoor]
+[oploc1,loc_1596]
 if (map_members = ^false) {
     mes(^mes_members_gate);
     return;
 }
 ~open_double_doors_left(500, door_right_closed, loc_param(open_sound));
 
-[oploc1,secretdoor2]
+[oploc1,loc_1597]
 if (map_members = ^false) {
     mes(^mes_members_gate);
     return;

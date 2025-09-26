@@ -1,7 +1,7 @@
 [yewtree]
 name=Yew
 desc=A splendid tree.
-model=mm2_lab_wall_outer_03
+model=loc_8509
 width=3
 length=3
 op1=Chop down

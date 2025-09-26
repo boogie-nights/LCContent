@@ -242,11 +242,11 @@
 241=rat_block
 242=rat_ready
 243=rat_death
-244=wild_cave_chainmace_ready
-245=wild_cave_chainmace_crush
-246=wild_cave_chainmace_stab
-247=wild_cave_chainmace_walk
-248=wild_cave_chainmace_run
+244=scorpion_walk
+245=scorpion_ready
+246=scorpion_attack
+247=scorpion_parry
+248=scorpion_death
 249=sheep_walk
 250=sheep_attack
 251=sheep_block

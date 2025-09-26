@@ -10,6 +10,10 @@ if (p_finduid(uid) = true) {
 [proc,equip](int $slot)
 if (p_finduid(uid) = true) {
     def_obj $obj = inv_getobj(inv, $slot);
+    if (oc_wearpos($obj) = null) {
+        mes("[DEBUG]: No wearpos set on <oc_debugname($obj)>");
+        return;
+    }
     // if (~duel_arena_equip_check($obj) = false) { TODO 377: re-enable all these checks with conversions
     //     return;
     // }

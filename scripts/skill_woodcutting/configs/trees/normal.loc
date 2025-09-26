@@ -192,7 +192,7 @@ param=ent,macro_ent_dead_tree2
 [loc_1315]
 name=Evergreen
 desc=A hardy evergreen tree.
-model=mm2_lab_wall_outer_end01
+model=loc_1315
 recol1s=5218
 recol1d=12548
 width=2
@@ -207,7 +207,7 @@ param=ent,macro_ent_tree1
 [loc_1316]
 name=Evergreen
 desc=A hardy evergreen tree.
-model=mm2_lab_wall_outer_end02
+model=loc_1316
 recol1s=5218
 recol1d=12548
 width=3

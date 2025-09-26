@@ -29,9 +29,9 @@ active=yes
 blockrange=no
 raiseobject=no
 category=gate_outer_closed
-param=next_loc_stage,portcullis_2l
+param=next_loc_stage,loc_1556
 
-[portcullis_2l]
+[loc_1556]
 name=Gate
 desc=A wooden gate.
 model=plaguesheep_gatel
@@ -84,7 +84,7 @@ active=yes
 blockrange=no
 category=gate_main_open
 param=next_loc_stage,qip_sheep_shearer_fencegate_l
-param=gate_close_sound,sound_326
+param=gate_close_sound,door_close
 
 [qip_sheep_shearer_openfencegate_r]
 name=Gate
@@ -99,7 +99,7 @@ op1=Close
 blockrange=no
 category=gate_outer_open
 param=next_loc_stage,qip_sheep_shearer_fencegate_r
-param=gate_close_sound,sound_326
+param=gate_close_sound,door_close
 
 [short_grass_dark_3_wall_edge]
 name=Gate

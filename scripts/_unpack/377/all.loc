@@ -820,17 +820,6 @@ model=fur_d_verydark
 recol1s=9444
 recol1d=4193
 
-[cooksquestrange]
-name=Cooking range
-desc=An appliance for cooking with.
-model=cooksquestrange
-recol1s=8484
-recol1d=13605
-recol2s=6370
-recol2d=11491
-length=2
-forceapproach=east
-
 [balloon_yellow]
 name=Party Balloon
 desc=A party balloon.
@@ -1078,7 +1067,7 @@ contrast=30
 active=yes
 op1=Open
 category=door_open_and_close
-param=next_loc_stage,desertdoor_inactive
+param=next_loc_stage,loc_1532
 
 [1to2]
 active=yes
@@ -3163,7 +3152,7 @@ blockrange=no
 [loc_399]
 name=Coffin
 desc=I see dead people.
-model=deadman_safezone_indicator
+model=loc_399
 width=2
 length=2
 op1=Close
@@ -5926,13 +5915,13 @@ hillskew=yes
 forcedecor=yes
 
 [loc_777]
-model=mm2_lab_door_left
+model=loc_777
 active=no
 width=2
 length=2
 
 [loc_778]
-model=mm2_lab_door_right_open
+model=loc_778
 active=no
 width=3
 length=3
@@ -7103,7 +7092,7 @@ sharelight=yes
 [loc_954]
 name=Doormat
 desc=For wiping muddy feet on.
-model=mm2_lab_door_left_open
+model=loc_954
 active=yes
 
 [spookypicture]
@@ -9292,7 +9281,7 @@ resizez=170
 [loc_1310]
 name=Tree
 desc=This tree has vines hanging from it.
-model=mm2_lab_wall_inner_corner
+model=loc_1310
 width=2
 length=2
 mapscene=0
@@ -9337,7 +9326,7 @@ mapscene=5
 [loc_1317]
 name=Spirit tree
 desc=A young sentient tree.
-model=mm2_lab_wall_outer_lower01
+model=loc_1317
 width=2
 length=2
 op1=Talk-to
@@ -10644,7 +10633,7 @@ active=no
 [loc_1504]
 name=Door
 desc=The door is open.
-model=mm2_lab_wall_outer_lower02
+model=loc_1504
 sharelight=yes
 active=yes
 raiseobject=no
@@ -10652,57 +10641,57 @@ raiseobject=no
 [loc_1505]
 name=Door
 desc=The door is closed.
-model=mm2_lab_wall_window_left
+model=loc_1505
 sharelight=yes
 occlude=yes
 active=yes
 raiseobject=no
 
-[archeddooropen]
-model=mm2_lab_wall_window_right
+[loc_1509]
+model=loc_1506
 mirror=yes
 active=no
 raiseobject=no
 
-[archeddoorclosed]
-model=mm2_lab_wall_window_right
+[loc_1510]
+model=loc_1506
 active=no
 raiseobject=no
 
-[thickpoordoor]
+[loc_1518]
 model=thickpoordoor
 sharelight=yes
 raiseobject=no
 
-[castledoubledoorl]
+[loc_1521]
 model=thickpoordoor
 sharelight=yes
 mirror=yes
 raiseobject=no
 
-[opencastledoubledoorl]
+[loc_1522]
 model=lefayeunopenabledoorl
 active=no
 raiseobject=no
 
-[doubledoorhingel]
-model=lefayeunopenabledoorl
-mirror=yes
-active=no
-raiseobject=no
-
-[castledoubledoorr]
-model=lefayeunopenabledoorl
-active=no
-raiseobject=no
-
-[opencastledoubledoorr]
+[loc_1523]
 model=lefayeunopenabledoorl
 mirror=yes
 active=no
 raiseobject=no
 
-[doubledoorhinger]
+[loc_1524]
+model=lefayeunopenabledoorl
+active=no
+raiseobject=no
+
+[loc_1525]
+model=lefayeunopenabledoorl
+mirror=yes
+active=no
+raiseobject=no
+
+[loc_1526]
 name=Curtain
 desc=The curtain is closed.
 model=doubledoorhinger
@@ -10710,12 +10699,12 @@ active=yes
 op1=Open
 raiseobject=no
 
-[inaccastledoubledoorl]
+[loc_1527]
 model=inaccastledoubledoorl
 active=no
 raiseobject=no
 
-[inaccastledoubledoorr]
+[loc_1528]
 name=Curtain
 desc=The curtain is closed.
 model=doubledoorhinger
@@ -10723,7 +10712,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[inaccastledoubledoorlopen]
+[loc_1529]
 name=Curtain
 desc=The curtain is open.
 model=inaccastledoubledoorl
@@ -10733,67 +10722,67 @@ blockwalk=no
 blockrange=no
 raiseobject=no
 
-[prisondooropen]
+[loc_1547]
 model=prisondooropen
 blockrange=no
 raiseobject=no
 
-[inactiveprisondoor]
+[loc_1548]
 model=prisondooropen
 mirror=yes
 blockrange=no
 raiseobject=no
 
-[prisondoor_r]
+[loc_1549]
 model=prisondoorr
 blockrange=no
 raiseobject=no
 
-[prisondooropen_r]
+[loc_1550]
 model=prisondoorr
 mirror=yes
 blockrange=no
 raiseobject=no
 
-[portcullis_1l]
+[loc_1554]
 model=plaguesheep_gatel
 mirror=yes
 active=no
 blockrange=no
 raiseobject=no
 
-[portcullis_1r]
+[loc_1555]
 model=plaguesheep_gatel
 active=no
 blockrange=no
 raiseobject=no
 
-[openfencegate_l]
+[loc_1559]
 name=Gate
 desc=A wrought iron gate.
 model=openfencegate_l
 length=2
 raiseobject=no
 
-[farming_fencegate_r]
+[loc_1562]
 model=ikov_mendedleverdoorl
 active=no
 raiseobject=no
 
-[farming_openfencegate_l]
+[loc_1563]
 model=ikov_mendedleverdoorl
 mirror=yes
 active=no
 raiseobject=no
 
-[farming_openfencegate_r]
+[loc_1564]
 model=farming_openfencegater
 sharelight=yes
 occlude=yes
 blockrange=no
 raiseobject=no
 
-[inactivefencegate_r]
+[loc_1565]
 model=farming_openfencegater
 sharelight=yes
 occlude=yes
@@ -10801,7 +10790,7 @@ mirror=yes
 blockrange=no
 raiseobject=no
 
-[inactivefencegate_l]
+[loc_1566]
 model=inactivefencegate_l
 length=3
 sharelight=yes
@@ -10809,11 +10798,11 @@ blockrange=no
 raiseobject=no
 active=no
 
-[openfencegate_r]
+[loc_1567]
 model=ikov_trapdoor
 raiseobject=no
 
-[metalgateclosedl]
+[loc_1568]
 name=Trapdoor
 desc=I wonder what's under it?
 model=ikov_trapdoor
@@ -10821,7 +10810,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[metalgateclosedr]
+[loc_1569]
 name=Trapdoor
 desc=I wonder what's under it?
 model=ikov_trapdoor
@@ -10829,7 +10818,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[metalgatetop]
+[loc_1570]
 name=Trapdoor
 desc=I wonder what's down there?
 model=metalgatetop
@@ -10838,7 +10827,7 @@ op1=Climb-down
 op2=Close
 raiseobject=no
 
-[metalgateopenl]
+[loc_1571]
 name=Trapdoor
 desc=I wonder what's down there?
 model=metalgatetop
@@ -10847,14 +10836,14 @@ op1=Climb-down
 op2=Close
 raiseobject=no
 
-[metalgateopenr]
+[loc_1572]
 name=Boarded-up door
 desc=This door has been boarded up.
 model=metalgateopenr
 active=yes
 raiseobject=no
 
-[inacmetalgateopenl]
+[loc_1573]
 name=Doors
 desc=A door to a grand place.
 model=inacmetalgateopenl
@@ -10863,7 +10852,7 @@ mirror=yes
 raiseobject=no
 op1=Open
 
-[inacmetalgateopenr]
+[loc_1574]
 name=Doors
 desc=A door to a grand place.
 model=inacmetalgateopenl
@@ -10872,7 +10861,7 @@ op1=Close
 mirror=yes
 raiseobject=no
 
-[towered_gateway_l]
+[loc_1575]
 name=Doors
 desc=A door to a grand place.
 model=inacmetalgateopenl
@@ -10880,7 +10869,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[towered_gateway_r]
+[loc_1576]
 name=Doors
 desc=A door to a grand place.
 model=inacmetalgateopenl
@@ -10888,7 +10877,7 @@ active=yes
 op1=Close
 raiseobject=no
 
-[towered_gateway_roof]
+[loc_1577]
 name=Doorway
 desc=The top of the archway.
 model=towered_gateway_roof
@@ -10897,7 +10886,7 @@ blockwalk=no
 sharelight=yes
 raiseobject=no
 
-[trapdoor_nonactive]
+[loc_1578]
 name=Doorway
 desc=The top of the archway.
 model=trapdoor_nonactive
@@ -10906,7 +10895,7 @@ blockwalk=no
 sharelight=yes
 raiseobject=no
 
-[trapdoor]
+[loc_1579]
 name=Doorway
 desc=The top of the archway.
 model=trapdoor_nonactive
@@ -10916,14 +10905,14 @@ sharelight=yes
 mirror=yes
 raiseobject=no
 
-[trapdoor_level1]
+[loc_1580]
 name=Doorway
 desc=The base of the archway.
 model=trapdoor_level1
 sharelight=yes
 raiseobject=no
 
-[trapdoor_open]
+[loc_1581]
 name=Doorway
 desc=The base of the archway.
 model=trapdoor_level1
@@ -10931,13 +10920,13 @@ mirror=yes
 sharelight=yes
 raiseobject=no
 
-[trapdoor_open_level1]
+[loc_1582]
 model=trapdoor_open_level1
 blockwalk=no
 blockrange=no
 raiseobject=no
 
-[bordedupdoor]
+[loc_1583]
 name=Wall
 desc=There is something strange about this wall...
 model=door1
@@ -10945,7 +10934,7 @@ active=yes
 op1=Push
 raiseobject=no
 
-[palacedoor_r]
+[loc_1584]
 name=Wall
 desc=There is something strange about this wall...
 model=door1
@@ -10953,12 +10942,12 @@ active=yes
 op1=Push
 raiseobject=no
 
-[openpalacedoor_r]
+[loc_1585]
 model=door1
 active=no
 raiseobject=no
 
-[palacedoor_l]
+[loc_1586]
 name=Wall
 desc=There is something strange about this wall...
 model=door1
@@ -10968,7 +10957,7 @@ active=yes
 op1=Push
 raiseobject=no
 
-[openpalacedoor_l]
+[loc_1587]
 name=Wall
 desc=There is something strange about this wall...
 model=door1
@@ -10978,14 +10967,14 @@ active=yes
 op1=Push
 raiseobject=no
 
-[stone_arched_doortop]
+[loc_1588]
 model=door1
 retex1s=wall
 retex1d=mossybricks
 active=no
 raiseobject=no
 
-[stone_arched_doortop_b_l]
+[loc_1589]
 name=Gate
 desc=A wrought iron gate.
 model=ikov_mendedleverdoorl
@@ -10994,7 +10983,7 @@ active=yes
 blockrange=no
 raiseobject=no
 
-[stone_arched_doortop_b_r]
+[loc_1590]
 name=Gate
 desc=A wrought iron gate.
 model=ikov_mendedleverdoorl
@@ -11004,7 +10993,7 @@ active=yes
 blockrange=no
 raiseobject=no
 
-[stone_arched_doorbase_r]
+[loc_1591]
 name=Door
 desc=The door is closed.
 model=door1
@@ -11016,7 +11005,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[stone_arched_doorbase_l]
+[loc_1592]
 name=Odd looking wall
 desc=Something is strange about this panel.
 model=stone_arched_doorbase_l
@@ -11032,7 +11021,7 @@ op1=Push
 active=yes
 raiseobject=no
 
-[bamboo_doorway]
+[loc_1593]
 model=bamboo_doorway
 retex1s=wall
 retex1d=mossybricks
@@ -11045,7 +11034,7 @@ width=2
 length=2
 raiseobject=no
 
-[secretdoor]
+[loc_1594]
 name=Dungeon door
 desc=An entranceway into the dungeon.
 model=door1
@@ -11057,7 +11046,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[secretdooropen]
+[loc_1595]
 name=Door
 desc=The way in.
 model=door1
@@ -11069,7 +11058,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[secretdooropen2]
+[loc_1598]
 name=Gate
 desc=A wooden gate.
 model=plaguesheep_gatel
@@ -11078,7 +11067,7 @@ active=yes
 blockrange=no
 raiseobject=no
 
-[inactivesecretdoor2]
+[loc_1599]
 name=Gate
 desc=A wooden gate.
 model=plaguesheep_gatel
@@ -11088,14 +11077,14 @@ active=yes
 blockrange=no
 raiseobject=no
 
-[lockedmetalgatel]
+[loc_1600]
 name=Magic guild door
 desc=The doors to the Magic Guild.
 model=lefayeunopenabledoorl
 op1=Open
 raiseobject=no
 
-[lockedmetalgater]
+[loc_1601]
 name=Magic guild door
 desc=The doors to the Magic guild.
 model=lefayeunopenabledoorl
@@ -12274,7 +12263,7 @@ retex1d=thatched
 sharelight=yes
 mirror=yes
 
-[sw_isle_basement_wall]
+[magicwall]
 model=sw_isle_basement_wall
 length=2
 shadow=no
@@ -14298,7 +14287,7 @@ op2=Search
 [restless_ghost_altar]
 name=Coffin
 desc=Ooooh! Spooky!
-model=deadman_safezone_indicator
+model=loc_399
 width=2
 length=2
 op1=Close
@@ -24777,7 +24766,7 @@ width=3
 [elemental_workshop_rock]
 name=Pile of Rock
 desc=A pile of Elemental rock.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=12580
 recol2s=6342
@@ -24838,7 +24827,7 @@ op1=Pull
 [elemental_workshop_bellows_l]
 name=Bellows
 desc=Big bellows.
-model=elemental_workshop_furnace
+model=elemental_workshop_bellows
 recol1s=17833
 recol1d=10467
 recol2s=15855
@@ -24851,7 +24840,7 @@ op1=Fix
 [elemental_workshop_bellows_r]
 name=Bellows
 desc=Big bellows.
-model=elemental_workshop_furnace
+model=elemental_workshop_bellows
 recol1s=17833
 recol1d=10467
 recol2s=15855
@@ -25110,34 +25099,6 @@ sharelight=yes
 active=no
 hillskew=yes
 
-[pip_underground_wall_side_withportal]
-name=Holy barrier
-desc=A holy barrier blocking evil forces.
-model=pip_underground_wall_side_withportal
-retex1s=wood2
-retex1d=darkwood
-recol2s=8353
-recol2d=5250
-sharelight=yes
-hillskew=yes
-op1=Pass-through
-
-[pip_underground_door1]
-name=Gate
-desc=A sturdy metal gate.
-model=ctratgatea
-op1=Open
-
-[pip_underground_door2]
-name=Gate
-desc=A sturdy metal gate.
-model=ctratgatea
-op1=Open
-
-[inacpip_underground_door]
-model=ctratgatea
-active=no
-
 [underground_wall_toplvl2]
 model=underground_wall_toplvl2
 sharelight=yes
@@ -25250,17 +25211,6 @@ active=no
 model=prisonwall_lend
 sharelight=yes
 mirror=yes
-active=no
-
-[pip_prisondoor]
-name=Cell door
-desc=A hastily constructed yet sturdy prison door.
-model=ctratgatea
-op1=Open
-op2=Talk-through
-
-[inactive_pipprisondoor]
-model=ctratgatea
 active=no
 
 [prisonwall_spare]
@@ -25412,6 +25362,8 @@ recol2s=8353
 recol2d=5250
 op1=Open
 op2=Knock-at
+category=double_door_open_and_close_left
+param=next_loc_stage,inactivetempledoorl
 
 [priestperiltempledoorr]
 name=Large door
@@ -25424,6 +25376,8 @@ recol2d=5250
 mirror=yes
 op1=Open
 op2=Knock-at
+category=double_door_open_and_close_right
+param=next_loc_stage,inactivetempledoorr
 
 [inactivetempledoorl]
 model=priestperiltempledoorl
@@ -25441,79 +25395,6 @@ recol2s=8353
 recol2d=5250
 mirror=yes
 active=no
-
-[priestperil_grave_base1]
-name=Monument
-desc=A monument to a fallen priest.
-model=priestperil_grave_base1
-anim=priestperil_gravemonument
-length=2
-active=yes
-op1=Study
-op2=Take-from
-
-[priestperil_grave_base2]
-name=Monument
-desc=A monument to a fallen priest.
-model=priestperil_grave_base1
-anim=priestperil_gravemonument
-length=2
-active=yes
-op1=Study
-op2=Take-from
-
-[priestperil_grave_base3]
-name=Monument
-desc=A monument to a fallen priest.
-model=priestperil_grave_base1
-anim=priestperil_gravemonument
-length=2
-active=yes
-op1=Study
-op2=Take-from
-
-[priestperil_grave_base4]
-name=Monument
-desc=A monument to a fallen priest.
-model=priestperil_grave_base1
-anim=priestperil_gravemonument
-length=2
-active=yes
-op1=Study
-op2=Take-from
-
-[priestperil_grave_base5]
-name=Monument
-desc=A monument to a fallen priest.
-model=priestperil_grave_base5
-anim=priestperil_gravemonument
-width=2
-length=2
-active=yes
-op1=Study
-op2=Take-from
-
-[priestperil_grave_base6]
-name=Monument
-desc=A monument to a fallen priest.
-model=priestperil_grave_base5
-anim=priestperil_gravemonument
-width=2
-length=2
-active=yes
-op1=Study
-op2=Take-from
-
-[priestperil_grave_base7]
-name=Monument
-desc=A monument to a fallen priest.
-model=priestperil_grave_base5
-anim=priestperil_gravemonument
-width=2
-length=2
-active=yes
-op1=Study
-op2=Take-from
 
 [smallchurchorgan]
 name=Church organ
@@ -27715,7 +27596,7 @@ recol3s=15586
 recol3d=8458
 hillskew=yes
 
-[harmless_cave_filler_right]
+[runetemple_standingstone_glow_law]
 name=Mysterious glow
 desc=Unusual energy is gathered here.
 model=loc_2498
@@ -27725,7 +27606,7 @@ anim=stoneglow
 ambient=60
 contrast=60
 
-[harmless_cave_rocks_left]
+[lawtemple_cavewall_face1]
 model=cavewall_face1
 recol1s=12580
 recol1d=6345
@@ -27733,7 +27614,7 @@ sharelight=yes
 hillskew=yes
 active=no
 
-[harmless_cave_rocks_right]
+[lawtemple_cavewall_top]
 model=cavewall_top
 recol1s=12580
 recol1d=6345
@@ -27742,7 +27623,7 @@ hillskew=yes
 active=no
 active=no
 
-[harmless_cave_ruins]
+[lawtemple_cavewall_top5]
 model=cavewall_top5
 recol1s=12580
 recol1d=6345
@@ -27751,7 +27632,7 @@ hillskew=yes
 active=no
 active=no
 
-[harmless_black_slab]
+[lawtemple_cavewall_top_higher]
 model=cavewall_top_higher
 recol1s=12580
 recol1d=6345
@@ -35585,7 +35466,7 @@ raiseobject=no
 [misc_dummy_mapletree]
 name=Maple tree
 desc=I bet this makes good syrup!
-model=mm2_lab_wall_outer_01
+model=loc_4674
 width=2
 mapscene=2
 length=2
@@ -40932,10 +40813,10 @@ blockwalk=no
 blockrange=no
 op1=Pick
 
-[harmless_dead_palm_uppermid]
+[ahoy_town_barrier]
 name=Energy Barrier
 desc=A ghostly barrier.
-model=harmless_dead_palm_uppermid
+model=ahoy_town_barrier
 recol1s=15855
 recol1d=11914
 length=2
@@ -40946,18 +40827,18 @@ ambient=100
 contrast=100
 op1=Pass
 
-[harmless_dead_palm_top]
-model=harmless_dead_palm_top
+[ahoy_town_walldoor_left_open]
+model=ahoy_town_walldoor
 ambient=70
 contrast=30
 
-[harmless_dead_palm_leaning_base]
-model=harmless_dead_palm_top
+[ahoy_town_walldoor_right_open]
+model=ahoy_town_walldoor
 mirror=yes
 ambient=70
 contrast=30
 
-[harmless_dead_grass1]
+[ahoy_ladder_from_cellar]
 name=Ladder
 desc=I can climb this.
 model=puzzle_ladder
@@ -40972,7 +40853,7 @@ op1=Climb-up
 mapscene=7
 forceapproach=south
 
-[harmless_dead_grass2]
+[ahoy_ghostship_ladder]
 name=Ship's ladder
 desc=I can climb up here.
 model=ship_ladder
@@ -40980,14 +40861,14 @@ op1=Climb-up
 forceapproach=south
 mapscene=7
 
-[harmless_dead_grass3]
+[ahoy_ghostship_laddertop]
 name=Ship's ladder
 desc=I can go below decks with this ladder.
 model=ship_laddertop
 op1=Climb-down
 forceapproach=north
 
-[harmless_dead_palm_leaves]
+[ahoy_trapdoor]
 name=Trapdoor
 desc=I wonder what's under it.
 model=ikov_trapdoor
@@ -40999,7 +40880,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[harmless_dead_palm_leaves_bits]
+[ahoy_trapdoor_open]
 name=Trapdoor
 desc=I wonder what's down there.
 model=metalgatetop
@@ -41016,7 +40897,7 @@ op1=Climb-down
 op2=Close
 raiseobject=no
 
-[harmless_black_spiral_stairs]
+[ahoy_rock_invisible]
 name=Rock
 desc=I can't see a rock!
 model=regicide_tar_collection
@@ -41025,35 +40906,35 @@ op1=Jump-To
 blockwalk=no
 blockrange=no
 
-[harmless_spiral_steps_hole]
+[ahoy_chest_locked]
 name=Closed chest
 desc=I wonder what's inside.
-model=harmless_spiral_steps_hole
+model=ahoy_chest_closed
 op1=Open
 
-[harmless_dugupsoil_squished1]
+[ahoy_chest_locked_active]
 name=Open chest
 desc=I wonder what's inside.
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 
-[harmless_dugupsoil_squished2]
+[ahoy_chest_closed]
 name=Closed chest
 desc=I wonder what's inside.
-model=harmless_spiral_steps_hole
+model=ahoy_chest_closed
 op1=Open
 forceapproach=north
 
-[harmless_dugupsoil_squished3]
+[ahoy_chest_open]
 name=Open chest
 desc=Perhaps I should search it.
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 recol1s=10570
 recol1d=17921
 op1=Search
 op2=Close
 forceapproach=north
 
-[harmless_dugupsoil1]
+[ahoy_mast]
 name=Mast
 desc=High above here is a tattered flag, blowing in the wind.
 model=mast1
@@ -41065,7 +40946,7 @@ recol3s=13741
 recol3d=11690
 op1=Search
 
-[harmless_dugupsoil2]
+[ahoy_range]
 name=Cooking range
 desc=An appliance for cooking with.
 model=cooksquestrange
@@ -41078,44 +40959,44 @@ recol3d=10496
 length=2
 forceapproach=east
 
-[harmless_dugupsoil3]
+[ahoy_bankbooth]
 name=Bank booth
 desc=The bank teller will serve you from here.
-model=harmless_dugupsoil3
+model=ahoy_bankbooth
 op1=Use
 op2=Use-quickly
 blockrange=no
 
-[harmless_mine_wall]
+[ahoy_bankboothclosed]
 name=Closed bank booth
 desc=This booth is closed.
-model=harmless_mine_wall
+model=ahoy_bankboothclosed
 blockrange=no
 
-[harmless_mine_wall_rocky]
+[ahoy_coffin]
 name=Coffin
 desc=The resting place of Necrovarus' mortal body.
-model=harmless_mine_wall_rocky
+model=ahoy_coffin
 width=2
 length=2
 op1=Open
 blockrange=no
 
-[harmless_mine_wall_end]
+[ahoy_coffin_open]
 name=Coffin
 desc=The resting place of Necrovarus' mortal body.
-model=harmless_mine_wall_end
+model=ahoy_coffin_open
 width=2
 length=2
 op1=Search
 op2=Close
 blockrange=no
 
-[harmless_mine_wall_support_left]
+[ahoy_ectofunctus]
 name=Ectofuntus
 desc=A ghastly fountain filled with slime and bones, the source of Necrovarus' power.
-model=harmless_mine_wall_support_left
-model2=harmless_mine_wall_support_lefti2
+model=ahoy_ectofunctus
+model2=ahoy_ectofunctus2
 recol1s=992
 recol1d=11914
 recol2s=18922
@@ -41135,11 +41016,11 @@ ambient=70
 contrast=30
 op1=Worship
 
-[harmless_mine_wall_support_right]
+[ahoy_ectofuntus_small]
 name=Ectofuntus
 desc=It's a small Ectofuntus.
-model=harmless_mine_wall_support_left
-model2=harmless_mine_wall_support_lefti2
+model=ahoy_ectofunctus
+model2=ahoy_ectofunctus2
 recol1s=992
 recol1d=11914
 recol2s=18922
@@ -41159,10 +41040,10 @@ resizez=48
 ambient=70
 contrast=30
 
-[harmless_mine_wall_support_mid]
+[ahoy_grinder]
 name=Bone grinder
 desc=A big grinding thing.
-model=harmless_mine_wall_support_mid
+model=ahoy_grinder
 length=3
 width=2
 op1=Wind
@@ -41170,7 +41051,7 @@ op2=Empty
 op3=Status
 forceapproach=east
 
-[harmless_mine_wall_for_mining]
+[ahoy_gangplank_shipwreck_on]
 name=Gangplank
 desc=The tatty gangplank of a tatty ship.
 model=gangplank
@@ -41187,7 +41068,7 @@ hillskew=yes
 sharelight=yes
 op1=Cross
 
-[harmless_mine_wall_skulls]
+[ahoy_gangplank_shipwreck_off]
 name=Gangplank
 desc=The tatty gangplank of a tatty ship.
 model=gangplank
@@ -41204,12 +41085,12 @@ hillskew=yes
 sharelight=yes
 op1=Cross
 
-[harmless_mine_stalagtite_01]
+[ahoy_skull_captain]
 name=Pirate Captain
 desc=Seen better days.
-model=harmless_mine_stalagtite_01
-model2=harmless_mine_stalagtite_01i2
-model3=harmless_mine_stalagtite_01i3
+model=ahoy_skull_captain
+model2=ahoy_skull_captain2
+model3=ahoy_skull_captain3
 recol1s=14724
 recol1d=15590
 recol2s=7328
@@ -42970,14 +42851,14 @@ resizey=192
 [ahoy_town_walldoor_left]
 name=Door
 desc=It's a door.
-model=harmless_dead_palm_top
+model=ahoy_town_walldoor
 op1=Open
 ambient=50
 
 [ahoy_town_walldoor_right]
 name=Door
 desc=It's a door.
-model=harmless_dead_palm_top
+model=ahoy_town_walldoor
 op1=Open
 mirror=yes
 ambient=50
@@ -46401,7 +46282,7 @@ active=yes
 [mdaughter_poolwater]
 name=Shining pool
 desc=The pool looks very peaceful. You can also hear faint singing coming from it.
-model=mm2_lab_door_left
+model=loc_777
 width=2
 length=2
 op3=Listen-to
@@ -53355,7 +53236,7 @@ active=no
 [tog_blue_stone_rocks1]
 name=Rocks
 desc=Stone with blue veins.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=5284
 recol2s=6342
@@ -53369,7 +53250,7 @@ blockrange=no
 [tog_blue_stone_rocks2]
 name=Rocks
 desc=Stone with blue veins.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=5284
 recol2s=6342
@@ -60260,7 +60141,7 @@ op1=Search
 [rd_chest_closed]
 name=Closed chest
 desc=I wonder what's inside.
-model=harmless_spiral_steps_hole
+model=ahoy_chest_closed
 recol1s=9543
 recol1d=14696
 recol2s=8484
@@ -60276,7 +60157,7 @@ ambient=10
 [rd_chest_open]
 name=Open chest
 desc=Perhaps I should search it.
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 recol1s=9543
 recol1d=14694
 recol2s=8484
@@ -80376,7 +80257,7 @@ op4=Guide
 [spirit_tree_fullygrown]
 name=Spirit Tree
 desc=A Spirit Tree.
-model=mm2_lab_wall_outer_lower01
+model=loc_1317
 model2=calquat_tree_seedlingi2
 ambient=25
 op1=Talk-to
@@ -80386,7 +80267,7 @@ op4=Guide
 [spirit_tree_claimxp]
 name=Spirit Tree
 desc=A Spirit Tree.
-model=mm2_lab_wall_outer_lower01
+model=loc_1317
 model2=calquat_tree_seedlingi2
 ambient=25
 op1=Check-health
@@ -80548,7 +80429,7 @@ op4=Guide
 [spirit_tree_diseased_fullgrown]
 name=Diseased Spirit Tree
 desc=Needs pruning before it dies.
-model=mm2_lab_wall_outer_lower01
+model=loc_1317
 model2=calquat_tree_seedlingi2
 recol1s=9411
 recol1d=9507
@@ -82375,7 +82256,7 @@ op4=Guide
 [magic_tree_9]
 name=Magic Tree
 desc=A Magic Tree is growing in this tree patch.
-model=mm2_lab_cage_broken_door
+model=loc_8405
 model2=calquat_tree_seedlingi2
 ambient=25
 op2=Inspect
@@ -82754,7 +82635,7 @@ op4=Guide
 [maple_tree_6]
 name=Maple Tree
 desc=A Maple tree is growing in this tree patch.
-model=mm2_lab_wall_outer_01
+model=loc_4674
 model2=calquat_tree_seedlingi2
 ambient=25
 op2=Inspect
@@ -82867,7 +82748,7 @@ op4=Guide
 [maple_tree_diseased_6]
 name=Diseased Maple
 desc=To remove all signs of disease, prune the tree with secateurs.
-model=mm2_lab_wall_outer_01
+model=loc_4674
 model2=calquat_tree_seedlingi2
 recol1s=11490
 recol1d=11586
@@ -83197,7 +83078,7 @@ op4=Guide
 [willow_tree_3]
 name=Willow Tree
 desc=A Willow tree is growing in this tree patch.
-model=mm2_lab_wall_outer_02
+model=loc_8484
 model2=calquat_tree_seedlingi2
 ambient=25
 op2=Inspect
@@ -83278,7 +83159,7 @@ op4=Guide
 [willow_tree_diseased_3]
 name=Diseased Willow
 desc=To remove all signs of disease, prune the tree with secateurs.
-model=mm2_lab_wall_outer_02
+model=loc_8484
 model2=calquat_tree_seedlingi2
 recol1s=8419
 recol1d=8514
@@ -83444,7 +83325,7 @@ op4=Guide
 [yew_tree_7]
 name=Yew tree
 desc=A Yew tree is growing in this tree patch.
-model=mm2_lab_wall_outer_03
+model=loc_8509
 model2=calquat_tree_seedlingi2
 ambient=25
 op2=Inspect
@@ -83581,7 +83462,7 @@ op4=Guide
 [yew_tree_diseased_7]
 name=Diseased Yew
 desc=To remove all signs of disease, prune the tree with secateurs.
-model=mm2_lab_wall_outer_03
+model=loc_8509
 model2=calquat_tree_seedlingi2
 recol1s=10467
 recol1d=10563
@@ -106351,7 +106232,7 @@ length=2
 [elid_bankbooth]
 name=Bank booth
 desc=The bank teller will serve you from here.
-model=harmless_dugupsoil3
+model=ahoy_bankbooth
 recol1s=10598
 recol1d=13605
 recol2s=8484
@@ -106368,7 +106249,7 @@ ambient=30
 [elid_bankboothclosed]
 name=Closed bank booth
 desc=This booth is closed.
-model=harmless_mine_wall
+model=ahoy_bankboothclosed
 recol1s=10598
 recol1d=13605
 recol2s=8484
@@ -106860,7 +106741,7 @@ active=no
 [champions_bankchest]
 name=Bank chest
 desc=It's open.
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 recol1s=4256
 recol1d=13670
 recol2s=6370
@@ -109393,7 +109274,7 @@ wallwidth=8
 ambient=20
 contrast=50
 
-[loc_10817]
+[prisonpete_lever]
 name=Lever
 desc=Pull me!
 model=loc_2416
@@ -109401,7 +109282,7 @@ active=yes
 op1=Pull
 forceapproach=south
 
-[loc_10818]
+[prisonpete_fakedoor_r]
 name=Locked door
 desc=Doesn't look like the way out.
 model=ctratgatea
@@ -109410,7 +109291,7 @@ blockrange=no
 raiseobject=no
 op1=Open
 
-[loc_10819]
+[prisonpete_fakedoor_l]
 name=Locked door
 desc=Doesn't look like the way out.
 model=ctratgatea
@@ -109420,10 +109301,10 @@ blockrange=no
 raiseobject=no
 op1=Open
 
-[loc_10820]
+[prisonpete_energybarrier]
 name=Energy Barrier
 desc=A glowing barrier of energy prevents your escape.
-model=harmless_dead_palm_uppermid
+model=ahoy_town_barrier
 recol1s=15855
 recol1d=12684
 length=2
@@ -109433,26 +109314,26 @@ anim=castlewars_portalglow
 ambient=100
 contrast=100
 
-[loc_10821]
+[prisonpete_door_1]
 active=yes
 length=2
 multivar=varbit_1547
-multiloc=0,loc_10820
-multiloc=1,loc_10820
-multiloc=2,loc_10820
+multiloc=0,prisonpete_energybarrier
+multiloc=1,prisonpete_energybarrier
+multiloc=2,prisonpete_energybarrier
 
-[loc_10822]
+[prisonpete_door_2]
 active=yes
 length=2
 multivar=varbit_1547
-multiloc=0,loc_10820
-multiloc=1,loc_10820
+multiloc=0,prisonpete_energybarrier
+multiloc=1,prisonpete_energybarrier
 
-[loc_10823]
+[prisonpete_door_3]
 active=yes
 length=2
 multivar=varbit_1547
-multiloc=0,loc_10820
+multiloc=0,prisonpete_energybarrier
 
 [draynor_fireplace]
 name=Fireplace
@@ -110380,7 +110261,7 @@ model=loc_10943
 [loc_10944]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=17793
 recol2s=6342
@@ -110395,7 +110276,7 @@ ambient=10
 [loc_10945]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=17793
 recol2s=6342
@@ -110410,7 +110291,7 @@ ambient=10
 [loc_10946]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=18820
 recol2s=6342
@@ -110423,7 +110304,7 @@ hillskew=yes
 [loc_10947]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=19912
 recol2s=6342
@@ -110436,7 +110317,7 @@ hillskew=yes
 [loc_10948]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=17793
 recol2s=6342
@@ -110451,7 +110332,7 @@ ambient=10
 [loc_10949]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=17793
 recol2s=6342
@@ -113033,28 +112914,28 @@ ambient=35
 hillskew=yes
 active=no
 
-[loc_11162]
+[ahoy_grinder_loader]
 name=Loader
 desc=A big grinding thing.
-model=loc_11162
+model=ahoy_grinder_loader
 width=2
 forceapproach=east
 sharelight=yes
 
-[loc_11163]
+[ahoy_grinder_handle]
 name=Bone grinder
 desc=A big grinding thing.
-model=loc_11163
+model=ahoy_grinder_handle
 width=2
 op1=Wind
 op2=Status
 forceapproach=east
 sharelight=yes
 
-[loc_11164]
+[ahoy_grinder_chute]
 name=Bin
 desc=A big grinding thing.
-model=loc_11164
+model=ahoy_grinder_chute
 width=2
 op1=Empty
 forceapproach=east
@@ -113063,7 +112944,7 @@ sharelight=yes
 [loc_11186]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=12579
 recol2s=6342
@@ -113078,7 +112959,7 @@ ambient=10
 [loc_11187]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=12579
 recol2s=6342
@@ -113108,7 +112989,7 @@ ambient=10
 [loc_11189]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=12579
 recol2s=6342
@@ -113123,7 +113004,7 @@ ambient=10
 [loc_11190]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=12579
 recol2s=6342
@@ -114829,7 +114710,7 @@ blockrange=no
 [fever_bank_chest]
 name=Open chest
 desc=Shake that booty!
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 model2=fever_bank_chest
 recol1s=9543
 recol1d=20968
@@ -117151,7 +117032,7 @@ contrast=10
 [loc_11552]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10500
 recol2s=6342
@@ -117166,7 +117047,7 @@ ambient=10
 [loc_11553]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10500
 recol2s=6342
@@ -117196,7 +117077,7 @@ ambient=10
 [loc_11555]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=7329
 recol2s=6342
@@ -117211,7 +117092,7 @@ ambient=10
 [loc_11556]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=7329
 recol2s=6342
@@ -118328,7 +118209,7 @@ active=no
 [loc_11629]
 name=Rock
 desc=A rocky outcrop that looks rather crumbly.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10500
 recol2s=6342
@@ -119676,7 +119557,7 @@ op1=Read
 [loc_11757]
 name=Chest
 desc=This chest contains an impressive amount of Gold!!
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 model2=fever_bank_chest
 recol1s=9543
 recol1d=14662
@@ -121477,7 +121358,7 @@ blockrange=no
 [loc_11930]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10500
 recol2s=6342
@@ -121492,22 +121373,7 @@ ambient=10
 [loc_11931]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
-recol1s=9513
-recol1d=10500
-recol2s=6342
-recol2d=4226
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=25
-blockrange=no
-ambient=10
-
-[loc_11932]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_2110
+model=loc_4028
 recol1s=9513
 recol1d=10500
 recol2s=6342
@@ -121522,7 +121388,7 @@ ambient=10
 [loc_11936]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10500
 recol2s=6342
@@ -121537,7 +121403,7 @@ ambient=10
 [loc_11937]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10500
 recol2s=6342
@@ -121567,7 +121433,7 @@ ambient=10
 [loc_11939]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10500
 recol2s=6342
@@ -121582,7 +121448,7 @@ ambient=10
 [loc_11940]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10500
 recol2s=6342
@@ -121612,7 +121478,7 @@ ambient=10
 [loc_11942]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10500
 recol2s=6342
@@ -121627,7 +121493,7 @@ ambient=10
 [loc_11943]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10500
 recol2s=6342
@@ -121657,7 +121523,7 @@ ambient=10
 [loc_11945]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=7329
 recol2s=6342
@@ -121672,7 +121538,7 @@ ambient=10
 [loc_11946]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=7329
 recol2s=6342
@@ -121702,7 +121568,7 @@ ambient=10
 [loc_11948]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=7329
 recol2s=6342
@@ -121717,7 +121583,7 @@ ambient=10
 [loc_11949]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=7329
 recol2s=6342
@@ -121747,7 +121613,7 @@ ambient=10
 [loc_11951]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=7329
 recol2s=6342
@@ -121762,7 +121628,7 @@ ambient=10
 [loc_11952]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=7329
 recol2s=6342
@@ -121792,7 +121658,7 @@ ambient=10
 [loc_11954]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=7329
 recol2s=6342
@@ -121807,7 +121673,7 @@ ambient=10
 [loc_11955]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=7329
 recol2s=6342
@@ -121837,7 +121703,7 @@ ambient=10
 [loc_11957]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=7329
 recol2s=6342
@@ -121852,7 +121718,7 @@ ambient=10
 [loc_11958]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=7329
 recol2s=6342
@@ -121882,7 +121748,7 @@ ambient=10
 [loc_11960]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=7329
 recol2s=6342
@@ -121897,7 +121763,7 @@ ambient=10
 [loc_11961]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=7329
 recol2s=6342
@@ -121927,7 +121793,7 @@ ambient=10
 [loc_11963]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=7329
 recol2s=6342
@@ -121942,7 +121808,7 @@ ambient=10
 [loc_11964]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=7329
 recol2s=6342
@@ -122246,42 +122112,6 @@ model=pier_shadow_on_water
 active=no
 blockwalk=no
 blockrange=no
-
-[loc_11993]
-name=Door
-desc=The door is closed.
-model=loc_11993
-recol1s=14626
-recol1d=12548
-recol2s=13569
-recol2d=11491
-recol3s=12512
-recol3d=10434
-recol4s=11456
-recol4d=9377
-active=yes
-op1=Open
-raiseobject=no
-resizey=156
-ambient=20
-
-[loc_11994]
-name=Door
-desc=The door is open.
-model=loc_11993
-recol1s=14626
-recol1d=12548
-recol2s=13569
-recol2d=11491
-recol3s=12512
-recol3d=10434
-recol4s=11456
-recol4d=9377
-active=yes
-op1=Close
-raiseobject=no
-resizey=156
-ambient=20
 
 [loc_11995]
 model=tzhaar_cave_wall_overhang3
@@ -123387,7 +123217,7 @@ blockwalk=no
 [fairy_chest_closed]
 name=Closed chest
 desc=I wonder what's inside.
-model=harmless_spiral_steps_hole
+model=ahoy_chest_closed
 recol1s=14695
 recol1d=6272
 recol2s=12615
@@ -123406,7 +123236,7 @@ forceapproach=north
 [fairy_chest_open]
 name=Open chest
 desc=Perhaps I should search it.
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 recol1s=14695
 recol1d=6272
 recol2s=4256
@@ -124711,19 +124541,19 @@ multiloc=1,loc_12263
 [loc_12262]
 name=Trapdoor
 desc=It probably leads to some sort of cellar.
-model=mm2_lab_wall_broken_02
+model=loc_12262
 op1=Open
 
 [loc_12263]
 name=Trapdoor
 desc=What mysteries lie below?
-model=mm2_lab_stairs01
+model=loc_12263
 op1=Go-down
 
 [loc_12264]
 name=Ladder
 desc=An oak ladder.
-model=mm2_lab_stairs02
+model=loc_12264
 op1=Climb
 mapscene=7
 
@@ -124736,7 +124566,7 @@ multiloc=1,100_dave_celler_trapdoor_open
 [100_dave_celler_trapdoor_closed]
 name=Trapdoor
 desc=What evil lurks below?
-model=mm2_lab_wall_broken_02
+model=loc_12262
 recol1s=21036
 recol1d=13671
 recol2s=14662
@@ -127986,7 +127816,7 @@ blockrange=no
 [swamp_rock1]
 name=Pile of Rock
 desc=A pile of rock.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=13570
 recol2s=6342
@@ -127998,7 +127828,7 @@ op3=hidden
 [swamp_rock2]
 name=Pile of Rock
 desc=A pile of rock.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=13570
 recol2s=6342
@@ -129873,7 +129703,7 @@ op1=Search
 [burgh_quest_food_chest_closed]
 name=Closed chest
 desc=I wonder what's inside.
-model=harmless_spiral_steps_hole
+model=ahoy_chest_closed
 recol1s=9543
 recol1d=5282
 recol2s=8484
@@ -129888,7 +129718,7 @@ op1=Open
 [burgh_quest_food_chest_open]
 name=Open chest
 desc=Perhaps I should search it.
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 recol1s=9543
 recol1d=5282
 recol2s=8484
@@ -130185,7 +130015,7 @@ active=yes
 [burgh_chest_closed]
 name=Closed chest
 desc=I wonder what's inside.
-model=harmless_spiral_steps_hole
+model=ahoy_chest_closed
 recol1s=9543
 recol1d=10599
 recol2s=8484
@@ -130202,7 +130032,7 @@ forceapproach=north
 [burgh_chest_open]
 name=Open chest
 desc=Perhaps I should search it.
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 recol1s=9543
 recol1d=10599
 recol2s=8484
@@ -132202,7 +132032,7 @@ shadow=no
 op1=Search
 
 [sang_boat_water_multiloc]
-model=mm2_lab_door_left
+model=loc_777
 length=3
 width=2
 active=no
@@ -132784,39 +132614,6 @@ recol6s=12614
 recol6d=13605
 sharelight=yes
 active=no
-
-[qip_sheep_shearer_poordoor]
-name=Door
-desc=The door is closed.
-model=door
-recol1s=12512
-recol1d=10434
-recol2s=13569
-recol2d=7297
-recol3s=14626
-recol3d=13605
-recol4s=11456
-recol4d=11491
-active=yes
-op1=Open
-raiseobject=no
-raiseobject=no
-
-[qip_sheep_shearer_poordooropen]
-name=Door
-desc=The door is open.
-model=door
-recol1s=12512
-recol1d=10434
-recol2s=13569
-recol2d=7297
-recol3s=14626
-recol3d=13605
-recol4s=11456
-recol4d=11491
-active=yes
-op1=Close
-raiseobject=no
 
 [qip_sheep_shearer_chestclosed]
 name=Closed chest
@@ -135341,7 +135138,7 @@ blockrange=no
 [poh_dungeon_ladder_oak]
 name=Ladder
 desc=An oak ladder.
-model=mm2_lab_stairs02
+model=loc_12264
 op5=Remove
 op1=Climb
 
@@ -138574,7 +138371,7 @@ op2=Challenge-mode
 [poh_trapdoor_oak_7]
 name=Trapdoor
 desc=Go through this oak trapdoor to see the pit below your throne room.
-model=mm2_lab_wall_broken_02
+model=loc_12262
 op5=Remove
 op1=Open
 
@@ -138595,7 +138392,7 @@ op5=Remove
 [poh_trapdoor_oak_open_7]
 name=Trapdoor
 desc=Go through this oak trapdoor to see the pit below your throne room.
-model=mm2_lab_stairs01
+model=loc_12263
 op1=Go-down
 op2=Close
 op5=Remove
@@ -144778,7 +144575,7 @@ ambient=25
 [pest_bankbooth]
 name=Bank booth
 desc=The bank teller will serve you from here.
-model=harmless_dugupsoil3
+model=ahoy_bankbooth
 recol1s=10598
 recol1d=16811
 recol2s=8484
@@ -144795,7 +144592,7 @@ ambient=30
 [pest_bankbooth_closed]
 name=Bank booth
 desc=The bank teller will not serve you from here.
-model=harmless_mine_wall
+model=ahoy_bankboothclosed
 recol1s=10598
 recol1d=16811
 recol2s=8484
@@ -145015,7 +144812,7 @@ ambient=7
 [pest_bank_chest]
 name=Bank chest
 desc=Objects are stored in here.
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 model2=fever_bank_chest
 recol1s=9543
 recol1d=12614
@@ -149775,7 +149572,7 @@ length=2
 [wild_chest_closed]
 name=Chest
 desc=Might be worth opening?
-model=harmless_spiral_steps_hole
+model=ahoy_chest_closed
 recol1s=14695
 recol1d=10499
 recol2s=12615
@@ -149794,7 +149591,7 @@ forceapproach=north
 [wild_chest_open]
 name=Chest
 desc=Might be worth searching?
-model=harmless_dugupsoil_squished1
+model=ahoy_chest_open
 recol1s=9543
 recol1d=9442
 recol2s=8484
@@ -150282,7 +150079,7 @@ op1=Activate
 [loc_14832]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=4228
 recol2s=6342
@@ -150297,7 +150094,7 @@ ambient=10
 [loc_14833]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=4228
 recol2s=6342
@@ -150567,7 +150364,7 @@ blockrange=no
 [loc_14850]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=4228
 recol2s=6342
@@ -150582,7 +150379,7 @@ ambient=10
 [loc_14851]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=4228
 recol2s=6342
@@ -150612,7 +150409,7 @@ ambient=10
 [loc_14853]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=4228
 recol2s=6342
@@ -150627,7 +150424,7 @@ ambient=10
 [loc_14854]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=4228
 recol2s=6342
@@ -150657,7 +150454,7 @@ ambient=10
 [loc_14856]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=4228
 recol2s=6342
@@ -150672,7 +150469,7 @@ ambient=10
 [loc_14857]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=4228
 recol2s=6342
@@ -150702,7 +150499,7 @@ ambient=10
 [loc_14859]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=4228
 recol2s=6342
@@ -150717,7 +150514,7 @@ ambient=10
 [loc_14860]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=4228
 recol2s=6342
@@ -150747,7 +150544,7 @@ ambient=10
 [loc_14862]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=4228
 recol2s=6342
@@ -150762,7 +150559,7 @@ ambient=10
 [loc_14863]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=4228
 recol2s=6342
@@ -151067,7 +150864,7 @@ blockrange=no
 [loc_14892]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10570
 recol2s=6342
@@ -151082,7 +150879,7 @@ ambient=10
 [loc_14893]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10570
 recol2s=6342
@@ -151097,7 +150894,7 @@ ambient=10
 [loc_14894]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10570
 recol2s=6342
@@ -151112,7 +150909,7 @@ ambient=10
 [loc_14895]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10570
 recol2s=6342
@@ -151127,7 +150924,7 @@ ambient=10
 [loc_14896]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10570
 recol2s=6342
@@ -151142,7 +150939,7 @@ ambient=10
 [loc_14897]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10570
 recol2s=6342
@@ -151157,7 +150954,7 @@ ambient=10
 [loc_14898]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10570
 recol2s=6342
@@ -151172,7 +150969,7 @@ ambient=10
 [loc_14899]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10570
 recol2s=6342
@@ -151187,7 +150984,7 @@ ambient=10
 [loc_14900]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10570
 recol2s=6342
@@ -151202,7 +150999,7 @@ ambient=10
 [loc_14901]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10570
 recol2s=6342
@@ -151217,7 +151014,7 @@ ambient=10
 [loc_14092]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10570
 recol2s=6342
@@ -151232,7 +151029,7 @@ ambient=10
 [loc_14093]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10570
 recol2s=6342
@@ -151247,7 +151044,7 @@ ambient=10
 [loc_14904]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10570
 recol2s=6342
@@ -151262,7 +151059,7 @@ ambient=10
 [loc_14905]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10570
 recol2s=6342
@@ -151277,7 +151074,7 @@ ambient=10
 [loc_14906]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10570
 recol2s=6342
@@ -151292,7 +151089,7 @@ ambient=10
 [loc_14907]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10570
 recol2s=6342
@@ -151350,7 +151147,7 @@ op1=Take
 [loc_14913]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10570
 recol2s=6342
@@ -151365,7 +151162,7 @@ ambient=10
 [loc_14914]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10570
 recol2s=6342
@@ -151380,7 +151177,7 @@ ambient=10
 [loc_14915]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=10570
 recol2s=6342
@@ -151395,7 +151192,7 @@ ambient=10
 [loc_14916]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=10570
 recol2s=6342

@@ -1090,9 +1090,6 @@ stock23=batta_tin,10
 stock24=crunchy_tray,10
 stock25=gnomebowl_mould,10
 
-[tradeoffer]
-size=28
-
 [partyroom_dropinv]
 size=216
 
@@ -2043,27 +2040,6 @@ size=1
 
 [skill_guide_slayer_equipment]
 size=1
-
-[slayershop]
-size=21
-stock0=slayer_gem,300
-stock1=slayer_mirror_shield,10
-stock2=slayer_leafbladed_spear,10
-stock3=slayer_broad_arrows,3000
-stock4=slayer_bag_of_salt,1000
-stock5=slayer_rock_hammer,10
-stock6=slayer_facemask,10
-stock7=slayer_earmuffs,10
-stock8=slayer_nosepeg,10
-stock9=slayer_staff,10
-stock10=wallbeast_spike_helmet,10
-stock11=fishing_explosive,1000
-stock12=slayer_icy_water,1000
-stock13=deal_slayer_gloves,10
-stock14=slayer_buglan_off,10
-stock15=slayer_boots,10
-stock16=slayer_spray_pump_10,10
-stock17=slayer_fungicide,1000
 
 [magicguildshop2]
 size=5

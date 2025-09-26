@@ -6,33 +6,12 @@ mes("Welcome to RuneScape.");
 ~update_all(inv_getobj(worn, ^wearpos_rhand));
 cam_reset;
 
-inv_transmit(inv, inventory:inv);
-inv_transmit(worn, wornitems:worn);
-
 set_player_op(null, 2, ^false);
 set_player_op("Follow", 3, ^false);
 set_player_op("Trade with", 4, ^false);
 set_player_op(null, 5, ^false);
 
-if_settab("combat_unarmed", ^tab_combat);
-if_settab(stats, ^tab_stats);
-if_settab(questlist, ^tab_quests);
-if_settab(inventory, ^tab_inv);
-if_settab(wornitems, ^tab_worn);
-if_settab(prayer, ^tab_prayer);
-if_settab(magic, ^tab_magic);
-if_settab(friends, ^tab_friend);
-if_settab(ignore, ^tab_ignore);
-if_settab(logout, ^tab_logout);
-if_settab(controls, ^tab_controls);
-
-if (lowmemory = false) {
-    if_settab(options, ^tab_options);
-    if_settab(music, ^tab_music);
-} else {
-    if_settab(options_ld, ^tab_options);
-    if_settab(music_ld, ^tab_music);
-}
+~initalltabs;
 
 if (map_production = true) {
     if_openfull(inter_353, inter_313);
@@ -41,4 +20,31 @@ if (map_production = true) {
     // todo: Set if player has pin? 
     if_settext(inter_313:com_19,"You do not have a Bank PIN. Please visit a bank\\nif you would like one.");
     last_login_info;
+}
+
+
+[proc,initalltabs]
+~update_weapon_category(inv_getobj(worn, ^wearpos_rhand));
+if_settab(stats, ^tab_skills);
+if_settab(questlist, ^tab_quest_journal);
+~update_questlist;
+
+inv_transmit(inv, inventory:inv);
+inv_transmit(worn, wornitems:worn);
+
+if_settab(inventory, ^tab_inventory);
+if_settab(wornitems, ^tab_wornitems);
+
+if_settab(prayer, ^tab_prayer);
+if_settab(magic, ^tab_magic);
+if_settab(friends, ^tab_friends);
+if_settab(ignore, ^tab_ignore);
+if_settab(logout, ^tab_logout);
+if_settab(controls, ^tab_player_controls);
+if (lowmemory = true) {
+    if_settab(options_ld, ^tab_game_options);
+    if_settab(music_ld, ^tab_musicplayer);
+} else {
+    if_settab(options, ^tab_game_options);
+    if_settab(music, ^tab_musicplayer);
 }

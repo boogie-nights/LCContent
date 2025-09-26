@@ -76,7 +76,7 @@
 75=journey_number
 76=scorpcatcher
 77=barcrawl
-78=varp_78
+78=pk_skull
 79=varp_79
 80=druidquest
 81=varp_81
@@ -117,9 +117,9 @@
 116=zombiequeen
 117=varp_117
 118=varp_118
-119=varp_119
-120=varp_120
-121=varp_121
+119=pk_predator1
+120=pk_predator2
+121=pk_predator3
 122=squire
 123=varp_123
 124=varp_124
@@ -161,8 +161,8 @@
 160=imp
 161=upass
 162=ibanmulti
-163=varp_163
-164=varp_164
+163=open_book
+164=book_page
 165=elenaquest
 166=option_brightness
 167=option_jingles
@@ -215,9 +215,9 @@
 214=varp_214
 215=varp_215
 216=varp_216
-217=varp_217
-218=varp_218
-219=varp_219
+217=pk_prey1
+218=pk_prey2
+219=death
 220=varp_220
 221=varp_221
 222=demonstart
@@ -255,8 +255,8 @@
 254=varp_254
 255=varp_255
 256=varp_256
-257=varp_257
-258=varp_258
+257=tradepartner
+258=tradestatus
 259=attack
 260=varp_260
 261=if1
@@ -288,7 +288,7 @@
 287=option_pm
 288=varp_288
 289=varp_289
-290=varp_290
+290=ring_of_recoil
 291=varp_291
 292=trail_status
 293=chompybird
@@ -301,7 +301,7 @@
 300=sa_energy
 301=sa_attack
 302=priestperil
-303=varp_303
+303=priestperil_mausoleum
 304=bankinsert
 305=varp_305
 306=varp_306
