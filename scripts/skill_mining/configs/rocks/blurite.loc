@@ -21,7 +21,7 @@ param=macro_gas,macro_bluriterock
 [loc_10583]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=24511
 recol2s=6342
@@ -37,7 +37,7 @@ ambient=20
 [loc_10584]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=24511
 recol2s=6342

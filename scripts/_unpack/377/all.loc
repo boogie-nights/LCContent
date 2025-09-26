@@ -121385,6 +121385,21 @@ mapscene=25
 blockrange=no
 ambient=10
 
+[loc_11932]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_2110
+recol1s=9513
+recol1d=10500
+recol2s=6342
+recol2d=4226
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=25
+blockrange=no
+ambient=10
+
 [loc_11936]
 name=Rocks
 desc=A rocky outcrop.

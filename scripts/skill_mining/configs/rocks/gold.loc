@@ -34,7 +34,7 @@ param=macro_gas,macro_goldrock2
 [rimmington_mine_goldrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=12480
 recol2s=6342
@@ -53,7 +53,7 @@ param=macro_gas,rimmington_mine_macro_goldrock1
 [rimmington_mine_goldrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=12480
 recol2s=6342
@@ -91,7 +91,7 @@ param=macro_gas,rimmington_mine_macro_goldrock3
 [craftingguild_mine_goldrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=12579
 recol2s=6342
@@ -110,7 +110,7 @@ param=macro_gas,craftingguild_mine_macro_goldrock1
 [craftingguild_mine_goldrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=12579
 recol2s=6342

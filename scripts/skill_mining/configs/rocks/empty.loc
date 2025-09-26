@@ -54,7 +54,7 @@ param=mining_rock_empty,1
 [swamp_cave_rocks1_empty]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=5284
 recol2s=6342
@@ -71,7 +71,7 @@ param=mining_rock_empty,1
 [swamp_cave_rocks2_empty]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=5284
 recol2s=6342
@@ -136,7 +136,7 @@ param=mining_rock_empty,1
 [loc_10585]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=24511
 recol2s=6342
@@ -152,7 +152,7 @@ ambient=20
 [loc_10586]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=24511
 recol2s=6342

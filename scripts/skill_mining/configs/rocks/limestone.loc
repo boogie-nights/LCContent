@@ -1,7 +1,7 @@
-[harmless_dead_palm_stump]
+[loc_4027]
 name=Pile of Rock
 desc=A pile of lime rock.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=16874
 recol2s=6342
@@ -10,10 +10,10 @@ op1=Mine
 op2=Prospect
 op3=hidden
 
-[harmless_dead_tree]
+[loc_4028]
 name=Pile of Rock
 desc=A pile of lime rock.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=16874
 recol2s=6342
@@ -22,7 +22,7 @@ op1=Mine
 op2=Prospect
 op3=hidden
 
-[harmless_dead_tree_trunk]
+[loc_4029]
 name=Pile of Rock
 desc=A pile of lime rock.
 model=loc_2110
@@ -37,7 +37,7 @@ resizex=96
 resizey=96
 resizez=96
 
-[harmless_dead_palm_base]
+[loc_4030]
 name=Pile of Rock
 desc=A pile of lime rock.
 model=loc_2110

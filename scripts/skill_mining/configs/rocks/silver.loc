@@ -34,7 +34,7 @@ param=macro_gas,macro_silverrock2
 [swamp_cave_silverrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=elemental_workshop_valve1
+model=loc_4027
 recol1s=15854
 recol1d=5284
 recol2s=6342
@@ -51,7 +51,7 @@ param=next_loc_stage_mining,swamp_cave_rocks1_empty
 [swamp_cave_silverrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=harmless_dead_tree
+model=loc_4028
 recol1s=9513
 recol1d=5284
 recol2s=6342
