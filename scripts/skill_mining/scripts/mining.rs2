@@ -10,6 +10,7 @@ if ($is_empty = ^true) {
    // sound_synth(prospect, 0, 0);
     return;
 }
+
 db_find(standard_rock_table:rock, loc_type);
 def_dbrow $data = db_findnext;
 if ($data = null) {
@@ -64,23 +65,27 @@ if ($data = null) {
     ~displaymessage(^dm_default);
     return;
 }
+
 if (inv_freespace(inv) < 1) {
     anim(null, 0);
     ~mesbox("Your inventory is too full to hold any more <db_getfield($data, standard_rock_table:ore_name, 0)>.");
     return;
 }
+
 def_int $levelreq = db_getfield($data, standard_rock_table:rock_level, 0);
 if (stat(mining) < $levelreq) {
     anim(null, 0);
     ~mesbox("You need a mining level of <tostring($levelreq)> to mine this rock.");
     return;
 }
+
 def_obj $pickaxe = ~pickaxe_checker;
 if ($pickaxe = null) {
     anim(null, 0);
     ~mesbox("You need a pickaxe to mine this rock. You do not have a pickaxe which you have the Mining level to use.");
     return;
 }
+
 def_int $mining_rate = oc_param($pickaxe, mining_rate);
 
 // sounds and skill anim is based off https://youtu.be/ix4_VVi9Xm4
@@ -108,6 +113,7 @@ def_obj $neck = inv_getobj(worn, ^wearpos_front);
 if ($neck ! null & oc_category($neck) = category_557 & map_members = ^true) {
     $chance = 86;
 }
+
 if (random($chance) = ^true) {
     def_namedobj $gem = ~mining_gem_table;
     if ($gem ! null) {
@@ -137,7 +143,6 @@ if (random($chance) = ^true) {
     return;
 }
 p_oploc(3);
-
 
 // used for iron, granite, sandstone
 [label,get_ore_fast]
