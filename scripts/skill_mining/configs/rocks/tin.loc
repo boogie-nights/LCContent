@@ -31,7 +31,7 @@ param=next_loc_stage_mining,rocks2
 param=macro_gas,macro_tinrock2
 
 // todo: fabricated name
-[fai_barbarian_mine_tinrock1]
+[brown_tinrock1]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_4027
@@ -50,7 +50,7 @@ param=next_loc_stage_mining,brown_rocks1_empty
 param=macro_gas,macro_tinrock1
 
 // todo: fabricated name
-[fai_barbarian_mine_tinrock2]
+[brown_tinrock2]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_4028
@@ -69,7 +69,7 @@ param=next_loc_stage_mining,brown_rocks2_empty
 param=macro_gas,macro_tinrock1
 
 // todo: fabricated name
-[fai_barbarian_mine_tinrock3]
+[brown_tinrock3]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_2110
