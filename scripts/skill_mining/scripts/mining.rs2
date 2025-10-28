@@ -1,6 +1,15 @@
-// normal rocks
-[oploc1,_mining_rock_normal] @mining_firstswing(get_ore_normal);
-[oploc3,_mining_rock_normal] @mining_continue(get_ore_normal);
+// 429=mine_quick
+// 430=found_gem
+// 431=prospect
+// 432=mine
+
+// Normal Rocks
+[oploc1,_mining_rock_normal] @mining_firstswing(get_ore_fast);
+[oploc3,_mining_rock_normal] @mining_continue(get_ore_fast);
+
+// Fast Rocks: Iron, Sandstone, Granite
+[oploc1,_mining_rock_fast] @mining_firstswing(get_ore_fast);
+[oploc3,_mining_rock_fast] @mining_continue(get_ore_fast);
 
 [label,mining_firstswing](label $get_ore)
 def_int $is_empty = loc_param(mining_rock_empty);
@@ -100,51 +109,6 @@ if (%action_delay < map_clock) {
 }
 p_oploc(3);
 
-[label,get_ore_normal]
-db_find(standard_rock_table:rock, loc_type);
-def_dbrow $data = db_findnext;
-if ($data = null) {
-    ~displaymessage(^dm_default);
-    return;
-}
-// roll for gem
-def_int $chance = 256;
-def_obj $neck = inv_getobj(worn, ^wearpos_front);
-if ($neck ! null & oc_category($neck) = category_557 & map_members = ^true) {
-    $chance = 86;
-}
-
-if (random($chance) = ^true) {
-    def_namedobj $gem = ~mining_gem_table;
-    if ($gem ! null) {
-        inv_add(inv, $gem, 1);
-        db_find(gem_cutting_table:uncut_gem, $gem);
-        $data = db_findnext;
-        mes("You just found <~add_article(oc_name(db_getfield($data, gem_cutting_table:cut_gem, 0)))>!");
-    }
-} else if (stat_random(mining, db_getfield($data, standard_rock_table:rock_successchance, 0)) = true) {
-    // They added a 1t p_delay in this update: https://oldschool.runescape.wiki/w/Update:Special_Attacks
-    p_delay(0);
-    // deplete
-    def_int $respawn = ~scale_by_playercount(db_getfield($data, standard_rock_table:rock_respawnrate, 0));
-    // Temp note: dur does not need updated
-    loc_change(loc_param(next_loc_stage_mining), $respawn);
-    //sound_synth(sound_230, 0, 0); // Sudden says its sound_230
-    anim(null, 0);
-    // The 'perfect' gold rocks in Family Crest are the same ID as regular gold rocks, so check to 
-    // give out the right ore if we're in that location. Only gold rocks are in this room.
-    def_namedobj $output = db_getfield($data, standard_rock_table:rock_output, 0);
-    // if(inzone(^crest_perfect_mine_lower_bound, ^crest_perfect_mine_upper_bound, coord) = true) {
-    //     $output = perfect_gold_ore;
-    // }
-    inv_add(inv, $output, 1);
-    stat_advance(mining, db_getfield($data, standard_rock_table:rock_exp, 0));
-    mes("You manage to mine some <db_getfield($data, standard_rock_table:ore_name, 0)>.");
-    return;
-}
-p_oploc(3);
-
-// used for iron, granite, sandstone
 [label,get_ore_fast]
 db_find(standard_rock_table:rock, loc_type);
 def_dbrow $data = db_findnext;
@@ -152,33 +116,68 @@ if ($data = null) {
     ~displaymessage(^dm_default);
     return;
 }
-// roll for gem
-def_int $chance = 256;
-def_obj $neck = inv_getobj(worn, ^wearpos_front);
-// if ($neck ! null & oc_category($neck) = category_557 & map_members = ^true) {
-//     $chance = 86;
-// }
+
+// Roll for Gem
+def_int $chance = ~calc_gem_chance();
 if (random($chance) = ^true) {
-    def_namedobj $gem = ~mining_gem_table;
-    if ($gem ! null) {
-        inv_add(inv, $gem, 1);
-        db_find(gem_cutting_table:uncut_gem, $gem);
-        $data = db_findnext;
-        mes("You just found <~add_article(oc_name(db_getfield($data, gem_cutting_table:cut_gem, 0)))>!");
-    }
-} else if (stat_random(mining, db_getfield($data, standard_rock_table:rock_successchance, 0)) = true) {
-    // deplete
-    def_int $respawn = ~scale_by_playercount(db_getfield($data, standard_rock_table:rock_respawnrate, 0));
-    // Temp note: dur does not need updated
-    loc_change(loc_param(next_loc_stage_mining), $respawn);
-    //sound_synth(sound_230, 0, 0); // Sudden says its sound_230
-    anim(null, 0);
-    inv_add(inv, db_getfield($data, standard_rock_table:rock_output, 0), 1);
-    stat_advance(mining, db_getfield($data, standard_rock_table:rock_exp, 0));
-    mes("You manage to mine some <db_getfield($data, standard_rock_table:ore_name, 0)>.");
-    return;
+    @roll_for_gem($data);
+}
+
+// Roll to give ore
+if (stat_random(mining, db_getfield($data, standard_rock_table:rock_successchance, 0)) = true) {
+    @give_ore($data);
+}
+
+p_oploc(3);
+
+[label,give_ore](dbrow $data)
+
+// They added a 1t p_delay in this update: https://oldschool.runescape.wiki/w/Update:Special_Attacks
+// I'm assuming this had only applied to non-fast rocks based on 244/245 code
+if (loc_category = mining_rock_normal) {
+    p_delay(0);
+    mes("We p_delayed, boss.");
+}
+
+// Determine respawn timer for rock, and update the loc to the depleted version.
+def_int $respawn = ~scale_by_playercount(db_getfield($data, standard_rock_table:rock_respawnrate, 0));
+loc_change(loc_param(next_loc_stage_mining), $respawn);
+
+// Play sound effect and reset animation.
+sound_synth(mine, 0, 0);
+anim(null, 0);
+
+// Add ore to inventory, give xp, and display message.
+
+// The 'perfect' gold rocks in Family Crest are the same ID as regular gold rocks, so check to 
+// give out the right ore if we're in that location. Only gold rocks are in this room.
+def_namedobj $output = db_getfield($data, standard_rock_table:rock_output, 0);
+// if(inzone(^crest_perfect_mine_lower_bound, ^crest_perfect_mine_upper_bound, coord) = true) {
+//     $output = perfect_gold_ore;
+// }
+inv_add(inv, $output, 1);
+stat_advance(mining, db_getfield($data, standard_rock_table:rock_exp, 0));
+mes("You manage to mine some <db_getfield($data, standard_rock_table:ore_name, 0)>.");
+
+[label,roll_for_gem](dbrow $data)
+def_namedobj $gem = ~mining_gem_table;
+if (gem ! null) {
+    inv_add(inv, $gem, 1);
+    db_find(gem_cutting_table:uncut_gem, $gem);
+    $data = db_findnext;
+    mes("You just found <~add_article(oc_name(db_getfield($data, gem_cutting_table:cut_gem, 0)))>!");
 }
 p_oploc(3);
+
+[proc,calc_gem_chance]()(int)
+def_int $chance = 256;
+
+// Check if we're wearing any Amulet of Glory
+def_obj $neck = inv_getobj(worn, ^wearpos_front);
+if ($neck ! null & oc_category($neck) = category_557 & map_members = ^true) {
+    $chance = 86;
+}
+return ($chance);
 
 [proc,mining_gem_table]()(namedobj)
 def_int $rand = random(128);
