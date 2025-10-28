@@ -3708,7 +3708,7 @@
 3707=npc_squirei2
 3708=obj_death_climbingboots_womanwear
 3709=obj_death_spikedboots_womanwear
-3710=npc_1066
+3710=death_ig_solider_sitting1
 3711=npc_1071i2
 3712=com_i176
 3713=npc_1071_head
@@ -3777,7 +3777,7 @@
 3776=spot_troll_rock_launch
 3777=regicide_darkelf_tentroof_corner_g
 3778=spot_sp_attack_impale_spotanim
-3779=npc_1069
+3779=death_ig_solider_wounded
 3780=obj_bronze_claws_manwear
 3781=obj_bronze_claws
 3782=npc_savage_bird

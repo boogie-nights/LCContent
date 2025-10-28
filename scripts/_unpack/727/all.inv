@@ -1520,24 +1520,6 @@ stock5=thread,1000
 stock6=holy_symbol_mould,10
 stock7=tiara_mould,10
 
-[death_generalshop]
-size=40
-stock0=pot_empty,30
-stock1=jug_empty,10
-stock2=shears,10
-stock3=bucket_empty,30
-stock4=tinderbox,10
-stock5=chisel,10
-stock6=hammer,10
-stock7=knife,10
-stock8=cup_empty,10
-
-[death_pub]
-size=3
-stock0=asgarnian_ale,10
-stock1=wizards_mind_bomb,10
-stock2=dwarven_stout,10
-
 [smithing_bronze_claws]
 size=1
 stock0=bronze_claws,1

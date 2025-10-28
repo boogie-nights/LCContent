@@ -1,15 +1,15 @@
 [proc,get_best_slayer_master]()(npc)
 def_int $cb = ~player_combat_level;
 if($cb >= 100 & stat(slayer) >= 50) {
-    return (npc_1599);
+    return (slayer_master_5);
 } else if($cb >= 70) {
-    return (npc_1598);
+    return (slayer_master_4);
 } else if($cb >= 40) {
-    return (npc_1597);
+    return (slayer_master_3);
 } else if($cb >= 20) {
-    return (npc_1596);
+    return (slayer_master_2);
 }
-return (mummy);
+return (slayer_master_1);
 
 [proc,get_slayer_master_location]()(string)
 def_int $cb = ~player_combat_level;

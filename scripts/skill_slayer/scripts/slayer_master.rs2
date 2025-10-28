@@ -65,7 +65,7 @@ if(~slayer_master_eligible(npc_type) = false) {
     return;
 }
 if(%slayer_count > 0) {
-    if(npc_type = mummy & ~has_turael_task = false) {
+    if(npc_type = slayer_master_1 & ~has_turael_task = false) {
         ~chatnpc("<p,confused>You're still hunting something, although it's a tougher assignment than I'd normally give...|I guess I could give you a new assignment if you'd like.");
         $op = ~p_choice2("Yes, please.", 1, "No, thanks.", 2);
         if($op = 2) {
@@ -79,7 +79,7 @@ if(%slayer_count > 0) {
     ~chatnpc("<p,confused>You're still hunting something; come back when you've finished your task.");
     return;
 }
-if(npc_type ! npc_1598 & npc_type ! npc_1599 & $slayer_master ! npc_type) {
+if(npc_type ! slayer_master_4 & npc_type ! slayer_master_5 & $slayer_master ! npc_type) {
     ~chatnpc("<p,confused>You're actually very strong, are you sure you don't want <nc_name($slayer_master)> <$master_location> to assign you a task?");
     $op = ~p_choice2("Yes, please.", 1, "Oh okay then, I'll go talk to <nc_name($slayer_master)>.", 2);
     if($op = 2) {
@@ -97,13 +97,13 @@ if(npc_type ! npc_1598 & npc_type ! npc_1599 & $slayer_master ! npc_type) {
 
 [proc,slayer_master_eligible](npc $master)(boolean)
 def_int $cb = ~player_combat_level;
-if($master = npc_1596 & $cb < 20) {
+if($master = slayer_master_2 & $cb < 20) {
     return (false);
-} else if($master = npc_1597 & $cb < 40) {
+} else if($master = slayer_master_3 & $cb < 40) {
     return (false);
-} else if($master = npc_1598 & $cb < 70) {
+} else if($master = slayer_master_4 & $cb < 70) {
     return (false);
-} else if($master = npc_1599 & ($cb < 100 | stat(slayer) < 50)) {
+} else if($master = slayer_master_5 & ($cb < 100 | stat(slayer) < 50)) {
     return (false);
 }
 return(true); 

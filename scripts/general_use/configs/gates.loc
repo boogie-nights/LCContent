@@ -42,6 +42,56 @@ raiseobject=no
 category=gate_outer_open
 param=next_loc_stage,loc_1553
 
+[death_fencegate_l]
+name=Gate
+desc=A wooden gate.
+model=plaguesheep_gatel
+recol1s=12480
+recol1d=10502
+op1=Open
+active=yes
+blockrange=no
+category=gate_main_closed
+param=next_loc_stage,death_openfencegate_l
+
+[death_fencegate_r]
+name=Gate
+desc=A wooden gate.
+model=plaguesheep_gatel
+recol1s=12480
+recol1d=10502
+mirror=yes
+op1=Open
+active=yes
+blockrange=no
+category=gate_outer_closed
+param=next_loc_stage,death_openfencegate_r
+
+[death_openfencegate_l]
+name=Gate
+desc=A wooden gate.
+model=plaguesheep_gatel
+recol1s=12480
+recol1d=10502
+op1=Close
+active=yes
+blockrange=no
+category=gate_main_open
+param=next_loc_stage,death_fencegate_l
+
+[death_openfencegate_r]
+name=Gate
+desc=A wooden gate.
+model=plaguesheep_gatel
+recol1s=12480
+recol1d=10502
+mirror=yes
+op1=Close
+active=yes
+blockrange=no
+category=gate_outer_open
+param=next_loc_stage,death_fencegate_r
+
 [qip_sheep_shearer_fencegate_l]
 name=Gate
 desc=A wooden gate.

@@ -1,10 +1,10 @@
 [proc,slayer_new_target]()(int)
 switch_npc(npc_type) {
-    case mummy : ~generate_slayer_task(turael_task_table);
-    case npc_1596 : ~generate_slayer_task(mazchna_task_table);
-    case npc_1597 : ~generate_slayer_task(vannaka_task_table);
-    case npc_1598 : ~generate_slayer_task(chaeldar_task_table);
-    case npc_1599 : ~generate_slayer_task(duradel_task_table);
+    case slayer_master_1 : ~generate_slayer_task(turael_task_table);
+    case slayer_master_2 : ~generate_slayer_task(mazchna_task_table);
+    case slayer_master_3 : ~generate_slayer_task(vannaka_task_table);
+    case slayer_master_4 : ~generate_slayer_task(chaeldar_task_table);
+    case slayer_master_5 : ~generate_slayer_task(duradel_task_table);
 }
 
 [proc,generate_slayer_task](dbrow $master)

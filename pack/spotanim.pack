@@ -1,7 +1,7 @@
-0=spot_0
+0=triple_firebreath_attack
 1=firebreath_attack
-2=spot_2
-3=spot_3
+2=icebreath_attack
+3=acidbreath_attack
 4=portal
 5=portalend
 6=giantspider_teleport
@@ -640,10 +640,10 @@
 639=soulbane_tolna_launch
 640=soulbane_tolna_travel
 641=soulbane_tolna_impact
-642=smoke_devil_cloud_spotanim
-643=smoke_devil_smoke_player_spotanim
-644=smoke_devil_smoke_proj
-645=motherlode_rockfall
+642=spot_642
+643=spot_643
+644=spot_644
+645=spot_645
 646=torcher_fireball_launch_spotanim
 647=torcher_fireball_travel_spotanim
 648=torcher_fireball_impact_spotanim

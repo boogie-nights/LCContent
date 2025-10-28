@@ -1,18 +1,18 @@
-[spot_0]
+[triple_firebreath_attack]
 model=spot_0
-anim=seq_85
+anim=dragon_firebreath_triple_attack
 
 [firebreath_attack]
 model=spot_firebreath_attack
 anim=dragon_firebreath_attack
 
-[spot_2]
+[icebreath_attack]
 model=spot_2
-anim=seq_88
+anim=dragon_icebreath_attack
 
-[spot_3]
+[acidbreath_attack]
 model=spot_3
-anim=seq_87
+anim=dragon_acidbreath_attack
 
 [portal]
 model=spot_portal
@@ -1240,10 +1240,6 @@ recol2s=31201
 recol2d=31710
 recol3s=31297
 recol3d=29596
-
-[runecrafting]
-model=spot_runecrafting
-anim=runecrafting
 
 [upass_claw]
 model=spot_gunthix_claw
@@ -3953,21 +3949,21 @@ resizev=64
 recol1s=10820
 recol1d=18471
 
-[smoke_devil_cloud_spotanim]
+[spot_642]
 model=spot_smoke_devil_cloud_spotanim
 anim=seq_3859
 
-[smoke_devil_smoke_player_spotanim]
+[spot_643]
 model=spot_smoke_devil_smoke_player_spotanim
-anim=swan_crush_loop
+anim=seq_3861
 
-[smoke_devil_smoke_proj]
+[spot_644]
 model=spot_smoke_devil_smoke_player_spotanim
-anim=easter_egg_rolling
+anim=seq_3863
 
-[motherlode_rockfall]
+[spot_645]
 model=spot_smoke_devil_smoke_player_spotanim
-anim=arceuus_necromancy_anim
+anim=seq_3865
 
 [torcher_fireball_launch_spotanim]
 model=spot_torcher_fireball_launch_spotanim

@@ -1,4 +1,4 @@
 {
-    "editor.colorDecoratorsLimit": 65535,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "editor.colorDecoratorsLimit": 65535
 }

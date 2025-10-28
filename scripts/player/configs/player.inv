@@ -8,8 +8,8 @@ runweight=yes
 scope=perm
 size=14
 protect=no
-runweight=yes
 
 [tradeoffer]
 size=28
 protect=no
+runweight=yes
