@@ -1,6 +1,6 @@
 [rune_essence_table]
 table=standard_rock_table
-data=rock,loc_2491
+data=rock,blankrunestone
 data=ore_name,rune stones
 data=success_message,You manage to mine an unbound rune stone.
 data=rock_output,blankrune
@@ -97,6 +97,12 @@ data=rock,macro_silverrock1
 data=rock,macro_silverrock2
 data=rock,swamp_cave_silverrock1
 data=rock,swamp_cave_silverrock2
+data=rock,craftingguild_mine_silverrock1
+data=rock,craftingguild_mine_silverrock2
+data=rock,craftingguild_mine_silverrock3
+data=rock,craftingguild_mine_macro_silverrock1
+data=rock,craftingguild_mine_macro_silverrock2
+data=rock,craftingguild_mine_macro_silverrock3
 data=ore_name,silver
 data=rock_output,silver_ore
 data=rock_level,20
