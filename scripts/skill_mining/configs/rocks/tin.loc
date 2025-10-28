@@ -31,7 +31,7 @@ param=next_loc_stage_mining,rocks2
 param=macro_gas,macro_tinrock2
 
 // todo: fabricated name
-[lightbrown_tinrock1]
+[fai_barbarian_mine_tinrock1]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_4027
@@ -46,11 +46,11 @@ mapscene=24
 blockrange=no
 ambient=10
 category=mining_rock_normal
-param=next_loc_stage_mining,rimmington_mine_rocks1_empty
+param=next_loc_stage_mining,brown_rocks1_empty
 param=macro_gas,macro_tinrock1
 
 // todo: fabricated name
-[lightbrown_tinrock2]
+[fai_barbarian_mine_tinrock2]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_4028
@@ -65,11 +65,11 @@ mapscene=25
 blockrange=no
 ambient=10
 category=mining_rock_normal
-param=next_loc_stage_mining,rimmington_mine_rocks2_empty
+param=next_loc_stage_mining,brown_rocks2_empty
 param=macro_gas,macro_tinrock1
 
 // todo: fabricated name
-[lightbrown_tinrock3]
+[fai_barbarian_mine_tinrock3]
 name=Rocks
 desc=A rocky outcrop.
 model=loc_2110
@@ -84,7 +84,7 @@ mapscene=25
 blockrange=no
 ambient=10
 category=mining_rock_normal
-param=next_loc_stage_mining,rimmington_mine_rocks3_empty
+param=next_loc_stage_mining,brown_rocks3_empty
 param=macro_gas,macro_tinrock1
 
 // todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs

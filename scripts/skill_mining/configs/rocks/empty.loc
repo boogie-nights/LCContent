@@ -240,6 +240,8 @@ op3=hidden
 mapscene=12
 blockrange=no
 ambient=10
+category=mining_rock_normal
+param=mining_rock_empty,1
 
 [wilderness_rocks2_empty]
 name=Rocks
@@ -255,6 +257,8 @@ op3=hidden
 mapscene=12
 blockrange=no
 ambient=10
+category=mining_rock_normal
+param=mining_rock_empty,1
 
 [wilderness_rocks3_empty]
 name=Rocks
@@ -270,3 +274,62 @@ op3=hidden
 mapscene=12
 blockrange=no
 ambient=10
+category=mining_rock_normal
+param=mining_rock_empty,1
+
+// these are the brown rocks 1, 2, 3 found in barb village. 
+// Fun thing, only those rocks are used no others are placed on the map.
+// Other objects of the same recolors have names like: dugupsoil1_brownmud
+// Since there's a whole suite of them though we're gonna call 'em brown_rocksN_empty
+// The darker version of these found in the Evil Chicken Lair and west of Falador are the same color as cavewall_face1_lev2_dark
+// So we're gonna call those dark_rocksN_empty
+[brown_rocks1_empty]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_4027
+recol1s=15854
+recol1d=10500
+recol2s=6342
+recol2d=10500
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=24
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=mining_rock_empty,1
+
+[brown_rocks2_empty]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_4028
+recol1s=9513
+recol1d=10500
+recol2s=6342
+recol2d=10500
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=25
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=mining_rock_empty,1
+
+[brown_rocks3_empty]
+name=Rocks
+desc=A rocky outcrop.
+model=loc_2110
+recol1s=9513
+recol1d=10500
+recol2s=6342
+recol2d=10500
+op1=Mine
+op2=Prospect
+op3=hidden
+mapscene=25
+blockrange=no
+ambient=10
+category=mining_rock_normal
+param=mining_rock_empty,1
