@@ -137,7 +137,7 @@ timer=20
 strength=10
 // attack and hp is completely guessed
 attack=50
-hitpoints=25
+hitpoints=255
 // these ranges are based off https://www.youtube.com/watch?v=ohRbhtCRL2c&list=PLn23LiLYLb1bhaCSJgRd1zQet3DFcY0yG&index=4
 wanderrange=3
 maxrange=3
@@ -850,7 +850,7 @@ category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
-// param=defend_sound,
+// param=defend_sound, TODO Try to figure out what the original sound was.
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
 // defend_sound blade3_mail
@@ -886,10 +886,10 @@ category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
-// param=defend_sound,
+// param=defend_sound, TODO Try to figure out what the original sound was.
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
-// defend_sound blade3_mail
+// defend_sound blade3_mail (This information is taken from watchman.)
 
 [macro_watchman3]
 name=Watchman
@@ -921,10 +921,10 @@ category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
-// param=defend_sound,
+// param=defend_sound, TODO Try to figure out what the original sound was.
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
-// defend_sound blade3_mail
+// defend_sound blade3_mail (This information is taken from watchman.)
 
 [macro_watchman4]
 name=Watchman
@@ -956,10 +956,10 @@ category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
-// param=defend_sound,
+// param=defend_sound, TODO Try to figure out what the original sound was.
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
-// defend_sound blade3_mail
+// defend_sound blade3_mail (This information is taken from watchman.)
 
 [macro_watchman5]
 name=Watchman
@@ -991,10 +991,10 @@ category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
-// param=defend_sound,
+// param=defend_sound, TODO Try to figure out what the original sound was.
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
-// defend_sound blade3_mail
+// defend_sound blade3_mail (This information is taken from watchman.)
 
 [macro_watchman6]
 name=Watchman
@@ -1026,10 +1026,10 @@ category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
-// param=defend_sound,
+// param=defend_sound, TODO Try to figure out what the original sound was.
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
-// defend_sound blade3_mail
+// defend_sound blade3_mail (This information is taken from watchman.)
 
 [brownimp]
 name=Brownie
@@ -1283,7 +1283,7 @@ model1=model_loc_1293_8
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,loc_1276
+param=ent_tree_loc,tree
 
 [macro_ent_tree2]
 vislevel=hide
@@ -1302,7 +1302,7 @@ model1=model_loc_1293_8
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,loc_1276
+param=ent_tree_loc,tree
 
 [macro_ent_dead_tree1]
 vislevel=hide
@@ -1321,7 +1321,7 @@ model1=model_loc_1293_8
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,loc_1276
+param=ent_tree_loc,tree
 
 [macro_ent_dead_tree2]
 vislevel=hide
@@ -1339,7 +1339,7 @@ model1=model_loc_1293_8
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,loc_1276
+param=ent_tree_loc,tree
 
 [macro_ent_oak]
 vislevel=hide
@@ -1358,7 +1358,7 @@ model1=model_loc_1293_8
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,oak_tree
+param=ent_tree_loc,oaktree
 
 [macro_ent_willow]
 vislevel=hide
@@ -1452,14 +1452,14 @@ model7=model_2992_npc
 head1=model_4_npc_head
 head2=model_6_npc_head
 // https://youtu.be/Ww-PkAr4vt4?list=PLn23LiLYLb1Y3P9S9qZbijcJihiD416jT
-wanderrange=10
-maxrange=10
+wanderrange=50
+maxrange=52
 timer=10
+// https://youtu.be/azxoPxBRe3c
+hitpoints=255
 attack=50
 strength=1
 param=attack_anim,dwarf_stone_launch
-param=defend_anim,dwarf_block
-param=death_anim,dwarf_death
 param=attackrate,4
 param=attack_sound,thrown
 // stats are completely guessed

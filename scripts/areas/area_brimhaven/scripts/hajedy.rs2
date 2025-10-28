@@ -1,6 +1,6 @@
-[oploc1,loc_2230] ~mesbox("A sturdy travelling cart built for long trips through jungle areas."); // rsc
+[oploc1,brimhavencart] ~mesbox("A sturdy travelling cart built for long trips through jungle areas."); // rsc
 
-[oploc2,loc_2230]
+[oploc2,brimhavencart]
 ~mesbox("This looks like a sturdy travelling cart.|A nearby man walks over to you."); // rsc
 if(npc_find(coord, brimhavencartdriver, 7, 0) = true) {
     @brimhavencartdriver_dialogue;
@@ -14,7 +14,7 @@ if(inv_total(inv, trail_clue_medium_anagram005) > 0) {
     return;
 }
 // https://youtu.be/q7wrja-4s4A?si=rjWL42YDxEM1p2KW&t=286
-if(%zombiequeen_progress < ^zombiequeen_complete) {
+if(%zombiequeen < ^zombiequeen_complete) {
     ~chatnpc("<p,sad>We used to run cart trips down to Shilo Village in south Karamja. Since the troubles we had we've had to stop them though, too many people got killed.");
     return;
 }
@@ -23,7 +23,7 @@ if(%zombiequeen_progress < ^zombiequeen_complete) {
 @brimhavencartdriver_dialogue;
 
 [label,brimhavencartdriver_dialogue]
-if(%zombiequeen_progress < ^zombiequeen_complete) {
+if(%zombiequeen < ^zombiequeen_complete) {
     ~chatnpc("<p,sad>We used to run cart trips down to Shilo Village in south Karamja. Since the troubles we had we've had to stop them though, too many people got killed.");
     return;
 }
