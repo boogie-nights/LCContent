@@ -97422,56 +97422,6 @@ desc=This must let me out of the arena somehow...
 model=magearena_lever_in
 op1=Pull
 
-
-
-[loc_9733]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_9726
-model2=loc_2139i2
-recol1s=15854
-recol1d=12579
-recol2s=6342
-recol2d=22025
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-anim=gas
-blockrange=no
-
-[loc_9734]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_9728
-model2=loc_2139i2
-recol1s=9513
-recol1d=12579
-recol2s=6342
-recol2d=22025
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-anim=gas
-blockrange=no
-
-[loc_9735]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_2139
-model2=loc_2139i2
-recol1s=9513
-recol1d=12579
-recol2s=6342
-recol2d=22025
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=12
-anim=gas
-blockrange=no
-
 [loc_9738]
 name=Ruined Pillar
 desc=An old crumbled pillar.
@@ -112336,51 +112286,6 @@ width=2
 op1=Empty
 forceapproach=east
 sharelight=yes
-
-[loc_11189]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_4027
-recol1s=15854
-recol1d=12579
-recol2s=6342
-recol2d=22025
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=24
-blockrange=no
-ambient=10
-
-[loc_11190]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_4028
-recol1s=9513
-recol1d=12579
-recol2s=6342
-recol2d=22025
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=25
-blockrange=no
-ambient=10
-
-[loc_11191]
-name=Rocks
-desc=A rocky outcrop.
-model=loc_2110
-recol1s=9513
-recol1d=12579
-recol2s=6342
-recol2d=22025
-op1=Mine
-op2=Prospect
-op3=hidden
-mapscene=25
-blockrange=no
-ambient=10
 
 [loc_11192]
 name=Rocks

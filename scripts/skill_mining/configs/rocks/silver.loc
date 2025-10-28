@@ -80,6 +80,7 @@ blockrange=no
 ambient=10
 category=mining_rock_normal
 param=next_loc_stage_mining,craftingguild_mine_rocks1_empty
+param=macro_gas,craftingguild_mine_macro_silverrock1
 
 [craftingguild_mine_silverrock2]
 name=Rocks
@@ -97,6 +98,7 @@ blockrange=no
 ambient=10
 category=mining_rock_normal
 param=next_loc_stage_mining,craftingguild_mine_rocks2_empty
+param=macro_gas,craftingguild_mine_macro_silverrock2
 
 [craftingguild_mine_silverrock3]
 name=Rocks
@@ -114,3 +116,4 @@ blockrange=no
 ambient=10
 category=mining_rock_normal
 param=next_loc_stage_mining,craftingguild_mine_rocks3_empty
+param=macro_gas,craftingguild_mine_macro_silverrock3

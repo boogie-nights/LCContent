@@ -49,7 +49,7 @@ mapscene=12
 anim=gas
 blockrange=no
 category=mining_rock_macro_gas
-param=macro_gas,craftingguild_mine_macro_silverrock1
+
 
 // todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
 [craftingguild_mine_macro_silverrock2]
@@ -68,7 +68,6 @@ mapscene=12
 anim=gas
 blockrange=no
 category=mining_rock_macro_gas
-param=macro_gas,craftingguild_mine_macro_silverrock2
 
 // todo: Named using surrounding locs and prif_mine_rocks1/prif_mine_ironrock1 format from osrs
 [craftingguild_mine_macro_silverrock3]
@@ -87,4 +86,3 @@ mapscene=12
 anim=gas
 blockrange=no
 category=mining_rock_macro_gas
-param=macro_gas,craftingguild_mine_macro_silverrock3

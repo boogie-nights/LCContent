@@ -9731,9 +9731,9 @@
 9730=craftingguild_mine_macro_silverrock1
 9731=craftingguild_mine_macro_silverrock2
 9732=craftingguild_mine_macro_silverrock3
-9733=loc_9733
-9734=loc_9734
-9735=loc_9735
+9733=craftingguild_mine_macro_clayrock1
+9734=craftingguild_mine_macro_clayrock2
+9735=craftingguild_mine_macro_clayrock3
 9736=craftingguild_mine_rocks1_empty
 9737=craftingguild_mine_rocks2_empty
 9738=loc_9738
@@ -11187,9 +11187,9 @@
 11186=craftingguild_mine_silverrock1
 11187=craftingguild_mine_silverrock2
 11188=craftingguild_mine_silverrock3
-11189=loc_11189
-11190=loc_11190
-11191=loc_11191
+11189=craftingguild_mine_clayrock1
+11190=craftingguild_mine_clayrock2
+11191=craftingguild_mine_clayrock3
 11192=loc_11192
 11193=loc_11193
 11194=loc_11194

@@ -4,19 +4,19 @@
 // 432=mine
 
 // Normal Rocks
-[oploc1,_mining_rock_normal] @mining_firstswing(get_ore_fast);
-[oploc3,_mining_rock_normal] @mining_continue(get_ore_fast);
+[oploc1,_mining_rock_normal] @mining_firstswing(get_ore_standard_rock);
+[oploc3,_mining_rock_normal] @mining_continue(get_ore_standard_rock);
 
 // Fast Rocks: Iron, Sandstone, Granite
-[oploc1,_mining_rock_fast] @mining_firstswing(get_ore_fast);
-[oploc3,_mining_rock_fast] @mining_continue(get_ore_fast);
+[oploc1,_mining_rock_fast] @mining_firstswing(get_ore_standard_rock);
+[oploc3,_mining_rock_fast] @mining_continue(get_ore_standard_rock);
 
 [label,mining_firstswing](label $get_ore)
 def_int $is_empty = loc_param(mining_rock_empty);
 if ($is_empty = ^true) {
     anim(null, 0);
     mes("There is no ore currently available in this rock.");
-   // sound_synth(prospect, 0, 0);
+    sound_synth(prospect, 0, 0);
     return;
 }
 
@@ -98,7 +98,7 @@ if ($pickaxe = null) {
 def_int $mining_rate = oc_param($pickaxe, mining_rate);
 
 // sounds and skill anim is based off https://youtu.be/ix4_VVi9Xm4
-//sound_synth(mine_quick, 0, 0);
+ sound_synth(mine_quick, 0, 0);
 
 // if roll is due
 if (%action_delay < map_clock) {
@@ -109,7 +109,7 @@ if (%action_delay < map_clock) {
 }
 p_oploc(3);
 
-[label,get_ore_fast]
+[label,get_ore_standard_rock]
 db_find(standard_rock_table:rock, loc_type);
 def_dbrow $data = db_findnext;
 if ($data = null) {
