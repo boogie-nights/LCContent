@@ -131,12 +131,10 @@ if (stat_random(mining, db_getfield($data, standard_rock_table:rock_successchanc
 p_oploc(3);
 
 [label,give_ore](dbrow $data)
-
 // They added a 1t p_delay in this update: https://oldschool.runescape.wiki/w/Update:Special_Attacks
 // I'm assuming this had only applied to non-fast rocks based on 244/245 code
 if (loc_category = mining_rock_normal) {
     p_delay(0);
-    mes("We p_delayed, boss.");
 }
 
 // Determine respawn timer for rock, and update the loc to the depleted version.
