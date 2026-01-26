@@ -1,0 +1,6 @@
+[login,_]
+buildappearance(worn);
+
+if_opentop(toplevel);
+
+mes("Welcome to RuneScape.");
