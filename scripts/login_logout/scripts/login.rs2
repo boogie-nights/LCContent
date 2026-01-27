@@ -3,4 +3,24 @@ buildappearance(worn);
 
 if_opentop(toplevel);
 
+if_opensub(chat, toplevel:chattop_container, 3);
+if_opensub(chatdefault, chat:chatdefault, 3);
+if_opensub(filterbuttons, toplevel:filterbuttons, 3);
+
+if_opensub("combat-unarmed", toplevel:side0, 3);
+if_opensub(stats, toplevel:side1, 3);
+if_opensub(questjournal_v2, toplevel:side2, 3);
+if_opensub(inventory, toplevel:side3, 3);
+if_opensub(wornitems, toplevel:side4, 3);
+if_opensub(prayer, toplevel:side5, 3);
+if_opensub(magic, toplevel:side6, 3);
+// if_opensub(lore_stats_side, toplevel:side7, 3);
+if_opensub(friends2, toplevel:side8, 3);
+if_opensub(ignore2, toplevel:side9, 3);
+if_opensub(clanjoin, toplevel:side10, 3);
+if_opensub(options, toplevel:side11, 3);
+if_opensub(emotes, toplevel:side12, 3);
+if_opensub(music_v3, toplevel:side13, 3);
+if_opensub(logout, toplevel:side99, 3);
+
 mes("Welcome to RuneScape.");

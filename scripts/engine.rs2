@@ -214,8 +214,6 @@
 [command,stat](stat $stat)(int)
 // info: Get the current level of $stat (different than base) for the secondary player
 [command,.stat](stat $stat)(int)
-// info: Get the total level of the player
-[command,stat_total]()(int)
 // info: Get the base level of $stat
 [command,stat_base](stat $stat)(int)
 // info: Get the base level of $stat for the secondary player
@@ -258,14 +256,6 @@
 [command,if_setangle](component $component, int $xan, int $yan, int $zoom)
 // info: Set a component's colour
 [command,if_setcolour](component $component, int $colour)
-// info: Open a modal in the chat box
-[command,if_openchat](interface $interface)
-// info: Open a modal in the chat box for the secondary player
-[command,.if_openchat](interface $interface)
-// info: Open two modals, one in the main viewport and one on the side tab
-[command,if_openmain_side](interface $interface1, interface $interface2)
-// info: Open two modals for the secondary player, one in the main viewport and one on the side tab
-[command,.if_openmain_side](interface $interface1, interface $interface2)
 // info: Hide a component
 [command,if_sethide](component $component, boolean $hide)
 // info: Hide a component for the secondary player
@@ -278,18 +268,8 @@
 [command,if_setmodel](component $component, int $model)
 // info: Set a model component's x and y angular velocity. 
 [command,if_setrotation](component $component, int $xAngleSpeed, int $yAngleSpeed)
-// info: Recolor a component's model
-[command,if_setrecol](component $component, int $src, int $dest)
-// info: Open the tutorial modal mode ("sticky" interface)
-[command,tut_open](interface $interface)
-// info: Close the tutorial modal mode (back to normal gameplay)
-[command,tut_close]
-// info: Flash a side tab icon
-[command,tut_flash](int $tab)
 // info: Set a component's model animation
 [command,if_setanim](component $component, seq $anim)
-// info: Set a component's model animation for the secondary player
-[command,.if_setanim](component $component, seq $anim)
 // info: Set a side tab to a specific interface
 [command,if_settab](interface $interface, int $tab)
 // info: Set a side tab to a specific interface for the secondary player
@@ -298,18 +278,6 @@
 [command,if_settabactive](int $tab)
 // info: Change the secondary player's open side tab
 [command,.if_settabactive](int $tab)
-// info: Open a modal in the main viewport
-[command,if_openmain](interface $interface)
-// info: Open a modal in the main viewport for the secondary player
-[command,.if_openmain](interface $interface)
-// info: Open an overlay in the main viewport
-[command,if_openoverlay](interface $interface)
-// info: Open an overlay in the main viewport for the secondary player
-[command,.if_openoverlay](interface $interface)
-// info: Open a modal in the side tab
-[command,if_openside](interface $interface)
-// info: Open a fullscreen interface
-[command,if_openfull](interface $overlayInterface, interface $mainInterface)
 // info: Set a component's model to the local player's chat head
 [command,if_setplayerhead](component $component)
 // info: Set a component's text
@@ -320,8 +288,6 @@
 [command,if_setnpchead](component $component, npc $npc)
 // info: Reposition a component
 [command,if_setposition](component $component, int $x, int $y);
-// info: Reposition a component for the secondary player
-[command,.if_setposition](component $component, int $x, int $y);
 // info: Give xp in a stat
 [command,stat_advance](stat $stat, int $exp)
 // info: Hurt a player
@@ -338,12 +304,8 @@
 [command,midi_song](string $song)
 // info: Play a jingle (advancing levels, completing quests, ...)
 [command,midi_jingle](string $jingle, int $length)
-// info: Play a jingle (advancing levels, completing quests, ...) on the secondary active_player
-[command,.midi_jingle](string $jingle, int $length)
 // info: Change the active_player type of minimap displayed
 [command,minimap_toggle](int $type)
-// info: Change the secondary active_player type of minimap displayed
-[command,.minimap_toggle](int $type)
 // info: Show the hint arrow at $coord
 [command,hint_coord](int $offset, coord $coord, int $height)
 // info: Start a softtimer on the active_player
@@ -378,10 +340,6 @@
 [command,queue](queue $queue, int $delay) // + args
 // info: Queue a script on the secondary player
 [command,.queue](queue $queue, int $delay) // + args
-// info: Queue a script on the player (var args)
-// [command,queue*](queue $queue, int $delay)
-// info: Queue a script on the secondary player (var args)
-// [command,.queue*](queue $queue, int $delay)
 // info: Long queue a script on a player with special behavior if it hasn't ran by the time the player logs out
 [command,longqueue](queue $queue, int $delay, int $logout_action) // + args
 // info: Long queue a script on a secondary player with special behavior if it hasn't ran by the time the player logs out
@@ -486,10 +444,6 @@
 [command,lowmemory]()(boolean)
 // info: Set the player's identity kit
 [command,setidkit](idkit $kit, int $color)
-// info: Set the player's skill level for games room
-[command,set_skill_level](int $level)
-// info: Set the player's skill level for games room
-[command,.set_skill_level](int $level)
 // info: Set the active_player to the hero that's done the most damage to the current active_player
 [command,findhero]()(boolean)
 // info: Set the secondary active_player to the hero that's done the most damage to the current secondary active_player
@@ -520,6 +474,9 @@
 [command,playermember]()(int)
 // info: set an option for a player
 [command,set_player_op](string $text, int $index, int $primary)
+
+[command,if_opentop](interface $if)
+[command,if_opensub](interface $if, component $com, int $type)
 
 // Npc ops (2500-2999)
 // info: Get access to the npc if they are in the world
