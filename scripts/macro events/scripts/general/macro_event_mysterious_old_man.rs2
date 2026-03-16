@@ -3,6 +3,7 @@ spotanim_map(smokepuff, npc_coord, 124, 0);
 sound_synth(smokepuff, 0, 0);
 npc_anim(emote_bow, 20);
 npc_say("Greetings <displayname>!");
+p_delay(1);
 %npc_macro_event_target = uid;
 
 // to match genie in this video: https://www.youtube.com/watch?v=el-h9hbSH80&t=293s
@@ -35,7 +36,7 @@ if (finduid(%npc_macro_event_target) = true) {
         npc_anim(human_castteleport, 0);
         %macro_event = ^no_macro_event;
         // https://youtu.be/Ai89wqupYqA?t=45
-        queue(macro_event_fail_teleport, 0);
+        queue(macro_event_fail_teleport, 0, 0);
         npc_delay(0);
         npc_del;
         return;
@@ -69,6 +70,7 @@ if (%npc_int = ^mysterious_old_man_happy) {
     ~chatnpc("<p,neutral>Goodbye.");
     return;
 }
+
 %npc_int = ^mysterious_old_man_happy;
 %macro_event = ^no_macro_event;
 inv_add(inv, ~macro_mysterious_old_man_reward);

@@ -1,8 +1,14 @@
 [opplayer1,_]
 if (.busy = true) {
-    mes("<.displayname> is busy at the moment."); // https://youtu.be/YkJQDvB14-U?t=26
+    mes("Other player is busy at the moment."); // https://youtu.be/YkJQDvB14-U?t=26
     return;
 }
+
+if (map_members = ^false) { // theres an area f2p worlds have access to that lets you duel other players
+    mes(^mes_members_do_that); // guess
+    return;
+}
+
 // prevent people from dueling in a duel or if you arent in the duel area
 if (~in_duel_arena(coord) = true | ~inzone_coord_pair_table(duel_arena_zones, coord) = false) {
     mes("You can't do that here."); // https://youtu.be/nUwvlFkcsqA?t=17
@@ -11,10 +17,6 @@ if (~in_duel_arena(coord) = true | ~inzone_coord_pair_table(duel_arena_zones, co
 // if the other player isnt in the duel area
 if (~inzone_coord_pair_table(duel_arena_zones, .coord) = false) {
     mes("That player is not in the duel challenge area."); // https://youtu.be/YlnPnlfgMQ4?t=51
-    return;
-}
-if (map_members = ^false) { // theres an area f2p worlds have access to that lets you duel other players
-    mes(^mes_members_do_that); // guess
     return;
 }
 
@@ -137,7 +139,7 @@ if (.finduid(%duel2accept) = true & ~enough_duel_space = true) { // https://yout
         %duelstatus = ^duelstatus_accept;
         .%duelstatus = ^duelstatus_accept;
     } else {
-        .if_settext(duel_select_type:status, "Other player has accepted...");
+        .if_settext(duel_select_type:status, "Other player has accepted.");
         if_settext(duel_select_type:status, "Waiting for other player...");
     }
 }
@@ -202,11 +204,11 @@ if (.finduid(%duel2accept) = true) {
 
         if_close;
         .if_close;
-        queue(duel_arena_prepare_start, 0);
-        .queue(duel_arena_prepare_start, 0);
+        queue(duel_arena_prepare_start, 0, 0);
+        .queue(duel_arena_prepare_start, 0, 0);
     } else {
         .if_settext(duel_confirm:status, "Other player has accepted."); // https://youtu.be/HFp6hOkiCns?t=481
-        if_settext(duel_confirm:status, "Waiting for other player."); 
+        if_settext(duel_confirm:status, "Waiting for other player..."); 
     }
 }
 
@@ -274,7 +276,6 @@ if (.finduid(%duel2accept) = true) {
     .if_settext(duel_select_type:status, "");
 }
 
-// ---
 
 [proc,duel_arena_checks]()(boolean)
 if (~inzone_coord_pair_table(duel_arena_zones, coord) = true & ~in_duel_arena(coord) = false) {
@@ -317,7 +318,7 @@ if (.finduid(%duel2accept) = true) {
     .%duelstatus = ^duelstatus_reset;
     .%duel2accept = null;
     .if_close;
-    .queue(duel_arena_disconnect, 0);
+    .queue(duel_arena_disconnect, 0, 0);
 }
 %duelstatus = ^duelstatus_reset;
 %duel2accept = null;

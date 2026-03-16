@@ -5,8 +5,6 @@
 
 ^macro_triffidseed = 5
 
-^macro_bigfish = 6
-
 ^no_macro_event = 0
 
 ^macro_event_none = 0
@@ -35,3 +33,5 @@
 ^macro_event_cmb_79 = 4
 ^macro_event_cmb_120 = 5
 ^macro_event_cmb_159 = 6
+
+^members_macro_count = 1

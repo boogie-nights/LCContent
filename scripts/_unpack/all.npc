@@ -2286,6 +2286,7 @@ param=death_anim,giantrat_death
 param=attack_sound,rat_attack
 param=defend_sound,rat_hit
 param=death_sound,rat_death
+category=giantrat
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2856
 
@@ -2314,6 +2315,7 @@ param=defend_sound,rat_hit
 param=death_sound,rat_death
 huntmode=cowardly
 huntrange=1
+category=giantrat
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2862
 
@@ -4430,6 +4432,7 @@ param=attack_anim,human_unarmedkick
 param=attack_sound,unarmed_kick
 param=defend_sound,female_hit
 param=death_sound,female_death
+category=witch
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_514
 
 [witch2]
@@ -4467,6 +4470,7 @@ param=attack_anim,human_unarmedkick
 param=attack_sound,unarmed_kick
 param=defend_sound,female_hit
 param=death_sound,female_death
+category=witch
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_515
 
 [black_knight]
@@ -5920,7 +5924,7 @@ huntrange=4
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_260
 // and this variation have old stats npc_13010
 
-[cow3]
+[cow_beef]
 size=2
 walkanim=cow_walk
 readyanim=cow_ready

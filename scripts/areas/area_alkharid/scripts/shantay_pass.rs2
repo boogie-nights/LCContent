@@ -21,9 +21,10 @@ if (map_members = ^false) {
     mes(^mes_members_gate); // guess
     return;
 }
-//https://youtu.be/VXwMnz9tTUs
+// - 2007: https://youtu.be/VXwMnz9tTUs
+// - 2006: https://youtu.be/QzWqkSuYLDQ
 if (inv_total(inv, thshantaydisc) < 1) {
-    ~mesbox("There is a large billboard poster near the gateway. It reads:");
+    ~mesbox("There is a large poster on the wall near the gateway. It reads:");
     ~mesbox("The Desert is a VERY Dangerous place. Do not enter if|you are scared of dying. Beware of high temperatures,|sand storms, robbers, and slavers.");
     ~mesbox("That seems pretty scary! Are you sure you want to go through?");
     $choice = ~p_choice2_header("Yeah, that poster doesn't scare me!", 1, "No, I'm having serious second thoughts now.", 2, "Go into Desert?");
@@ -35,7 +36,7 @@ if (inv_total(inv, thshantaydisc) < 1) {
 ~objbox(shantay_pass, "You hand over a Shantay Pass.", 250, 0, 0);
 ~chatplayer("<p,neutral>Sure, here you go!");
 inv_del(inv, shantay_pass, 1);
-queue(shantay_pass_enter, 0);
+queue(shantay_pass_enter, 0, 0);
 if (inv_total(inv, thshantaydisc) < 1) {
     inv_add(inv, thshantaydisc, 1);
     ~chatnpc("<p,neutral>Here, have a disclaimer... It means that Shantay isn't|responsible if you die in the desert.");
@@ -56,7 +57,7 @@ if (%shantay_jail_progress = ^put_in_shantay_jail & npc_find(coord, shantay, 12,
 
 ~open_and_close_metal_gate(poshdooropen, $is_inside, false);
 
-[oploc1,shantay_pass]
+[oploc1,shantay_pass_henge_doorway]
 if (map_members = ^false) {
     mes(^mes_members_gate); // guess
     return;
@@ -81,7 +82,7 @@ if (inv_total(inv, shantay_pass) < 1) {
 }
 //https://youtu.be/VXwMnz9tTUs
 if (inv_total(inv, thshantaydisc) < 1) {
-    ~mesbox("There is a large billboard poster near the gateway. It reads:");
+    ~mesbox("There is a large poster on the wall near the gateway. It reads:");
     ~mesbox("The Desert is a VERY Dangerous place. Do not enter if|you are scared of dying. Beware of high temperatures,|sand storms, robbers, and slavers.");
     ~mesbox("That seems pretty scary! Are you sure you want to go through?");
     def_int $choice = ~p_choice2_header("Yeah, that poster doesn't scare me!", 1, "No, I'm having serious second thoughts now.", 2, "Go into Desert?");
@@ -93,7 +94,7 @@ if (inv_total(inv, thshantaydisc) < 1) {
 ~objbox(shantay_pass, "You hand over a Shantay Pass.", 250, 0, 0);
 ~chatplayer("<p,neutral>Sure, here you go!");
 inv_del(inv, shantay_pass, 1);
-queue(shantay_pass_enter, 0);
+queue(shantay_pass_enter, 0, 0);
 if (inv_total(inv, thshantaydisc) < 1) {
     inv_add(inv, thshantaydisc, 1);
     ~chatnpc("<p,neutral>Here, have a disclaimer... It means that Shantay isn't|responsible if you die in the desert.");
@@ -110,7 +111,7 @@ p_telejump(movecoord(coord, 0, 0, -3));
 
 
 
-[oploc2,shantay_pass]
+[oploc2,shantay_pass_henge_doorway]
 ~mesbox("You look at the huge stone gate.|Near the gate is a large billboard poster, it reads:");
 // different than osrs https://web.archive.org/web/20060428031722/http://www.runecrypt.com:80/index.php?pid=202
 ~mesbox("The Desert is a VERY Dangerous place. Do not enter if|you are scared of dying. Beware of high temperatures,|sand storms, robbers, and slavers.");

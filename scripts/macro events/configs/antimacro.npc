@@ -38,6 +38,7 @@ param=death_anim,triffid_angry_death
 param=death_drop,null
 param=attack_sound,triffid_attack
 param=defend_sound,null
+param=death_sound,null
 // npc has no defend sound at all? or it uses the attack sound also as the defend sound.
 // I'm not sure, try to find out the information. temporary change defendsound -> null
 param=max_dealt,3
@@ -143,10 +144,13 @@ wanderrange=3
 maxrange=3
 // attack rate is 7 ticks https://youtu.be/5NgTccJZh1o
 param=attackrate,7
+param=damagetype,^stab_style
+param=attack_anim,swarm_attack
+param=defend_anim,swarm_block
+param=death_anim,null
 param=attack_sound,swarm_attack
-param=attack_anim,swarm_block
 param=defend_sound,null
-param=defend_anim,swarm_attack
+param=death_sound,null
 param=death_drop,null
 param=combat_xp_multiplier,25
 param=max_dealt,0
@@ -184,7 +188,7 @@ param=attack_sound,terrorbird_attack
 param=defend_sound,terrorbird_hit
 param=death_sound,terrorbird_death
 
-[macro_rockgolem1]
+[macro_golemguardian_1]
 name=Rock Golem
 desc=Rock with attitude.
 size=2
@@ -209,16 +213,17 @@ attack=9
 strength=9
 defence=9
 ranged=8
-category=macro_event_rock_golem
 param=attack_anim,golem_attack
 param=defend_anim,golem_block
 param=death_anim,golem_death
 param=attack_sound,golem_attack
-param=defend_sound,golem_hit
-param=death_sound,golem_death
+param=defend_sound,null
+param=death_sound,null
 param=death_drop,null
+category=macro_event_rock_golem
+param=combat_xp_multiplier,25
 
-[macro_rockgolem2]
+[macro_golemguardian_2]
 name=Rock Golem
 desc=Rock with attitude.
 size=2
@@ -242,16 +247,17 @@ attack=22
 strength=22
 defence=22
 ranged=20
-category=macro_event_rock_golem
 param=attack_anim,golem_attack
 param=defend_anim,golem_block
 param=death_anim,golem_death
 param=attack_sound,golem_attack
-param=defend_sound,golem_hit
-param=death_sound,golem_death
+param=defend_sound,null
+param=death_sound,null
 param=death_drop,null
+category=macro_event_rock_golem
+param=combat_xp_multiplier,25
 
-[macro_rockgolem3]
+[macro_golemguardian_3]
 name=Rock Golem
 desc=Rock with attitude.
 size=2
@@ -275,16 +281,17 @@ attack=38
 strength=38
 defence=38
 ranged=35
-category=macro_event_rock_golem
 param=attack_anim,golem_attack
 param=defend_anim,golem_block
 param=death_anim,golem_death
 param=attack_sound,golem_attack
-param=defend_sound,golem_hit
-param=death_sound,golem_death
+param=defend_sound,null
+param=death_sound,null
 param=death_drop,null
+category=macro_event_rock_golem
+param=combat_xp_multiplier,25
 
-[macro_rockgolem4]
+[macro_golemguardian_4]
 name=Rock Golem
 desc=Rock with attitude.
 size=2
@@ -308,16 +315,17 @@ attack=65
 strength=65
 defence=65
 ranged=70
-category=macro_event_rock_golem
 param=attack_anim,golem_attack
 param=defend_anim,golem_block
 param=death_anim,golem_death
 param=attack_sound,golem_attack
-param=defend_sound,golem_hit
-param=death_sound,golem_death
+param=defend_sound,null
+param=death_sound,null
 param=death_drop,null
+category=macro_event_rock_golem
+param=combat_xp_multiplier,25
 
-[macro_rockgolem5]
+[macro_golemguardian_5]
 name=Rock Golem
 desc=Rock with attitude.
 size=2
@@ -341,16 +349,17 @@ attack=100
 strength=100
 defence=100
 ranged=75
-category=macro_event_rock_golem
 param=attack_anim,golem_attack
 param=defend_anim,golem_block
 param=death_anim,golem_death
 param=attack_sound,golem_attack
-param=defend_sound,golem_hit
-param=death_sound,golem_death
+param=defend_sound,null
+param=death_sound,null
 param=death_drop,null
+category=macro_event_rock_golem
+param=combat_xp_multiplier,25
 
-[macro_rockgolem6]
+[macro_golemguardian_6]
 name=Rock Golem
 desc=Rock with attitude.
 size=2
@@ -374,14 +383,15 @@ attack=130
 strength=130
 defence=130
 ranged=80
-category=macro_event_rock_golem
 param=attack_anim,golem_attack
 param=defend_anim,golem_block
 param=death_anim,golem_death
 param=attack_sound,golem_attack
-param=defend_sound,golem_hit
-param=death_sound,golem_death
+param=defend_sound,null
+param=death_sound,null
 param=death_drop,null
+category=macro_event_rock_golem
+param=combat_xp_multiplier,25
 
 [macro_zombie1]
 minimap=no
@@ -639,7 +649,7 @@ param=damagetype,^crush_style
 param=attack_anim,human_sword_transslash
 param=defend_anim,human_sword_transdef
 param=death_anim,human_transdeath
-param=attack_sound,ghost_attack
+param=attack_sound,stabsword_slash
 param=defend_sound,ghost_hit
 param=death_sound,ghost_death
 param=death_drop,null
@@ -682,7 +692,7 @@ param=damagetype,^crush_style
 param=attack_anim,human_sword_transslash
 param=defend_anim,human_sword_transdef
 param=death_anim,human_transdeath
-param=attack_sound,ghost_attack
+param=attack_sound,stabsword_slash
 param=defend_sound,ghost_hit
 param=death_sound,ghost_death
 param=death_drop,null
@@ -725,7 +735,7 @@ param=damagetype,^crush_style
 param=attack_anim,human_sword_transslash
 param=defend_anim,human_sword_transdef
 param=death_anim,human_transdeath
-param=attack_sound,ghost_attack
+param=attack_sound,stabsword_slash
 param=defend_sound,ghost_hit
 param=death_sound,ghost_death
 param=death_drop,null
@@ -768,7 +778,7 @@ param=damagetype,^crush_style
 param=attack_anim,human_sword_transslash
 param=defend_anim,human_sword_transdef
 param=death_anim,human_transdeath
-param=attack_sound,ghost_attack
+param=attack_sound,stabsword_slash
 param=defend_sound,ghost_hit
 param=death_sound,ghost_death
 param=death_drop,null
@@ -807,11 +817,12 @@ hitpoints=170
 attack=130
 strength=130
 defence=130
+category=macro_event_shade
 param=damagetype,^crush_style
 param=attack_anim,human_sword_transslash
 param=defend_anim,human_sword_transdef
 param=death_anim,human_transdeath
-param=attack_sound,ghost_attack
+param=attack_sound,stabsword_slash
 param=defend_sound,ghost_hit
 param=death_sound,ghost_death
 param=death_drop,null
@@ -845,12 +856,14 @@ hitpoints=20
 attack=9
 strength=9
 defence=9
+param=damagetype,^crush_style
 // i assume the stats are identical to other random events
 category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
 // param=defend_sound, TODO Try to figure out what the original sound was.
+// guesses defend_sound blade3_mail (This information is taken from watchman.)
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
 // defend_sound blade3_mail
@@ -882,11 +895,13 @@ hitpoints=40
 attack=22
 strength=22
 defence=22
+param=damagetype,^crush_style
 category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
 // param=defend_sound, TODO Try to figure out what the original sound was.
+// guesses defend_sound blade3_mail (This information is taken from watchman.)
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
 // defend_sound blade3_mail (This information is taken from watchman.)
@@ -917,11 +932,13 @@ hitpoints=60
 attack=38
 strength=38
 defence=38
+param=damagetype,^crush_style
 category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
 // param=defend_sound, TODO Try to figure out what the original sound was.
+// guesses defend_sound blade3_mail (This information is taken from watchman.)
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
 // defend_sound blade3_mail (This information is taken from watchman.)
@@ -952,11 +969,13 @@ hitpoints=85
 attack=65
 strength=65
 defence=65
+param=damagetype,^crush_style
 category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
 // param=defend_sound, TODO Try to figure out what the original sound was.
+// guesses defend_sound blade3_mail (This information is taken from watchman.)
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
 // defend_sound blade3_mail (This information is taken from watchman.)
@@ -987,11 +1006,13 @@ hitpoints=120
 attack=100
 strength=100
 defence=100
+param=damagetype,^crush_style
 category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
 // param=defend_sound, TODO Try to figure out what the original sound was.
+// guesses defend_sound blade3_mail (This information is taken from watchman.)
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
 // defend_sound blade3_mail (This information is taken from watchman.)
@@ -1022,16 +1043,18 @@ hitpoints=170
 attack=130
 strength=130
 defence=130
+param=damagetype,^crush_style
 category=macro_event_watchman
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_def
 param=attack_sound,mace_crush
 // param=defend_sound, TODO Try to figure out what the original sound was.
+// guesses defend_sound blade3_mail (This information is taken from watchman.)
 param=damagetype,^crush_style
 param=combat_xp_multiplier,25
 // defend_sound blade3_mail (This information is taken from watchman.)
 
-[brownimp]
+[macro_brownimp]
 name=Brownie
 walkanim=imp_walk
 readyanim=imp_ready
@@ -1055,7 +1078,7 @@ param=defend_sound,imp_hit
 param=death_sound,imp_death
 // TODO
 
-[macro_dryhad1]
+[macro_dryhadguardian_1]
 name=Tree spirit
 desc=A very angry nymph.
 readyanim=dryhad_ready
@@ -1089,9 +1112,10 @@ param=death_anim,dryhad_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 
-[macro_dryhad2]
+[macro_dryhadguardian_2]
 name=Tree spirit
 desc=A very angry nymph.
 readyanim=dryhad_ready
@@ -1124,9 +1148,10 @@ param=death_anim,dryhad_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 
-[macro_dryhad3]
+[macro_dryhadguardian_3]
 name=Tree spirit
 desc=A very angry nymph.
 readyanim=dryhad_ready
@@ -1159,9 +1184,10 @@ param=death_anim,dryhad_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 
-[macro_dryhad4]
+[macro_dryhadguardian_4]
 name=Tree spirit
 desc=A very angry nymph.
 readyanim=dryhad_ready
@@ -1194,9 +1220,10 @@ param=death_anim,dryhad_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 
-[macro_dryhad5]
+[macro_dryhadguardian_5]
 name=Tree spirit
 desc=A very angry nymph.
 readyanim=dryhad_ready
@@ -1229,9 +1256,10 @@ param=death_anim,dryhad_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 
-[macro_dryhad6]
+[macro_dryhadguardian_6]
 name=Tree spirit
 desc=A very angry nymph.
 readyanim=dryhad_ready
@@ -1264,6 +1292,7 @@ param=death_anim,dryhad_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 
 [macro_ent_tree1]
@@ -1280,6 +1309,7 @@ minimap=no
 recol1s=13537
 recol1d=5218
 model1=model_loc_1293_8
+defaultmode=none
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
@@ -1299,6 +1329,7 @@ minimap=no
 recol1s=13537
 recol1d=5218
 model1=model_loc_1293_8
+defaultmode=none
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
@@ -1318,6 +1349,7 @@ minimap=no
 recol1s=13537
 recol1d=4194
 model1=model_loc_1293_8
+defaultmode=none
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
@@ -1336,6 +1368,7 @@ minimap=no
 recol1s=13537
 recol1d=4194
 model1=model_loc_1293_8
+defaultmode=none
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
@@ -1355,6 +1388,7 @@ minimap=no
 recol1s=13537
 recol1d=5218
 model1=model_loc_1293_8
+defaultmode=none
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
@@ -1374,10 +1408,11 @@ minimap=no
 recol1s=13537
 recol1d=11490
 model1=model_loc_1293_8
+defaultmode=none
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,willow_tree
+param=ent_tree_loc,willowtree
 
 [macro_ent_yew]
 vislevel=hide
@@ -1393,10 +1428,11 @@ minimap=no
 recol1s=13537
 recol1d=4194
 model1=model_loc_1293_8
+defaultmode=none
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,yew_tree
+param=ent_tree_loc,yewtree
 
 [macro_ent_maple]
 vislevel=hide
@@ -1412,9 +1448,11 @@ minimap=no
 recol1s=13537
 recol1d=13602
 model1=model_loc_1293_8
+defaultmode=none
+wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,maple_tree
+param=ent_tree_loc,mapletree
 
 [macro_ent_magic]
 vislevel=hide
@@ -1430,10 +1468,11 @@ minimap=no
 recol1s=13537
 recol1d=5218
 model1=model_loc_1293_8
+defaultmode=none
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,magic_tree
+param=ent_tree_loc,magictree
 
 [macro_dwarf]
 vislevel=hide
@@ -1455,14 +1494,15 @@ head2=model_6_npc_head
 wanderrange=50
 maxrange=52
 timer=10
-// https://youtu.be/azxoPxBRe3c
+// https://youtu.be/azxoPxBRe3c  //Video shows npc havent defend or death animation.
 hitpoints=255
 attack=50
 strength=1
-param=attack_anim,dwarf_stone_launch
-param=attackrate,4
-param=attack_sound,thrown
 // stats are completely guessed
+param=attackrate,4
+param=attack_anim,dwarf_stone_launch
+param=defend_anim,null
+param=death_anim,null
 // TODO sounds
 
 [macro_bigfish]
@@ -1478,7 +1518,7 @@ defaultmode=none
 wanderrange=0
 moverestrict=nomove
 
-[macro_rivertroll1]
+[macro_rivertrollguardian_1]
 name=River troll
 desc=
 desc=Likes fish... hates people.
@@ -1508,10 +1548,11 @@ param=death_anim,troll_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 category=macro_event_river_troll
 
-[macro_rivertroll2]
+[macro_rivertrollguardian_2]
 name=River troll
 desc=
 desc=Likes fish... hates people.
@@ -1540,10 +1581,11 @@ param=death_anim,troll_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 category=macro_event_river_troll
 
-[macro_rivertroll3]
+[macro_rivertrollguardian_3]
 name=River troll
 desc=
 desc=Likes fish... hates people.
@@ -1572,10 +1614,11 @@ param=death_anim,troll_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 category=macro_event_river_troll
 
-[macro_rivertroll4]
+[macro_rivertrollguardian_4]
 name=River troll
 desc=
 desc=Likes fish... hates people.
@@ -1604,10 +1647,11 @@ param=death_anim,troll_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 category=macro_event_river_troll
 
-[macro_rivertroll5]
+[macro_rivertrollguardian_5]
 name=River troll
 desc=
 desc=Likes fish... hates people.
@@ -1636,10 +1680,11 @@ param=death_anim,troll_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 category=macro_event_river_troll
 
-[macro_rivertroll6]
+[macro_rivertrollguardian_6]
 name=River troll
 desc=
 desc=Likes fish... hates people.
@@ -1668,6 +1713,7 @@ param=death_anim,troll_death
 param=attack_sound,null
 param=defend_sound,null
 param=death_sound,null
+param=death_drop,null
 param=combat_xp_multiplier,25
 category=macro_event_river_troll
 

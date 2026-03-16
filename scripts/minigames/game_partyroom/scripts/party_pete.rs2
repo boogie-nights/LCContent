@@ -37,5 +37,3 @@ switch_int(~p_choice4("So what's this room for?", 1, "What's the big lever over 
         if_close;
         npc_anim(partyroom_dance, 0);
 }
-
-// todo (for later versions): ai_timer to auto clean up the party chest (27 Jul 2004 and later will do this)

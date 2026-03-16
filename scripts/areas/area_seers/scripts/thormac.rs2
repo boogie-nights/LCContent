@@ -65,7 +65,7 @@ if(inv_total(inv, scorpioncageempty) = 0) {
 if(inv_total(inv,scorpioncagefull) > 0) {
     ~chatplayer("<p,happy>I have retrieved all your scorpions.");
     ~chatnpc("<p,happy>Aha, my little scorpions home at last!");
-    queue(scorpcatcher_quest_complete, 0);
+    queue(scorpcatcher_quest_complete, 0, 0);
     return;
 }
 if(inv_total(bank, scorpioncagefull) > 0) {
@@ -100,7 +100,6 @@ def_int $option = ~p_choice2("That's ok.", 1, "You said you'd enchant my battles
 if($option = 1) {
     ~chatplayer("<p,happy>That's ok.");
 } else if($option = 2) {
-    // 1-1 with RSC but changed battlestaff names to match RS2
     ~chatplayer("<p,quiz>You said you'd enchant my battlestaff for me.");
     ~chatnpc("<p,neutral>Yes, it'll cost you 40,000 coins for the materials needed though. Which sort of staff did you want enchanting?");
     switch_int (~p_choice5("Fire battlestaff.", 1, "Water battlestaff.", 2, "Air battlestaff.", 3, "Earth battlestaff.", 4, "I won't bother yet actually.", 5)) {
@@ -112,17 +111,16 @@ if($option = 1) {
     }
 }
 
-[label,thormac_makestaff](string $staff_name, namedobj $bstaff, namedobj $enchantedstaff) 
-~chatplayer("<p,happy><$staff_name> please.");
+[label,thormac_makestaff](string $staff_name, namedobj $bstaff, namedobj $enchantedstaff)
 if(inv_total(inv, $bstaff) = 0) {
-    ~chatplayer("<p,sad>I don't have <~add_article(lowercase($staff_name))> yet though.");
+    mes("You don't have <~add_article(lowercase($staff_name))>.");
     return;
 }
 if(inv_total(inv, coins) < 40000) {
-    ~chatplayer("<p,sad>I'll just get the money for you.");
+    ~mesbox("You need 40,000 coins to pay Thormac.");
     return;
 }
 inv_del(inv, coins, 40000);
 inv_del(inv, $bstaff, 1);
 inv_add(inv, $enchantedstaff, 1);
-mes("Thormac enchants your staff.");
+mes("Thormac enchants your <$staff_name>.");

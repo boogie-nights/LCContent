@@ -49,7 +49,7 @@ if (.finduid(%duel2accept) = true) {
         ~unequip_duel(duel_arena_jewelry_slots);
     }
 
-    hint_player(.uid);
+    hint_pl;
 
     settimer(duel_arena_time_limit, 6000); // 60 minute time limit https://runescape.wiki/w/Update:Assist_System
     midi_jingle(^duel_start_jingle, ^duel_start_jingle_millis);
@@ -77,12 +77,12 @@ if (~in_duel_arena(coord) = false) {
     return;
 }
 if (.finduid(%duel2accept) = false) {
-    queue(duel_arena_disconnect, 0);
+    queue(duel_arena_disconnect, 0, 0);
     return;
 }
 if (~.in_duel_arena(.coord) = false) {
-    queue(duel_arena_disconnect, 0);
-    .queue(duel_arena_disconnect, 0);
+    queue(duel_arena_disconnect, 0, 0);
+    .queue(duel_arena_disconnect, 0, 0);
     .clearqueue(duel_arena_prepare_start);
     return;
 }

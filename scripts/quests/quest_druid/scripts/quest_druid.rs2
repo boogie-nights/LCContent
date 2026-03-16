@@ -3,7 +3,7 @@
 stat_advance(herblore, 2500);
 session_log(^log_adventure, "Quest complete: Druidic Ritual");
 ~send_quest_complete(questlist:druid, marentill, 220, ^druid_questpoints, "You have completed the\\nDruidic Ritual Quest!");
-queue(druid_fundamentals, 0, $uid);
+queue*(druid_fundamentals, 0)($uid);
 
 [queue,druid_fundamentals](npc_uid $uid)
 if(npc_finduid($uid) = true) {
@@ -13,7 +13,10 @@ if(npc_finduid($uid) = true) {
 
 [oplocu,cauldron_of_thunder]
 def_obj $useitem = last_useitem;
-p_arrivedelay;
+if(%druidquest ! ^druid_spoken_sanfew) {
+    ~displaymessage(^dm_default);
+    return;
+}
 if($useitem = raw_rat_meat) {
     mes("You dip the raw rat meat in the cauldron.");
     inv_del(inv, raw_rat_meat, 1);

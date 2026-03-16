@@ -1,4 +1,9 @@
 [label,teleport_to_essence_mine](coord $tele_back_coord)
+if(%runemysteries < ^runemysteries_complete) {
+    // https://www.youtube.com/watch?v=E6fjnTE5vl8&t=189s
+    mes("You need to have completed the Rune Mysteries Quest to use this feature.");
+    return;
+}
 if_close;
 %exit_essence_mine_coord = $tele_back_coord;
 // this is lowercase
@@ -20,7 +25,7 @@ $coord = map_findsquare($coord, 0, 1, ^map_findsquare_lineofsight);
 p_telejump($coord);
 
 // portal
-[oploc1,loc_2492]
+[oploc1,essencemine_portal]
 // IncompleteProjectile(id = 109, startHeight = 15, endHeight = 31, delay = 0, angle = 16, distOffset = 128)	| distance = 1, flightDuration = 30, visualStart = Location(x = 9557, y = 3778, z = 0)
 def_int $duration = ~player_projectile(loc_coord, coord, uid, curse_travel, 15, 31, 0, 16, 0, 128, 5);
 spotanim_pl(curse_impact, 124, 30);

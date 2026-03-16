@@ -4,7 +4,7 @@
 3=fish_seq_3
 4=fish_ready
 5=fish_seq_5
-6=rock_ready
+6=boulder_rolling
 7=duck_swim
 8=duck_defend
 9=duck_death
@@ -14,11 +14,11 @@
 13=ghosthuman_walk_forward
 14=ibansboltcasting
 15=ghosthuman_ready
-16=seq_16
-17=seq_17
-18=seq_18
-19=seq_19
-20=seq_20
+16=dm_walk
+17=dm_ready
+18=dm_attack
+19=dm_block
+20=dm_death
 21=bdrag_walk
 22=bdrag_walkbackwards
 23=bdrag_walkright
@@ -330,8 +330,8 @@
 329=terrorbird_mounted_block
 330=terrorbird_mounted_ready
 331=terrorbird_mounted_death
-332=seq_332
-333=seq_333
+332=entready
+333=entendseq
 334=seq_334
 335=seq_335
 336=souless_walk
