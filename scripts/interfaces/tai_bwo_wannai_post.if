@@ -1,0 +1,75 @@
+[mainmodal_window]
+type=Rectangle
+x=95
+y=37
+width=300
+height=170
+colour=0x808040
+fill=yes
+
+[mainmodal_window_background]
+type=Model
+x=223
+y=215
+width=32
+height=32
+model1Id=8949
+modelZoom=404
+modelXAn=523
+
+[mainmodal_window_content]
+type=Inventory
+x=102
+y=41
+width=7
+height=4
+widthAlignment=Grid
+heightAlignment=Grid
+marginX=10
+marginY=4
+iop0=<col=00ff00>Value
+iop1=Pack <col=ff0000>1
+iop2=Pack <col=ff0000>5
+iop3=Pack <col=ff0000>All
+iop4=Pack <col=ff0000>X
+eventCode=hasIop(0,1,2,3,4), objSwapEnabled
+
+[tbw_parcel_inv]
+type=Text
+x=102
+y=195
+width=286
+height=26
+colour=0xFFFF00
+hAlign=Center
+font=497
+shadow=yes
+text="<col=ffff00>Tai Bwo Wannai <col=ff0000> Parcel Service"
+
+[mainmodal_window_border]
+type=Sprite
+x=463
+y=11
+width=23
+height=23
+overLayerId=6
+graphic=539
+
+[mainmodal_window_close_button]
+type=Sprite
+buttonType=Close
+x=4
+y=4
+width=23
+height=23
+layerId=21168134
+graphic=540
+buttonText="Ok"
+
+[com_6]
+type=Layer
+x=458
+y=7
+width=32
+height=32
+hide=yes

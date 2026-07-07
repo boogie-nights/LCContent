@@ -1,0 +1,24 @@
+[root]
+type=Model
+x=244
+y=152
+width=32
+height=32
+model1Id=14966
+modelAnim=pinball_interface
+modelZoom=499
+modelXAn=519
+discardedModelField=0
+
+[button_wrapper]
+type=Text
+x=370
+y=237
+width=100
+height=20
+colour=0xFFFF00
+font=496
+shadow=yes
+text="Score: 0"
+onvartransmit=87,component.parentId
+onvartransmitlist=727

@@ -1,0 +1,529 @@
+[layer_1]
+type=Sprite
+x=17
+y=26
+width=480
+height=293
+graphic=297
+tiling=yes
+baseOpName="  "
+
+[com_1]
+type=Sprite
+y=26
+width=28
+height=290
+graphic=821
+tiling=yes
+baseOpName=" "
+
+[com_2]
+type=Sprite
+x=479
+y=26
+width=47
+height=285
+graphic=823
+tiling=yes
+baseOpName=" "
+
+[com_3]
+type=Sprite
+x=15
+y=302
+width=462
+height=26
+graphic=822
+tiling=yes
+
+[com_4]
+type=Sprite
+x=14
+y=10
+width=464
+height=34
+graphic=820
+tiling=yes
+baseOpName=" "
+
+[com_5]
+type=Sprite
+x=467
+y=290
+width=32
+height=32
+graphic=827
+baseOpName=" "
+
+[com_6]
+type=Sprite
+x=13
+y=290
+width=32
+height=32
+graphic=826
+
+[com_7]
+type=Sprite
+x=13
+y=23
+width=32
+height=32
+graphic=824
+baseOpName=" "
+
+[com_8]
+type=Sprite
+x=467
+y=23
+width=32
+height=32
+graphic=825
+baseOpName=" "
+
+[com_9]
+type=Sprite
+x=16
+y=38
+width=478
+height=35
+graphic=828
+tiling=yes
+
+[com_10]
+type=Sprite
+x=13
+y=40
+width=32
+height=32
+graphic=829
+tiling=yes
+
+[com_11]
+type=Sprite
+x=467
+y=40
+width=32
+height=32
+graphic=830
+tiling=yes
+
+[com_12]
+type=Sprite
+x=471
+y=32
+width=16
+height=16
+graphic=831
+eventCode=hasOp(1)
+opName0="Close"
+onmouseover=44,component.parentId,832
+onmouseleave=44,component.parentId,831
+onop=29
+
+[com_13]
+type=Text
+x=25
+y=22
+width=467
+height=38
+colour=0xFF9900
+hAlign=Center
+vAlign=Center
+font=496
+text="What would you like to make?"
+
+[com_14]
+type=Layer
+x=348
+y=83
+width=75
+height=94
+
+[com_15]
+type=Layer
+x=170
+y=200
+width=75
+height=96
+
+[com_16]
+type=Layer
+x=79
+y=80
+width=75
+height=96
+
+[com_17]
+type=Layer
+x=168
+y=79
+width=77
+height=90
+
+[com_18]
+type=Layer
+x=255
+y=84
+width=75
+height=92
+
+[com_19]
+type=Layer
+x=255
+y=197
+width=72
+height=92
+
+[com_20]
+type=Layer
+x=78
+y=195
+width=76
+height=101
+
+[com_21]
+type=Layer
+x=351
+y=192
+width=76
+height=96
+
+[com_22]
+type=Text
+x=348
+y=140
+width=75
+height=36
+colour=0xFF9900
+hAlign=Center
+lineHeight=16
+font=495
+shadow=yes
+text="Vial"
+onload=541,component.parentId,33
+
+[com_23]
+type=Text
+x=170
+y=260
+width=75
+height=36
+colour=0xFF9900
+hAlign=Center
+lineHeight=16
+font=495
+shadow=yes
+text="Orb"
+onload=541,component.parentId,46
+
+[com_24]
+type=Text
+x=79
+y=140
+width=75
+height=36
+colour=0xFF9900
+hAlign=Center
+lineHeight=16
+font=495
+shadow=yes
+text="Beer Glass"
+onload=541,component.parentId,1
+
+[com_25]
+type=Text
+x=169
+y=132
+width=75
+height=36
+colour=0xFF9900
+hAlign=Center
+lineHeight=16
+font=495
+shadow=yes
+text="Candle Lantern"
+onload=541,component.parentId,4
+
+[com_26]
+type=Text
+x=255
+y=140
+width=75
+height=36
+colour=0xFF9900
+hAlign=Center
+lineHeight=16
+font=495
+shadow=yes
+text="Oil lamp"
+onload=541,component.parentId,12
+
+[com_27]
+type=Text
+x=256
+y=252
+width=71
+height=37
+colour=0xFF9900
+hAlign=Center
+lineHeight=16
+font=495
+shadow=yes
+text="Lantern Lens"
+onload=541,component.parentId,49
+
+[com_28]
+type=Text
+x=78
+y=260
+width=75
+height=36
+colour=0xFF9900
+hAlign=Center
+lineHeight=16
+font=495
+shadow=yes
+text="Fish Bowl"
+onload=541,component.parentId,42
+
+[com_29]
+type=Text
+x=351
+y=252
+width=75
+height=36
+colour=0xFF9900
+hAlign=Center
+lineHeight=16
+font=495
+shadow=yes
+text="Dorgeshuun Light Orb  "
+onload=541,component.parentId,87
+
+[com_30]
+type=Model
+x=2
+width=70
+height=92
+layerId=35520526
+model1Id=2747
+modelZoom=400
+modelXAn=116
+modelYAn=1942
+discardedModelField=0
+
+[com_31]
+type=Model
+x=4
+y=-19
+width=64
+height=96
+layerId=35520527
+model1Id=2428
+modelZoom=400
+modelXAn=590
+modelYAn=868
+discardedModelField=0
+
+[com_32]
+type=Model
+x=-1
+y=-8
+width=64
+height=96
+layerId=35520528
+model1Id=2548
+modelZoom=450
+modelXAn=147
+modelYAn=40
+discardedModelField=0
+
+[com_33]
+type=Model
+x=8
+y=-3
+width=64
+height=96
+layerId=35520529
+model1Id=5745
+modelZoom=741
+modelXAn=53
+modelYAn=1965
+discardedModelField=0
+
+[com_34]
+type=Model
+x=8
+y=-7
+width=64
+height=96
+layerId=35520530
+model1Id=5754
+modelZoom=687
+modelXAn=197
+modelYAn=1921
+discardedModelField=0
+
+[com_35]
+type=Model
+x=8
+y=-21
+width=64
+height=96
+layerId=35520531
+model1Id=5740
+modelZoom=400
+modelXAn=427
+modelYAn=2031
+discardedModelField=0
+
+[com_36]
+type=Model
+x=8
+y=7
+width=59
+height=79
+layerId=35520532
+model1Id=14186
+modelZoom=800
+modelXAn=125
+modelYAn=2042
+discardedModelField=0
+
+[com_37]
+type=Model
+x=2
+y=-4
+width=70
+height=92
+layerId=35520533
+model1Id=23615
+modelZoom=550
+modelXAn=116
+modelYAn=1942
+discardedModelField=0
+
+[com_38]
+type=Text
+width=75
+height=93
+layerId=35520526
+hAlign=Center
+font=497
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Vial"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,33
+
+[com_39]
+type=Text
+width=74
+height=95
+layerId=35520527
+hAlign=Center
+font=497
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Orb"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,46
+
+[com_40]
+type=Text
+width=75
+height=96
+layerId=35520528
+hAlign=Center
+font=497
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Beer Glass"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,1
+
+[com_41]
+type=Text
+width=77
+height=90
+layerId=35520529
+hAlign=Center
+font=497
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Candle Lantern"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,4
+
+[com_42]
+type=Text
+width=75
+height=92
+layerId=35520530
+hAlign=Center
+font=497
+shadow=yes
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Oil Lamp"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,12
+
+[com_43]
+type=Text
+width=72
+height=92
+layerId=35520531
+hAlign=Center
+font=497
+shadow=yes
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Lantern Lens"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,49
+
+[com_44]
+type=Text
+width=76
+height=101
+layerId=35520532
+hAlign=Center
+font=497
+shadow=yes
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Fish Bowl"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,42
+
+[com_45]
+type=Text
+width=75
+height=95
+layerId=35520533
+hAlign=Center
+font=497
+shadow=yes
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Light Orb"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,87

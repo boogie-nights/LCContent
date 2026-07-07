@@ -1,0 +1,33 @@
+[layer_top]
+type=Text
+x=481
+y=5
+width=70
+height=15
+colour=0xFF981F
+font=496
+shadow=yes
+text="XX"
+
+[barbassault_wave_complete_timer]
+type=Text
+x=354
+y=5
+width=125
+height=15
+colour=0xFF981F
+hAlign=Right
+font=495
+shadow=yes
+text="Time until next wave:"
+
+[barbassault_wave_complete_timere_text]
+type=Text
+x=374
+y=18
+width=116
+height=16
+colour=0xFF981F
+font=495
+shadow=yes
+text="(exit room to cancel)"

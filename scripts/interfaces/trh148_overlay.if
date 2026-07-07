@@ -1,0 +1,9 @@
+[splash_screen]
+type=Text
+x=21
+y=29
+width=441
+height=17
+hAlign=Center
+font=497
+text="Line1"

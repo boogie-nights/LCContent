@@ -1,0 +1,17 @@
+[vos_weekend]
+type=Rectangle
+width=512
+height=334
+fill=yes
+
+[active_voice_layer]
+type=Text
+x=3
+y=58
+width=505
+height=82
+colour=0xFFFFFF
+hAlign=Center
+font=496
+shadow=yes
+text="Text"

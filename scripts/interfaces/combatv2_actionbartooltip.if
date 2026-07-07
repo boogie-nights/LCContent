@@ -1,0 +1,14 @@
+[background_rect]
+type=Sprite
+x=472
+y=296
+width=25
+height=25
+layerId=41811969
+graphic=443
+
+[name_text]
+type=Layer
+width=512
+height=334
+onload=785

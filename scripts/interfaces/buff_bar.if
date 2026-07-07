@@ -1,0 +1,7 @@
+[universe_layer]
+type=Sprite
+x=480
+y=304
+width=25
+height=25
+graphic=219

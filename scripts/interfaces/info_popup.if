@@ -1,0 +1,10 @@
+[bespoke_window]
+type=Inventory
+x=16
+y=8
+width=4
+height=7
+widthAlignment=Grid
+heightAlignment=Grid
+marginX=10
+marginY=4

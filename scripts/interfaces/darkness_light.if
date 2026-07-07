@@ -1,0 +1,8 @@
+[com_0]
+type=Rectangle
+width=512
+height=334
+trans=200
+fill=yes
+script1=eq,1
+script1op1=varbit,darkness_level

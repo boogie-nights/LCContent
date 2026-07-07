@@ -1,0 +1,24 @@
+[com_0]
+type=Text
+x=355
+y=7
+width=101
+height=16
+colour=0xFF981F
+font=496
+shadow=yes
+text="Museum Kudos:"
+
+[vm_kudos]
+type=Text
+x=460
+y=7
+width=45
+height=16
+colour=0xFF981F
+hAlign=Right
+font=495
+shadow=yes
+onload=64
+onvartransmit=64
+onvartransmitlist=1010

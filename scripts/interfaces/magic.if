@@ -1,0 +1,729 @@
+[com_0]
+type=Sprite
+x=12
+y=22
+width=24
+height=24
+graphic=356
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,356,406,0,"Lumbridge Home Teleport","Requires no runes - recharge time 30 mins. Warning: This spell takes a long time to cast and will be interrupted by combat.",-1,0,-1,0,-1,0,-1,0
+
+[com_1]
+type=Sprite
+x=36
+y=22
+width=24
+height=24
+graphic=65
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,15,65,1,"Wind Strike","A basic Air missile",556,1,558,1,-1,0,-1,0
+
+[com_2]
+type=Sprite
+x=60
+y=22
+width=24
+height=24
+graphic=66
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,16,66,3,"Confuse","Reduces your opponent's attack by 5%",555,3,557,2,559,1,-1,0
+
+[com_3]
+type=Sprite
+x=84
+y=22
+width=24
+height=24
+graphic=408
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,358,408,4,"Enchant Crossbow Bolt","Minimum level 4 Magic Multiple other requirements",-1,0,-1,0,-1,0,-1,0
+onvartransmit=6,component.parentId,12582975,358,408,4,"Enchant Crossbow Bolt","Minimum level 4 Magic Multiple other requirements",-1,0,-1,0,-1,0,-1,0
+onvartransmitlist=1092
+
+[com_4]
+type=Sprite
+x=108
+y=22
+width=24
+height=24
+graphic=67
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,17,67,5,"Water Strike","A basic Water missile",555,1,556,1,558,1,-1,0
+
+[com_5]
+type=Sprite
+x=132
+y=22
+width=24
+height=24
+graphic=68
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,12582975,18,68,7,"Lvl-1 Enchant","For use on sapphire jewellery",555,1,564,1,-1,0,-1,0
+onvartransmit=6,component.parentId,12582975,18,68,7,"Lvl-1 Enchant","For use on sapphire jewellery",555,1,564,1,-1,0,-1,0
+onvartransmitlist=1092
+
+[com_6]
+type=Sprite
+x=156
+y=22
+width=24
+height=24
+graphic=69
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,19,69,9,"Earth Strike","A basic Earth missile",557,2,556,1,558,1,-1,0
+
+[com_7]
+type=Sprite
+x=12
+y=46
+width=24
+height=24
+graphic=70
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,20,70,11,"Weaken","Reduces your opponent's<br>strength by 5%",555,3,557,2,559,1,-1,0
+
+[com_8]
+type=Sprite
+x=36
+y=46
+width=24
+height=24
+graphic=71
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,21,71,13,"Fire Strike","A basic Fire missile",554,3,556,2,558,1,-1,0
+
+[com_9]
+type=Sprite
+x=60
+y=46
+width=24
+height=24
+graphic=72
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,22,72,15,"Bones to Bananas","Changes all held bones into bananas",557,2,555,2,561,1,-1,0
+onvartransmit=6,component.parentId,12582975,22,72,15,"Bones to Bananas","Changes all held bones into bananas",557,2,555,2,561,1,-1,0
+onvartransmitlist=1092
+
+[com_10]
+type=Sprite
+x=84
+y=46
+width=24
+height=24
+graphic=73
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,23,73,17,"Wind Bolt","A low level Air missile",556,2,562,1,-1,0,-1,0
+
+[com_11]
+type=Sprite
+x=108
+y=46
+width=24
+height=24
+graphic=74
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,24,74,19,"Curse","Reduces your opponent's<br>defence by 5%",555,2,557,3,559,1,-1,0
+
+[com_12]
+type=Sprite
+x=132
+y=46
+width=24
+height=24
+graphic=369
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,319,369,20,"Bind","Holds your opponent for 5 seconds",557,3,555,3,561,2,-1,0
+
+[com_13]
+type=Sprite
+x=156
+y=46
+width=24
+height=24
+graphic=75
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,12582975,25,75,21,"Low Level Alchemy","Converts an item into gold",554,3,561,1,-1,0,-1,0
+onvartransmit=6,component.parentId,12582975,25,75,21,"Low Level Alchemy","Converts an item into gold",554,3,561,1,-1,0,-1,0
+onvartransmitlist=1092
+
+[com_14]
+type=Sprite
+x=12
+y=70
+width=24
+height=24
+graphic=76
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,26,76,23,"Water Bolt","A low level Water missile",555,2,556,2,562,1,-1,0
+
+[com_15]
+type=Sprite
+x=36
+y=70
+width=24
+height=24
+graphic=77
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,27,77,25,"Varrock Teleport","Teleports you to Varrock",554,1,556,3,563,1,-1,0
+
+[com_16]
+type=Sprite
+x=60
+y=70
+width=24
+height=24
+graphic=78
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,12582975,28,78,27,"Lvl-2 Enchant","For use on emerald jewellery",556,3,564,1,-1,0,-1,0
+onvartransmit=6,component.parentId,12582975,28,78,27,"Lvl-2 Enchant","For use on emerald jewellery",556,3,564,1,-1,0,-1,0
+onvartransmitlist=1092
+
+[com_17]
+type=Sprite
+x=84
+y=70
+width=24
+height=24
+graphic=79
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,29,79,29,"Earth Bolt","A low level Earth missile",557,3,556,2,562,1,-1,0
+
+[com_18]
+type=Sprite
+x=108
+y=70
+width=24
+height=24
+graphic=80
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,30,80,31,"Lumbridge Teleport","Teleports you to Lumbridge",557,1,556,3,563,1,-1,0
+
+[com_19]
+type=Sprite
+x=156
+y=70
+width=24
+height=24
+graphic=81
+targetVerb="Cast"
+eventCode=targetMask=obj|npc
+onload=6,component.parentId,12582975,31,81,33,"Telekinetic Grab","Take an item you can see but can't reach",556,1,563,1,-1,0,-1,0
+
+[com_20]
+type=Sprite
+x=12
+y=94
+width=24
+height=24
+graphic=82
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,32,82,35,"Fire Bolt","A low level Fire missile",554,4,556,3,562,1,-1,0
+
+[com_21]
+type=Sprite
+x=36
+y=94
+width=24
+height=24
+graphic=83
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,33,83,37,"Falador Teleport","Teleports you to Falador",555,1,556,3,563,1,-1,0
+
+[com_22]
+type=Sprite
+x=60
+y=94
+width=24
+height=24
+graphic=84
+targetVerb="Cast"
+eventCode=targetMask=npc
+onload=6,component.parentId,12582975,34,84,39,"Crumble Undead","Hits skeletons, ghosts, shades & zombies hard",557,2,556,2,562,1,-1,0
+
+[com_23]
+type=Sprite
+x=84
+y=94
+width=24
+height=24
+graphic=405
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,355,405,40,"Teleport to House","Teleports you to your house",563,1,556,1,557,1,-1,0
+
+[com_24]
+type=Sprite
+x=108
+y=94
+width=24
+height=24
+graphic=85
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,35,85,41,"Wind Blast","A medium level Air missile",556,3,560,1,-1,0,-1,0
+
+[com_25]
+type=Sprite
+x=132
+y=94
+width=24
+height=24
+graphic=86
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,12582975,36,86,43,"Superheat Item","Smelt ore without a furnace",554,4,561,1,-1,0,-1,0
+onvartransmit=6,component.parentId,12582975,36,86,43,"Superheat Item","Smelt ore without a furnace",554,4,561,1,-1,0,-1,0
+onvartransmitlist=1092
+
+[com_26]
+type=Sprite
+x=156
+y=94
+width=24
+height=24
+graphic=87
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,37,87,45,"Camelot Teleport","Teleports you to Camelot",556,5,563,1,-1,0,-1,0
+
+[com_27]
+type=Sprite
+x=12
+y=118
+width=24
+height=24
+graphic=88
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,38,88,47,"Water Blast","A medium level Water missile",555,3,556,3,560,1,-1,0
+
+[com_28]
+type=Sprite
+x=36
+y=118
+width=24
+height=24
+graphic=89
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,12582975,39,89,49,"Lvl-3 Enchant","For use on ruby jewellery",554,5,564,1,-1,0,-1,0
+onvartransmit=6,component.parentId,12582975,39,89,49,"Lvl-3 Enchant","For use on ruby jewellery",554,5,564,1,-1,0,-1,0
+onvartransmitlist=1092
+
+[com_29]
+type=Sprite
+x=60
+y=118
+width=24
+height=24
+graphic=103
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,53,103,50,"Iban Blast","Summons the wrath of Iban",554,5,560,1,1409,1,-1,0
+
+[com_30]
+type=Sprite
+x=84
+y=118
+width=24
+height=24
+graphic=370
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,320,370,50,"Snare","Holds your opponent for 10 seconds",557,4,555,4,561,3,-1,0
+
+[com_31]
+type=Sprite
+x=108
+y=118
+width=24
+height=24
+graphic=374
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,324,374,50,"Magic Dart","A magic dart of slaying",4170,1,560,1,558,4,-1,0
+
+[com_32]
+type=Sprite
+x=132
+y=118
+width=24
+height=24
+graphic=104
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,54,104,51,"Ardougne Teleport","Teleports you to Ardougne",555,2,563,2,-1,0,-1,0
+
+[com_33]
+type=Sprite
+x=156
+y=118
+width=24
+height=24
+graphic=90
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,40,90,53,"Earth Blast","A medium level Earth missile",557,4,556,3,560,1,-1,0
+
+[com_34]
+type=Sprite
+x=12
+y=142
+width=24
+height=24
+graphic=91
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,12582975,41,91,55,"High Level Alchemy","Converts an item into more gold",554,5,561,1,-1,0,-1,0
+onvartransmit=6,component.parentId,12582975,41,91,55,"High Level Alchemy","Converts an item into more gold",554,5,561,1,-1,0,-1,0
+onvartransmitlist=1092
+
+[com_35]
+type=Sprite
+x=36
+y=142
+width=24
+height=24
+graphic=92
+targetVerb="Cast"
+eventCode=targetMask=loc
+onload=6,component.parentId,12582975,42,92,56,"Charge Water Orb","Needs to be cast on a water obelisk",555,30,564,3,567,1,-1,0
+onvartransmit=6,component.parentId,12582975,42,92,56,"Charge Water Orb","Needs to be cast on a water obelisk",555,30,564,3,567,1,-1,0
+onvartransmitlist=1092
+
+[com_36]
+type=Sprite
+x=60
+y=142
+width=24
+height=24
+graphic=93
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,12582975,43,93,57,"Lvl-4 Enchant","For use on diamond jewellery",557,10,564,1,-1,0,-1,0
+onvartransmit=6,component.parentId,12582975,43,93,57,"Lvl-4 Enchant","For use on diamond jewellery",557,10,564,1,-1,0,-1,0
+onvartransmitlist=1092
+
+[com_37]
+type=Sprite
+x=84
+y=142
+width=24
+height=24
+graphic=105
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,55,105,58,"Watchtower Teleport","Teleports you to the Watchtower",557,2,563,2,-1,0,-1,0
+
+[com_38]
+type=Sprite
+x=108
+y=142
+width=24
+height=24
+graphic=94
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,44,94,59,"Fire Blast","A medium level Fire missile",554,5,556,4,560,1,-1,0
+
+[com_39]
+type=Sprite
+x=132
+y=142
+width=24
+height=24
+graphic=95
+targetVerb="Cast"
+eventCode=targetMask=loc
+onload=6,component.parentId,12582975,45,95,60,"Charge Earth Orb","Needs to be cast on an earth obelisk",557,30,564,3,567,1,-1,0
+onvartransmit=6,component.parentId,12582975,45,95,60,"Charge Earth Orb","Needs to be cast on an earth obelisk",557,30,564,3,567,1,-1,0
+onvartransmitlist=1092
+
+[com_40]
+type=Sprite
+x=156
+y=142
+width=24
+height=24
+graphic=404
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,354,404,60,"Bones to Peaches","Turns Bones into Peaches",561,2,555,4,557,4,-1,0
+onvartransmit=6,component.parentId,12582975,354,404,60,"Bones to Peaches","Turns Bones into Peaches",561,2,555,4,557,4,-1,0
+onvartransmitlist=1092
+
+[com_41]
+type=Sprite
+x=12
+y=166
+width=24
+height=24
+graphic=111
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,61,111,60,"Saradomin strike","Summons the power of Saradomin",554,2,565,2,556,4,2415,1
+
+[com_42]
+type=Sprite
+x=36
+y=166
+width=24
+height=24
+graphic=110
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,60,110,60,"Claws of Guthix","Summons the power of Guthix",554,1,565,2,556,4,8843,1
+
+[com_43]
+type=Sprite
+x=60
+y=166
+width=24
+height=24
+graphic=109
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,59,109,60,"Flames of Zamorak","Summons the power of Zamorak",554,4,565,2,556,1,2417,1
+
+[com_44]
+type=Sprite
+x=84
+y=166
+width=24
+height=24
+graphic=373
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,323,373,61,"Trollheim Teleport","Teleports you to Trollheim",554,2,563,2,-1,0,-1,0
+
+[com_45]
+type=Sprite
+x=108
+y=166
+width=24
+height=24
+graphic=96
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,46,96,62,"Wind Wave","A high level Air missile",556,5,565,1,-1,0,-1,0
+
+[com_46]
+type=Sprite
+x=132
+y=166
+width=24
+height=24
+graphic=97
+targetVerb="Cast"
+eventCode=targetMask=loc
+onload=6,component.parentId,12582975,47,97,63,"Charge Fire Orb","Needs to be cast on a fire obelisk",554,30,564,3,567,1,-1,0
+onvartransmit=6,component.parentId,12582975,47,97,63,"Charge Fire Orb","Needs to be cast on a fire obelisk",554,30,564,3,567,1,-1,0
+onvartransmitlist=1092
+
+[com_47]
+type=Sprite
+x=156
+y=166
+width=24
+height=24
+graphic=407
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,357,407,64,"Teleport to Ape Atoll","Teleports you to Ape Atoll",554,2,555,2,563,2,1963,1
+
+[com_48]
+type=Sprite
+x=12
+y=190
+width=24
+height=24
+graphic=98
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,48,98,65,"Water Wave","A high level Water missile",555,7,556,5,565,1,-1,0
+
+[com_49]
+type=Sprite
+x=36
+y=190
+width=24
+height=24
+graphic=99
+targetVerb="Cast"
+eventCode=targetMask=loc
+onload=6,component.parentId,12582975,49,99,66,"Charge Air Orb","Needs to be cast on an air obelisk",556,30,564,3,567,1,-1,0
+onvartransmit=6,component.parentId,12582975,49,99,66,"Charge Air Orb","Needs to be cast on an air obelisk",556,30,564,3,567,1,-1,0
+onvartransmitlist=1092
+
+[com_50]
+type=Sprite
+x=60
+y=190
+width=24
+height=24
+graphic=106
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,56,106,66,"Vulnerability","Reduces your opponent's defence by 10%",557,5,555,5,566,1,-1,0
+
+[com_51]
+type=Sprite
+x=84
+y=190
+width=24
+height=24
+graphic=100
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,12582975,50,100,68,"Lvl-5 Enchant","For use on dragonstone jewellery",555,15,557,15,564,1,-1,0
+onvartransmit=6,component.parentId,12582975,50,100,68,"Lvl-5 Enchant","For use on dragonstone jewellery",555,15,557,15,564,1,-1,0
+onvartransmitlist=1092
+
+[com_52]
+type=Sprite
+x=108
+y=190
+width=24
+height=24
+graphic=101
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,51,101,70,"Earth Wave","A high level Earth missile",557,7,556,5,565,1,-1,0
+
+[com_53]
+type=Sprite
+x=132
+y=190
+width=24
+height=24
+graphic=107
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,57,107,73,"Enfeeble","Reduces your opponent's strength by 10%",557,8,555,8,566,1,-1,0
+
+[com_54]
+type=Sprite
+x=156
+y=190
+width=24
+height=24
+graphic=399
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,349,399,74,"Teleother Lumbridge","Teleports target to Lumbridge",566,1,563,1,557,1,-1,0
+
+[com_55]
+type=Sprite
+x=12
+y=214
+width=24
+height=24
+graphic=102
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,52,102,75,"Fire Wave","A high level Fire missile",554,7,556,5,565,1,-1,0
+
+[com_56]
+type=Sprite
+x=36
+y=214
+width=24
+height=24
+graphic=371
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,321,371,79,"Entangle","Holds your opponent for 15 seconds",557,5,555,5,561,4,-1,0
+
+[com_57]
+type=Sprite
+x=60
+y=214
+width=24
+height=24
+graphic=108
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,58,108,80,"Stun","Reduces your opponent's attack by 10%",557,12,555,12,566,1,-1,0
+
+[com_58]
+type=Sprite
+x=84
+y=214
+width=24
+height=24
+graphic=372
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,322,372,80,"Charge","Temporarily increases the power<br>of the three arena spells when wearing Mage Arena capes",554,3,565,3,556,3,-1,0
+
+[com_59]
+type=Sprite
+x=108
+y=214
+width=24
+height=24
+graphic=400
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,350,400,82,"Teleother Falador","Teleports target to Falador",566,1,555,1,563,1,-1,0
+
+[com_60]
+type=Sprite
+x=132
+y=70
+width=24
+height=24
+graphic=402
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,12582975,352,402,32,"Bounty Locate","Teleports you to your target in Bounty Hunter",556,1,554,1,563,1,-1,0
+
+[com_61]
+type=Sprite
+x=132
+y=214
+width=24
+height=24
+graphic=403
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,12582975,353,403,87,"Lvl-6 Enchant","For use on onyx jewellery",557,20,554,20,564,1,-1,0
+onvartransmit=6,component.parentId,12582975,353,403,87,"Lvl-6 Enchant","For use on onyx jewellery",557,20,554,20,564,1,-1,0
+onvartransmitlist=1092
+
+[com_62]
+type=Sprite
+x=156
+y=214
+width=24
+height=24
+graphic=401
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,12582975,351,401,90,"Teleother Camelot","Teleports target to Camelot",566,2,563,1,-1,0,-1,0
+
+[com_63]
+type=Layer
+width=190
+height=261

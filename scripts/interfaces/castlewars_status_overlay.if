@@ -1,0 +1,14 @@
+[universe]
+type=Text
+x=17
+y=51
+width=480
+height=14
+colour=0xFFFFFF
+colour2=0xFFFFFF
+hAlign=Center
+font=496
+text="Waiting for players to join the other team."
+text2="Time until next game starts: %1"
+script1=gt,0
+script1op1=varp,castlewars_timer

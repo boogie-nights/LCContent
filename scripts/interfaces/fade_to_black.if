@@ -1,0 +1,19 @@
+[fade]
+type=Model
+x=242
+y=152
+width=32
+height=32
+modelZoom=130
+modelXAn=512
+
+[fade_text]
+type=Text
+x=20
+y=68
+width=477
+height=75
+colour=0xFFFFFF
+hAlign=Center
+font=495
+text=" "

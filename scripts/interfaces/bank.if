@@ -1,0 +1,16 @@
+[all]
+type=Inventory
+x=16
+y=8
+width=4
+height=7
+widthAlignment=Grid
+heightAlignment=Grid
+marginX=10
+marginY=4
+iop0=Give 1
+iop1=Give 5
+iop2=Give 10
+iop3=Give All
+iop4=Give X
+eventCode=hasIop(0,1,2,3,4), objSwapEnabled

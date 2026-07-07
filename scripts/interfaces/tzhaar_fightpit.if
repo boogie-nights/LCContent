@@ -1,0 +1,32 @@
+[tzhaar_fightpit_foes]
+type=Text
+x=146
+y=25
+width=240
+height=11
+colour=0xCCCCCC
+hAlign=Center
+font=494
+shadow=yes
+text="Current Champion: TzHaar-Xil-Huz"
+
+[com_1]
+type=Text
+y=6
+width=184
+height=12
+layerId=24444930
+colour=0xFF0000
+hAlign=Center
+font=494
+shadow=yes
+text="Foes Remaining:"
+onvartransmit=70
+onvartransmitlist=560
+
+[com_2]
+type=Layer
+x=170
+y=31
+width=191
+height=27

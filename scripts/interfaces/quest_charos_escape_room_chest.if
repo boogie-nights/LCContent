@@ -1,0 +1,10 @@
+[button_1]
+type=Model
+x=242
+y=152
+width=32
+height=32
+model1Id=4055
+modelAnim=seq_1255
+modelZoom=130
+modelXAn=512

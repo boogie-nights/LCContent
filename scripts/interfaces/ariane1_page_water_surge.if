@@ -1,0 +1,493 @@
+[layer_1]
+type=Sprite
+x=133
+y=66
+width=24
+height=24
+graphic=597
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,547,597,75,"Barbarian Teleport","Teleports you to the Barbarian Outpost",9075,2,563,2,554,3,-1,0
+
+[com_1]
+type=Sprite
+x=163
+y=8
+width=24
+height=24
+graphic=609
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,28180520,559,609,68,"Cure Other","Cure poisoned players",9075,1,563,1,557,10,-1,0
+onvartransmit=6,component.parentId,28180520,559,609,68,"Cure Other","Cure poisoned players",9075,1,563,1,557,10,-1,0
+onvartransmitlist=1092
+
+[close_button]
+type=Sprite
+x=40
+y=123
+width=24
+height=24
+graphic=603
+targetVerb="Cast"
+eventCode=targetMask=loc
+onload=6,component.parentId,28180520,553,603,83,"Fertile Soil","Fertilise a farming patch with super compost",9075,3,561,2,557,15,-1,0
+onvartransmit=6,component.parentId,28180520,553,603,83,"Fertile Soil","Fertilise a farming patch with super compost",9075,3,561,2,557,15,-1,0
+onvartransmitlist=1092
+
+[com_3]
+type=Sprite
+x=69
+y=66
+width=24
+height=24
+graphic=615
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,565,615,74,"Cure Group","Cure poison on players",9075,2,564,2,563,2,-1,0
+onvartransmit=6,component.parentId,28180520,565,615,74,"Cure Group","Cure poison on players",9075,2,564,2,563,2,-1,0
+onvartransmitlist=1092
+
+[com_4]
+type=Sprite
+x=133
+y=8
+width=24
+height=24
+graphic=618
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,568,618,67,"NPC Contact","Speak with varied NPCs",9075,1,564,1,556,2,-1,0
+onvartransmit=6,component.parentId,28180520,568,618,67,"NPC Contact","Speak with varied NPCs",9075,1,564,1,556,2,-1,0
+onvartransmitlist=1092
+
+[com_5]
+type=Sprite
+x=133
+y=153
+width=24
+height=24
+graphic=608
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,28180520,558,608,91,"Energy Transfer","Spend hitpoints and SA energy to give another SA and run energy",9075,3,563,2,561,1,-1,0
+onvartransmit=6,component.parentId,28180520,558,608,91,"Energy Transfer","Spend hitpoints and SA energy to give another SA and run energy",9075,3,563,2,561,1,-1,0
+onvartransmitlist=1092
+
+[com_6]
+type=Sprite
+x=101
+y=8
+width=24
+height=24
+graphic=627
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,28180520,577,627,66,"Monster Examine","Detect the combat statistics of a monster",9075,1,564,1,558,1,-1,0
+onvartransmit=6,component.parentId,28180520,577,627,66,"Monster Examine","Detect the combat statistics of a monster",9075,1,564,1,558,1,-1,0
+onvartransmitlist=1092
+
+[com_7]
+type=Sprite
+x=8
+y=37
+width=24
+height=24
+graphic=628
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,578,628,68,"Humidify","Fills certain vessels with water",9075,1,555,3,554,1,-1,0
+onvartransmit=6,component.parentId,28180520,578,628,68,"Humidify","Fills certain vessels with water",9075,1,555,3,554,1,-1,0
+onvartransmitlist=1092
+
+[com_8]
+type=Sprite
+x=164
+y=37
+width=24
+height=24
+graphic=629
+targetVerb="Cast"
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,579,629,71,"Hunter Kit","Get a kit of hunter gear",9075,2,557,2,-1,0,-1,0
+onvartransmit=6,component.parentId,28180520,579,629,71,"Hunter Kit","Get a kit of hunter gear",9075,2,557,2,-1,0,-1,0
+onvartransmitlist=1092
+
+[com_9]
+type=Sprite
+x=101
+y=66
+width=24
+height=24
+graphic=626
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,28180520,576,626,75,"Stat Spy","Cast on another player to see their skill levels",9075,2,564,2,559,5,-1,0
+onvartransmit=6,component.parentId,28180520,576,626,75,"Stat Spy","Cast on another player to see their skill levels",9075,2,564,2,559,5,-1,0
+onvartransmitlist=1092
+
+[com_10]
+type=Sprite
+x=101
+y=95
+width=24
+height=24
+graphic=630
+targetVerb="Cast"
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,580,630,79,"Dream","Take a rest and restore hitpoints 3 times faster",9075,2,564,1,559,5,-1,0
+onvartransmit=6,component.parentId,28180520,580,630,79,"Dream","Take a rest and restore hitpoints 3 times faster",9075,2,564,1,559,5,-1,0
+onvartransmitlist=1092
+
+[com_11]
+type=Sprite
+x=163
+y=124
+width=24
+height=24
+graphic=631
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,28180520,581,631,86,"Plank Make","Turn logs into planks",9075,2,557,15,561,1,-1,0
+onvartransmit=6,component.parentId,28180520,581,631,86,"Plank Make","Turn logs into planks",9075,2,557,15,561,1,-1,0
+onvartransmitlist=1092
+
+[com_12]
+type=Sprite
+x=101
+y=182
+width=24
+height=24
+graphic=632
+targetVerb="Cast"
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,582,632,96,"Spellbook Swap","Change to another spellbook for 1 spell cast",9075,3,564,2,563,1,-1,0
+onvartransmit=6,component.parentId,28180520,582,632,96,"Spellbook Swap","Change to another spellbook for 1 spell cast",9075,3,564,2,563,1,-1,0
+onvartransmitlist=1092
+
+[com_13]
+type=Sprite
+x=8
+y=123
+width=24
+height=24
+graphic=602
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,552,602,82,"Magic Imbue","Combine runes without a talisman",9075,2,554,7,555,7,-1,0
+onvartransmit=6,component.parentId,28180520,552,602,82,"Magic Imbue","Combine runes without a talisman",9075,2,554,7,555,7,-1,0
+onvartransmitlist=1092
+
+[com_14]
+type=Sprite
+x=37
+y=182
+width=24
+height=24
+graphic=614
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,564,614,94,"Vengeance","Rebound damage to an opponent",9075,4,560,2,557,10,-1,0
+
+[com_15]
+type=Sprite
+x=37
+y=8
+width=24
+height=24
+graphic=593
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,543,593,65,"Bake Pie","Bake pies without a stove",9075,1,554,5,555,4,-1,0
+onvartransmit=6,component.parentId,28180520,543,593,65,"Bake Pie","Bake pies without a stove",9075,1,554,5,555,4,-1,0
+onvartransmitlist=1092
+
+[com_16]
+type=Sprite
+x=8
+y=8
+width=24
+height=24
+graphic=356
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,356,406,0,"Lunar Home Teleport","Requires no runes - recharge time 30 mins. Warning: This spell takes a long time to cast and will be interrupted by combat.",-1,0,-1,0,-1,0,-1,0
+
+[com_17]
+type=Sprite
+x=101
+y=124
+width=24
+height=24
+graphic=605
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,555,605,85,"Fishing Guild Teleport","Teleports you to the Fishing Guild",9075,3,563,3,555,10,-1,0
+
+[com_18]
+type=Sprite
+x=40
+y=95
+width=24
+height=24
+graphic=599
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,549,599,78,"Khazard Teleport","Teleports you to Port Khazard",9075,2,563,2,555,4,-1,0
+
+[com_19]
+type=Sprite
+x=8
+y=182
+width=24
+height=24
+graphic=611
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+baseOpName="bb"
+onload=6,component.parentId,28180520,561,611,93,"Vengeance Other","Allows another player to rebound damage to an opponent",9075,3,560,2,557,10,-1,0
+
+[com_20]
+type=Sprite
+x=37
+y=37
+width=24
+height=24
+graphic=594
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,544,594,69,"Moonclan Teleport","Teleports you to Moonclan Island",9075,2,563,1,557,2,-1,0
+
+[com_21]
+type=Sprite
+x=8
+y=153
+width=24
+height=24
+graphic=606
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,556,606,87,"Catherby Teleport","Teleports you to Catherby",9075,3,563,3,555,10,-1,0
+
+[com_22]
+type=Sprite
+x=133
+y=95
+width=24
+height=24
+graphic=600
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,550,600,80,"String Jewellery","String amulets without wool",9075,2,557,10,555,5,-1,0
+onvartransmit=6,component.parentId,28180520,550,600,80,"String Jewellery","String amulets without wool",9075,2,557,10,555,5,-1,0
+onvartransmitlist=1092
+
+[com_23]
+type=Sprite
+x=133
+y=37
+width=24
+height=24
+graphic=612
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,562,612,71,"Cure Me","Cure Poison",9075,2,564,2,563,1,-1,0
+onvartransmit=6,component.parentId,28180520,562,612,71,"Cure Me","Cure Poison",9075,2,564,2,563,1,-1,0
+onvartransmitlist=1092
+
+[com_24]
+type=Sprite
+x=10
+y=66
+width=24
+height=24
+graphic=595
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,545,595,72,"Waterbirth Teleport","Teleports you to Waterbirth Island",9075,2,563,1,555,1,-1,0
+
+[com_25]
+type=Sprite
+x=9
+y=95
+width=24
+height=24
+graphic=598
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,548,598,77,"Superglass Make","Make glass without a furnace",9075,2,554,6,556,10,-1,0
+onvartransmit=6,component.parentId,28180520,548,598,77,"Superglass Make","Make glass without a furnace",9075,2,554,6,556,10,-1,0
+onvartransmitlist=1092
+
+[com_26]
+type=Sprite
+x=69
+y=123
+width=24
+height=24
+graphic=601
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,28180520,551,601,84,"Boost Potion Share","Shares a potion with up to 4 nearby players",9075,3,557,12,555,10,-1,0
+onvartransmit=6,component.parentId,28180520,551,601,84,"Boost Potion Share","Shares a potion with up to 4 nearby players",9075,3,557,12,555,10,-1,0
+onvartransmitlist=1092
+
+[com_27]
+type=Sprite
+x=163
+y=95
+width=24
+height=24
+graphic=604
+targetVerb="Cast"
+eventCode=targetMask=inv_item
+onload=6,component.parentId,28180520,554,604,81,"Stat Restore Pot Share","Shares a potion with up to 4 nearby players",9075,2,557,10,555,10,-1,0
+onvartransmit=6,component.parentId,28180520,554,604,81,"Stat Restore Pot Share","Shares a potion with up to 4 nearby players",9075,2,557,10,555,10,-1,0
+onvartransmitlist=1092
+
+[com_28]
+type=Sprite
+x=69
+y=153
+width=24
+height=24
+graphic=607
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,557,607,89,"Ice Plateau Teleport","Teleports you to Ice Plateau",9075,3,563,3,555,8,-1,0
+
+[com_29]
+type=Sprite
+x=163
+y=153
+width=24
+height=24
+graphic=610
+targetVerb="Cast"
+eventCode=targetMask=npc|player
+onload=6,component.parentId,28180520,560,610,92,"Heal Other","Transfers up to 75% of hitpoints to another player",9075,3,563,3,565,1,-1,0
+onvartransmit=6,component.parentId,28180520,560,610,92,"Heal Other","Transfers up to 75% of hitpoints to another player",9075,3,563,3,565,1,-1,0
+onvartransmitlist=1092
+
+[com_30]
+type=Sprite
+x=69
+y=182
+width=24
+height=24
+graphic=616
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,566,616,95,"Heal Group","Transfers up to 75% of hitpoints to a group",9075,4,565,3,563,6,-1,0
+onvartransmit=6,component.parentId,28180520,566,616,95,"Heal Group","Transfers up to 75% of hitpoints to a group",9075,4,565,3,563,6,-1,0
+onvartransmitlist=1092
+
+[com_31]
+type=Sprite
+x=101
+y=37
+width=24
+height=24
+graphic=633
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,583,633,71,"Ourania Teleport","Teleports you to Ourania rune altar",9075,2,563,1,557,6,-1,0
+
+[com_32]
+type=Sprite
+x=69
+y=8
+width=24
+height=24
+graphic=617
+targetVerb="Cast"
+eventCode=targetMask=loc
+onload=6,component.parentId,28180520,567,617,66,"Cure Plant","Cures disease on farming patch",9075,1,557,8,-1,0,-1,0
+onvartransmit=6,component.parentId,28180520,567,617,66,"Cure Plant","Cures disease on farming patch",9075,1,557,8,-1,0,-1,0
+onvartransmitlist=1092
+
+[com_33]
+type=Sprite
+x=69
+y=37
+width=24
+height=24
+graphic=619
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,569,619,70,"Tele Group Moonclan","Teleports players to Moonclan Island",9075,2,563,1,557,4,-1,0
+
+[com_34]
+type=Sprite
+x=40
+y=66
+width=24
+height=24
+graphic=620
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,570,620,73,"Tele Group Waterbirth","Teleports players to Waterbirth Island",9075,2,563,1,555,5,-1,0
+
+[com_35]
+type=Sprite
+x=163
+y=66
+width=24
+height=24
+graphic=621
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,571,621,76,"Tele Group Barbarian","Teleports players to the Barbarian Outpost",9075,2,563,2,554,6,-1,0
+
+[com_36]
+type=Sprite
+x=69
+y=95
+width=24
+height=24
+graphic=622
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,572,622,79,"Tele Group Khazard","Teleports players to Port Khazard",9075,2,563,2,555,8,-1,0
+
+[com_37]
+type=Sprite
+x=133
+y=124
+width=24
+height=24
+graphic=623
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,573,623,86,"Tele Group Fishing Guild","Teleports players to the Fishing Guild",9075,3,563,3,555,14,-1,0
+
+[com_38]
+type=Sprite
+x=40
+y=153
+width=24
+height=24
+graphic=624
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,574,624,88,"Tele Group Catherby","Teleports players to Catherby",9075,3,563,3,555,15,-1,0
+
+[com_39]
+type=Sprite
+x=101
+y=153
+width=24
+height=24
+graphic=625
+eventCode=hasOp(1)
+opName0="Cast"
+onload=6,component.parentId,28180520,575,625,90,"Tele Group Ice Plateau","Teleports players to Ice Plateau",9075,3,563,3,555,16,-1,0
+
+[com_40]
+type=Layer
+width=190
+height=261
+baseOpName="bb"

@@ -1,0 +1,10 @@
+[main_countdown]
+type=Model
+x=241
+y=167
+width=32
+height=32
+model1Id=11229
+modelAnim=lightning_flash
+modelZoom=16
+modelXAn=512

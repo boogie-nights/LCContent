@@ -1,0 +1,16 @@
+[water_title]
+type=Inventory
+x=16
+y=8
+width=4
+height=7
+widthAlignment=Grid
+heightAlignment=Grid
+marginX=10
+marginY=4
+iop0=Store 1
+iop1=Store 5
+iop2=Store 10
+iop3=Store All
+iop4=Store X
+eventCode=hasIop(0,1,2,3,4), objSwapEnabled

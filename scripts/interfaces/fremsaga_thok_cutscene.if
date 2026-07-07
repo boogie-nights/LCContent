@@ -1,0 +1,174 @@
+[control_layer]
+type=Layer
+x=4
+y=24
+width=167
+height=226
+onload=57
+
+[com_1]
+type=Rectangle
+x=7
+y=24
+width=161
+height=226
+trans=212
+fill=yes
+baseOpName=" "
+
+[com_2]
+type=Sprite
+x=-12
+y=51
+width=36
+height=173
+graphic=172
+tiling=yes
+
+[com_3]
+type=Sprite
+x=146
+y=220
+width=25
+height=30
+graphic=313
+
+[com_4]
+type=Sprite
+x=3
+y=220
+width=25
+height=30
+graphic=312
+
+[com_5]
+type=Sprite
+x=150
+y=48
+width=21
+height=170
+graphic=315
+tiling=yes
+
+[com_6]
+type=Sprite
+x=10
+y=229
+width=150
+height=21
+graphic=173
+tiling=yes
+
+[com_7]
+type=Sprite
+x=10
+y=9
+width=143
+height=21
+graphic=314
+tiling=yes
+
+[com_8]
+type=Sprite
+x=146
+y=24
+width=25
+height=30
+graphic=311
+
+[com_9]
+type=Sprite
+x=3
+y=24
+width=25
+height=30
+graphic=310
+
+[com_10]
+type=Sprite
+x=164
+y=4
+width=18
+height=18
+graphic=835
+eventCode=hasOp(1)
+opName0="Swap to Quest List"
+
+[com_11]
+type=Text
+x=14
+y=4
+width=152
+height=15
+colour=0xFF9933
+font=496
+shadow=yes
+text="Achievement Diary"
+
+[com_12]
+type=Layer
+x=171
+y=24
+width=16
+height=226
+
+[com_13]
+type=Text
+x=10
+y=9
+width=152
+height=15
+layerId=16973824
+colour=0xFF0000
+font=494
+shadow=yes
+text="Karamja"
+eventCode=hasOp(1)
+opName0="Read Journal"
+onmouseover=45,16973837,16777215
+onmouseleave=59,0
+onvartransmit=58
+onvartransmitlist=1000,1001,1002
+
+[com_14]
+type=Text
+x=10
+y=9
+width=152
+height=15
+layerId=16973824
+colour=0xFF0000
+font=494
+shadow=yes
+text="Varrock"
+eventCode=hasOp(1)
+opName0="Read Journal"
+onmouseover=45,16973838,16777215
+onmouseleave=59,1
+onvartransmit=58
+onvartransmitlist=1071,1072,1073
+
+[com_15]
+type=Text
+x=10
+y=9
+width=152
+height=15
+layerId=16973824
+colour=0xFF0000
+font=494
+shadow=yes
+text="More coming soon..."
+eventCode=hasOp(1,2,3,4,5,6,7,8,9,10)
+opName0="Read Journal"
+opName1="       "
+opName2="       "
+opName3="       "
+opName4="       "
+opName5="       "
+opName6="       "
+opName7="       "
+opName8="       "
+opName9="       "
+onmouseover=45,16973839,16777215
+onmouseleave=59,2

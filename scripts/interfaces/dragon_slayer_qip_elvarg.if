@@ -1,0 +1,12 @@
+[elvarg]
+type=Model
+x=329
+y=146
+width=32
+height=32
+model1Id=26580
+modelAnim=dragon_slayer_qip_elvarg_fly
+modelZoom=656
+modelXAn=441
+modelYAn=480
+discardedModelField=0

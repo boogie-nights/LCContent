@@ -1,0 +1,13 @@
+[current_kills_bg]
+type=Model
+y=200
+width=511
+height=334
+modelZoom=200
+
+[com_1]
+type=Model
+y=200
+width=511
+height=334
+modelZoom=200

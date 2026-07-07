@@ -1,0 +1,7 @@
+[layer_1]
+type=Rectangle
+width=1
+height=334
+fill=yes
+onload=513
+ontimer=514

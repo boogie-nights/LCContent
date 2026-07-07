@@ -1,0 +1,443 @@
+[build]
+type=Sprite
+x=17
+y=26
+width=480
+height=294
+graphic=297
+tiling=yes
+baseOpName="  "
+
+[model_layer]
+type=Sprite
+y=26
+width=36
+height=276
+graphic=821
+tiling=yes
+baseOpName=" "
+
+[button_layer]
+type=Sprite
+x=479
+y=26
+width=24
+height=272
+graphic=823
+tiling=yes
+baseOpName=" "
+
+[click]
+type=Sprite
+x=15
+y=302
+width=466
+height=25
+graphic=822
+tiling=yes
+
+[confirm_button]
+type=Sprite
+x=14
+y=10
+width=475
+height=38
+graphic=820
+tiling=yes
+baseOpName=" "
+
+[mainmodal_window]
+type=Sprite
+x=467
+y=290
+width=32
+height=32
+graphic=827
+baseOpName=" "
+
+[feature_model]
+type=Sprite
+x=13
+y=290
+width=32
+height=32
+graphic=826
+
+[feature_name]
+type=Sprite
+x=13
+y=23
+width=32
+height=32
+graphic=824
+baseOpName=" "
+
+[build_requirements]
+type=Sprite
+x=467
+y=23
+width=32
+height=32
+graphic=825
+baseOpName=" "
+
+[description_text]
+type=Sprite
+x=16
+y=38
+width=479
+height=33
+graphic=828
+tiling=yes
+
+[mainmodal_window_background]
+type=Sprite
+x=13
+y=40
+width=32
+height=32
+graphic=829
+tiling=yes
+
+[mainmodal_window_content]
+type=Sprite
+x=467
+y=40
+width=32
+height=32
+graphic=830
+tiling=yes
+
+[mainmodal_window_border]
+type=Sprite
+x=471
+y=32
+width=16
+height=16
+graphic=831
+eventCode=hasOp(1)
+opName0="Close"
+onmouseover=44,component.parentId,832
+onmouseleave=44,component.parentId,831
+onop=29
+
+[mainmodal_window_close_button]
+type=Text
+x=19
+y=32
+width=474
+height=15
+colour=0xFF981F
+hAlign=Center
+font=496
+shadow=yes
+text="What would you like to spin?"
+
+[com_14]
+type=Model
+x=243
+y=87
+width=38
+height=39
+model1Id=18331
+modelZoom=400
+modelXAn=172
+modelYAn=1905
+modelXOf=5
+modelYOf=3
+discardedModelField=0
+
+[com_15]
+type=Text
+x=237
+y=134
+width=50
+height=16
+colour=0xFF981F
+hAlign=Center
+vAlign=Center
+font=495
+shadow=yes
+text="Bow String<br>(Flax)"
+onload=541,component.parentId,10
+
+[com_16]
+type=Layer
+x=230
+y=84
+width=64
+height=80
+
+[com_17]
+type=Text
+x=1
+y=-1
+width=64
+height=80
+layerId=30081040
+hAlign=Center
+font=497
+shadow=yes
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Bow String"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,10
+
+[com_18]
+type=Layer
+x=95
+y=83
+width=64
+height=80
+
+[com_19]
+type=Text
+x=1
+y=1
+width=64
+height=80
+layerId=30081042
+hAlign=Center
+font=497
+shadow=yes
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Ball of Wool"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,1
+
+[com_20]
+type=Model
+x=113
+y=85
+width=32
+height=35
+model1Id=2795
+modelZoom=480
+modelXAn=134
+modelYAn=220
+modelXOf=3
+modelYOf=4
+discardedModelField=0
+
+[com_21]
+type=Text
+x=102
+y=131
+width=50
+height=16
+colour=0xFF981F
+hAlign=Center
+vAlign=Center
+font=495
+shadow=yes
+text="Ball of Wool<br>(Wool)"
+onload=541,component.parentId,1
+
+[com_22]
+type=Layer
+x=352
+y=84
+width=64
+height=80
+
+[com_23]
+type=Text
+x=2
+width=61
+height=79
+layerId=30081046
+hAlign=Center
+font=497
+shadow=yes
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Magic String"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,19
+
+[com_24]
+type=Model
+x=362
+y=86
+width=38
+height=39
+model1Id=18331
+modelZoom=400
+modelXAn=170
+modelYAn=1900
+modelXOf=4
+modelYOf=3
+discardedModelField=0
+
+[com_25]
+type=Text
+x=361
+y=130
+width=50
+height=16
+colour=0xFF981F
+hAlign=Center
+lineHeight=15
+font=495
+shadow=yes
+text="Magic Amulet<br>String<br>(Magic Roots)"
+onload=541,component.parentId,19
+
+[com_26]
+type=Layer
+x=229
+y=204
+width=64
+height=80
+
+[com_27]
+type=Text
+width=64
+height=80
+layerId=30081050
+hAlign=Center
+font=497
+shadow=yes
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Crossbow String"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,10
+
+[com_28]
+type=Model
+x=234
+y=199
+width=56
+height=49
+model1Id=18332
+modelZoom=464
+modelXAn=255
+modelYAn=84
+modelXOf=-2
+discardedModelField=0
+
+[com_29]
+type=Text
+x=236
+y=252
+width=50
+height=16
+colour=0xFF981F
+hAlign=Center
+lineHeight=15
+font=495
+shadow=yes
+text="C'Bow String<br>(Sinew)"
+onload=541,component.parentId,10
+
+[com_30]
+type=Layer
+x=96
+y=203
+width=64
+height=80
+
+[com_31]
+type=Text
+width=64
+height=80
+layerId=30081054
+hAlign=Center
+font=497
+shadow=yes
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Crossbow String"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,10
+
+[com_32]
+type=Model
+x=101
+y=196
+width=56
+height=48
+model1Id=18332
+modelZoom=464
+modelXAn=250
+modelYAn=79
+modelXOf=-2
+discardedModelField=0
+
+[com_33]
+type=Text
+x=103
+y=251
+width=50
+height=16
+colour=0xFF981F
+hAlign=Center
+lineHeight=15
+font=495
+shadow=yes
+text="C'Bow String<br>(Tree Roots)"
+onload=541,component.parentId,10
+
+[com_34]
+type=Layer
+x=350
+y=204
+width=64
+height=80
+
+[com_35]
+type=Text
+width=64
+height=80
+layerId=30081058
+hAlign=Center
+font=497
+shadow=yes
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Rope"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+onload=542,component.parentId,30
+
+[com_36]
+type=Model
+x=357
+y=205
+width=59
+height=39
+model1Id=1842
+modelZoom=616
+modelXAn=188
+modelYAn=1976
+modelXOf=-5
+modelYOf=6
+discardedModelField=0
+
+[com_37]
+type=Text
+x=357
+y=252
+width=50
+height=16
+colour=0xFF981F
+hAlign=Center
+lineHeight=15
+font=495
+shadow=yes
+text="Rope<br>(Yak Hair)"
+onload=541,component.parentId,30

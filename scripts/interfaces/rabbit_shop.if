@@ -1,0 +1,1062 @@
+[build]
+type=Rectangle
+x=17
+y=25
+width=488
+height=305
+trans=200
+fill=yes
+baseOpName="    "
+
+[click]
+type=Sprite
+x=14
+y=25
+width=485
+height=300
+graphic=297
+tiling=yes
+
+[items_container]
+type=Rectangle
+x=27
+y=88
+width=456
+height=153
+trans=224
+fill=yes
+baseOpName="    "
+
+[items_scrollbar]
+type=Sprite
+y=53
+width=32
+height=241
+graphic=821
+tiling=yes
+
+[xp_container]
+type=Sprite
+x=13
+y=20
+width=32
+height=32
+graphic=824
+
+[mainmodal_window]
+type=Sprite
+x=480
+y=51
+width=32
+height=243
+graphic=823
+tiling=yes
+
+[com_6]
+type=Sprite
+x=44
+y=7
+width=424
+height=34
+graphic=820
+tiling=yes
+
+[xp]
+type=Sprite
+x=45
+y=306
+width=423
+height=32
+graphic=822
+tiling=yes
+
+[bg]
+type=Sprite
+x=474
+y=30
+width=16
+height=16
+graphic=831
+eventCode=hasOp(1)
+opName0="Close"
+onmouseover=44,component.parentId,832
+onmouseleave=44,component.parentId,831
+onop=29
+
+[xp_message]
+type=Sprite
+x=13
+y=294
+width=32
+height=32
+graphic=826
+
+[xp_confirm]
+type=Sprite
+x=468
+y=20
+width=32
+height=32
+graphic=825
+
+[xp_cancel]
+type=Sprite
+x=468
+y=294
+width=32
+height=32
+graphic=827
+
+[mainmodal_window_background]
+type=Sprite
+x=24
+y=35
+width=465
+height=32
+graphic=828
+tiling=yes
+
+[mainmodal_window_content]
+type=Sprite
+x=13
+y=37
+width=32
+height=32
+graphic=829
+
+[mainmodal_window_border]
+type=Sprite
+x=468
+y=37
+width=32
+height=32
+graphic=830
+
+[mainmodal_window_close_button]
+type=Sprite
+x=19
+y=65
+width=475
+height=32
+graphic=851
+tiling=yes
+
+[com_16]
+type=Sprite
+x=19
+y=234
+width=475
+height=32
+graphic=851
+tiling=yes
+
+[com_17]
+type=Text
+x=18
+y=27
+width=475
+height=22
+colour=0xFF981F
+hAlign=Center
+vAlign=Center
+font=496
+shadow=yes
+text="Mrs. Winkin's World of Seeds"
+
+[com_18]
+type=Model
+x=40
+y=106
+width=24
+height=17
+model1Id=7319
+modelZoom=1100
+modelXAn=257
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Tomato seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Tomato seeds",25,50
+
+[com_19]
+type=Model
+x=68
+y=96
+width=57
+height=38
+model1Id=7314
+modelZoom=600
+modelXAn=257
+modelYOf=-1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Sweetcorn seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Sweetcorn seeds",25,50
+
+[com_20]
+type=Model
+x=112
+y=96
+width=57
+height=38
+model1Id=32236
+modelZoom=600
+modelXAn=257
+modelYOf=-1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Strawberry seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Strawberry seeds",25,50
+
+[com_21]
+type=Model
+x=156
+y=96
+width=57
+height=38
+model1Id=7338
+modelZoom=600
+modelXAn=257
+modelYOf=-1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Watermelon seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Watermelon seeds",25,50
+
+[com_22]
+type=Model
+x=213
+y=103
+width=32
+height=19
+model1Id=7205
+modelZoom=1000
+modelXAn=257
+modelXOf=-1
+modelYOf=2
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Guam seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Guam seeds",25,50
+
+[com_23]
+type=Model
+x=257
+y=103
+width=32
+height=19
+model1Id=7205
+modelZoom=1000
+modelXAn=257
+modelXOf=-1
+modelYOf=2
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Marrentill seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Marrentill seeds",25,50
+
+[com_24]
+type=Model
+x=301
+y=103
+width=32
+height=19
+model1Id=7205
+modelZoom=1000
+modelXAn=257
+modelXOf=-1
+modelYOf=2
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Ranarr seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Ranarr seeds",25,50
+
+[com_25]
+type=Model
+x=345
+y=103
+width=32
+height=19
+model1Id=7205
+modelZoom=1000
+modelXAn=257
+modelXOf=-1
+modelYOf=2
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Kwuarm seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Kwuarm seeds",25,50
+
+[com_26]
+type=Model
+x=389
+y=103
+width=32
+height=19
+model1Id=7205
+modelZoom=1000
+modelXAn=257
+modelXOf=-1
+modelYOf=2
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Tarromin seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Tarromin seeds",25,50
+
+[com_27]
+type=Model
+x=435
+y=100
+width=33
+height=24
+model1Id=7253
+modelZoom=800
+modelXAn=257
+modelXOf=-3
+modelYOf=2
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Nasturtium seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Nasturtium seeds",25,50
+
+[com_28]
+type=Model
+x=64
+y=149
+width=31
+height=23
+model1Id=7351
+modelZoom=1000
+modelXAn=257
+modelXOf=-1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Woad seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Woad seeds",25,50
+
+[com_29]
+type=Model
+x=108
+y=147
+width=29
+height=23
+model1Id=7226
+modelZoom=700
+modelXAn=259
+modelYOf=2
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Limpwurt seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Limpwurt seeds",25,50
+
+[com_30]
+type=Model
+x=150
+y=145
+width=33
+height=27
+model1Id=32246
+modelZoom=1000
+modelXAn=259
+modelYOf=2
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Asgarnian seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Asgarnian seeds",25,50
+
+[com_31]
+type=Model
+x=194
+y=145
+width=33
+height=27
+model1Id=32239
+modelZoom=1000
+modelXAn=259
+modelYOf=2
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Krandorian seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Krandorian seeds",25,50
+
+[com_32]
+type=Model
+x=241
+y=146
+width=30
+height=23
+model1Id=7293
+modelZoom=1000
+modelXAn=259
+modelXOf=-2
+modelYOf=3
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Redberry seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Redberry seeds",25,50
+
+[com_33]
+type=Model
+x=282
+y=146
+width=33
+height=26
+model1Id=32247
+modelZoom=1000
+modelXAn=259
+modelYOf=1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Cadavaberry seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Cadavaberry seeds",25,50
+
+[com_34]
+type=Model
+x=326
+y=146
+width=33
+height=26
+model1Id=32241
+modelZoom=1000
+modelXAn=259
+modelYOf=1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Dwelberry seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Dwelberry seeds",25,50
+
+[com_35]
+type=Model
+x=370
+y=146
+width=33
+height=26
+model1Id=32242
+modelZoom=1000
+modelXAn=259
+modelYOf=1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Jangerberry seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Jangerberry seeds",25,50
+
+[com_36]
+type=Model
+x=414
+y=146
+width=33
+height=26
+model1Id=32244
+modelZoom=1000
+modelXAn=259
+modelYOf=1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Whiteberry seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Whiteberry seeds",25,50
+
+[com_37]
+type=Model
+x=38
+y=195
+width=33
+height=26
+model1Id=32242
+modelZoom=1000
+modelXAn=259
+modelYOf=1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Poison Ivy seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Poison ivy seeds",25,50
+
+[com_38]
+type=Model
+x=83
+y=191
+width=38
+height=29
+model1Id=7142
+modelZoom=1000
+modelXAn=259
+modelXOf=-4
+modelYOf=4
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Acorn"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Acorns",25,50
+
+[com_39]
+type=Model
+x=125
+y=197
+width=34
+height=27
+model1Id=7346
+modelZoom=1000
+modelXAn=259
+modelYOf=-1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Willow seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Willow tree seeds",25,50
+
+[com_40]
+type=Model
+x=167
+y=197
+width=39
+height=23
+model1Id=7236
+modelZoom=1100
+modelXAn=259
+modelYOf=1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Maple seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Maple tree seeds",25,50
+
+[com_41]
+type=Model
+x=211
+y=197
+width=37
+height=26
+model1Id=7338
+modelZoom=900
+modelXAn=259
+modelYOf=-1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Pineapple seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Pineapple tree seeds",25,50
+
+[com_42]
+type=Model
+x=255
+y=196
+width=27
+height=21
+model1Id=7362
+modelZoom=1100
+modelXAn=259
+modelXOf=-4
+modelYOf=4
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Yew seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Yew tree seeds",25,50
+
+[com_43]
+type=Model
+x=306
+y=198
+width=29
+height=21
+model1Id=7269
+modelZoom=1000
+modelXAn=259
+modelXOf=-2
+modelYOf=1
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Palm tree seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Palm tree seeds",25,50
+
+[com_44]
+type=Model
+x=352
+y=193
+width=30
+height=23
+model1Id=32243
+modelZoom=1000
+modelXAn=259
+modelXOf=-5
+modelYOf=5
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Spirit seed"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Spirit tree seeds",25,50
+
+[com_45]
+type=Model
+x=398
+y=190
+width=17
+height=25
+model1Id=32238
+modelZoom=600
+modelXAn=259
+modelYOf=7
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Super compost potion"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Super compost potion",25,50
+
+[com_46]
+type=Model
+x=432
+y=194
+width=47
+height=28
+model1Id=32237
+modelZoom=1500
+modelZAn=1940
+modelXOf=-10
+modelYOf=4
+discardedModelField=0
+eventCode=hasOp(1,2,3,4,5)
+baseOpName="<col=FF981F>Flag"
+opName0="Value"
+opName1="Buy 1"
+opName2="Buy 5"
+opName3="Buy 10"
+opName4="Buy X"
+onmouseleave=40,44957755
+onmouserepeat=38,component.parentId,44957755,"Flags",25,50
+
+[com_47]
+type=Text
+x=123
+y=225
+width=262
+height=14
+colour=0x77736A
+hAlign=Center
+font=494
+shadow=yes
+text="Trade points for seeds and flags"
+
+[com_48]
+type=Sprite
+x=28
+y=224
+width=457
+height=32
+graphic=1074
+tiling=yes
+
+[com_49]
+type=Sprite
+x=28
+y=72
+width=456
+height=32
+graphic=1074
+tiling=yes
+
+[com_50]
+type=Sprite
+x=14
+y=89
+width=32
+height=152
+graphic=1075
+tiling=yes
+
+[com_51]
+type=Sprite
+x=470
+y=89
+width=32
+height=152
+graphic=1075
+tiling=yes
+
+[com_52]
+type=Text
+x=205
+y=300
+width=114
+height=13
+colour=0x77736A
+hAlign=Center
+font=494
+shadow=yes
+text="Trade points for XP"
+
+[com_53]
+type=Layer
+x=213
+y=253
+width=95
+height=43
+eventCode=hasOp(1)
+opName0="Trade For XP"
+onload=93,component.parentId
+onmouseover=97,component.parentId
+onmouseleave=93,component.parentId
+
+[com_54]
+type=Text
+x=218
+y=257
+width=85
+height=18
+colour=0xFF981F
+hAlign=Center
+font=495
+shadow=yes
+text="Trade for"
+
+[com_55]
+type=Text
+x=218
+y=274
+width=85
+height=22
+colour=0xFF981F
+hAlign=Center
+font=495
+shadow=yes
+text="XP"
+onload=864
+onvartransmit=864
+onvartransmitlist=1195
+
+[com_56]
+type=Text
+x=290
+y=58
+width=44
+height=14
+colour=0xFFFFFF
+font=496
+shadow=yes
+onload=863
+onvartransmit=863
+onvartransmitlist=1195
+
+[com_57]
+type=Text
+x=151
+y=58
+width=112
+height=14
+colour=0xFF981F
+font=495
+shadow=yes
+text="Total points remaining :"
+
+[com_58]
+type=Layer
+width=512
+height=334
+
+[com_59]
+type=Layer
+x=8
+y=9
+width=32
+height=32
+layerId=44957754
+
+[com_60]
+type=Layer
+width=512
+height=334
+hide=yes
+
+[com_61]
+type=Rectangle
+width=512
+height=332
+layerId=44957756
+trans=150
+colour=0x999999
+fill=yes
+
+[com_62]
+type=Sprite
+x=178
+y=129
+width=147
+height=101
+layerId=44957756
+graphic=897
+tiling=yes
+
+[com_63]
+type=Sprite
+x=174
+y=129
+width=32
+height=32
+layerId=44957756
+graphic=824
+
+[com_64]
+type=Sprite
+x=161
+y=160
+width=32
+height=44
+layerId=44957756
+graphic=821
+
+[com_65]
+type=Sprite
+x=308
+y=160
+width=32
+height=44
+layerId=44957756
+graphic=823
+
+[com_66]
+type=Sprite
+x=296
+y=129
+width=32
+height=32
+layerId=44957756
+graphic=825
+
+[com_67]
+type=Sprite
+x=174
+y=200
+width=32
+height=32
+layerId=44957756
+graphic=826
+
+[com_68]
+type=Sprite
+x=296
+y=200
+width=32
+height=32
+layerId=44957756
+graphic=827
+
+[com_69]
+type=Sprite
+x=197
+y=116
+width=100
+height=32
+layerId=44957756
+graphic=820
+
+[com_70]
+type=Sprite
+x=201
+y=212
+width=99
+height=32
+layerId=44957756
+graphic=822
+baseOpName=" "
+
+[com_71]
+type=Text
+x=195
+y=144
+width=118
+height=32
+layerId=44957756
+colour=0xFFFF00
+font=494
+shadow=yes
+text="Are you sure you want to trade your remaining points for XP?"
+
+[com_72]
+type=Text
+x=206
+y=180
+width=89
+height=15
+layerId=44957756
+colour=0xFFFFFF
+font=494
+shadow=yes
+text="Yes - let me trade"
+eventCode=hasOp(1)
+opName0="Yes"
+onmouseover=45,component.parentId,16752640
+onmouseleave=45,component.parentId,16777215
+
+[com_73]
+type=Text
+x=210
+y=201
+width=89
+height=15
+layerId=44957756
+colour=0xFFFFFF
+font=494
+shadow=yes
+text="No - don't trade"
+eventCode=hasOp(1)
+opName0="No"
+onmouseover=45,component.parentId,16752640
+onmouseleave=45,component.parentId,16777215

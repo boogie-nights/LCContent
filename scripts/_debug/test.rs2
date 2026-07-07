@@ -1,0 +1,17 @@
+[debugproc,test]
+mes("Wow they work.");
+
+[debugproc,givemc]
+inv_add(inv, twpart1, 1);
+inv_add(inv, twpart2, 1);
+inv_add(inv, twpart3, 1);
+inv_add(inv, twpart4, 1);
+inv_add(inv, mcannonball, 1000);
+
+[debugproc,anim](seq $anim)
+if ($anim = null) {
+    mes("Not found");
+    return;
+}
+mes("Found");
+anim($anim, 0);
