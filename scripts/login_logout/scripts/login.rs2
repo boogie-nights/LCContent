@@ -24,3 +24,22 @@ if_opensub(logout, toplevel:logout, 3);
 inv_transmit(inv, inventory:inv);
 
 mes("Welcome to RuneScape.");
+
+//We should ignore these since they are handled entirely in cs2..?
+[if_button1,toplevel:com_34]
+[if_button1,toplevel:com_35]
+[if_button1,toplevel:com_36]
+[if_button1,toplevel:com_37]
+[if_button1,toplevel:com_38]
+[if_button1,toplevel:com_39]
+[if_button1,toplevel:com_40]
+
+[if_button1,toplevel:com_51]
+[if_button1,toplevel:com_52]
+[if_button1,toplevel:com_53]
+[if_button1,toplevel:com_54]
+[if_button1,toplevel:com_55]
+[if_button1,toplevel:com_56]
+[if_button1,toplevel:com_57]
+
+[if_button1,toplevel:com_91]
