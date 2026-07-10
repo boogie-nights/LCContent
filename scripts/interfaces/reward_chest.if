@@ -1,0 +1,13 @@
+[mainmodal_window]
+type=Model
+x=40
+y=175
+width=486
+height=332
+model1Id=34873
+modelAnim=rocko_hoover_interface
+modelZoom=288
+modelXAn=280
+modelXOf=-11
+modelYOf=56
+discardedModelField=64543

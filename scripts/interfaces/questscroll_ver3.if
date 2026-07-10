@@ -12,7 +12,7 @@ modelYAn=2047
 [layer_1]
 type=Text
 x=157
-y=75
+y=73
 width=220
 height=18
 colour=0xFF9933
@@ -25,7 +25,7 @@ text="Congratulations!"
 [com_2]
 type=Text
 x=96
-y=92
+y=90
 width=325
 height=29
 colour=0x3B2E22
@@ -48,9 +48,9 @@ modelYAn=1849
 [quest_title_ver3]
 type=Text
 x=181
-y=254
+y=255
 width=131
-height=13
+height=15
 colour=0xFF9933
 hAlign=Center
 font=495
@@ -60,9 +60,9 @@ text="Quest Points:"
 [quest_model_ver3]
 type=Text
 x=316
-y=254
+y=255
 width=17
-height=14
+height=15
 colour=0xFF9933
 hAlign=Center
 font=495
@@ -83,7 +83,7 @@ modelXAn=500
 [quest_points_ver3]
 type=Text
 x=157
-y=123
+y=119
 width=213
 height=16
 colour=0x3B242C
@@ -94,79 +94,72 @@ text="You are awarded:"
 [com_8]
 type=Text
 x=157
-y=141
+y=136
 width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
 font=495
-text="Line 1"
 
 [quest_awardedtext_ver3]
 type=Text
 x=157
-y=156
+y=151
 width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
 font=495
-text="Line 2"
 
 [quest_reward1_ver3]
 type=Text
 x=157
-y=171
+y=166
 width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
 font=495
-text="Line 3  "
 
 [quest_reward2_ver3]
 type=Text
 x=157
-y=186
+y=181
 width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
 font=495
-text="Line 4"
 
 [quest_reward3_ver3]
 type=Text
 x=157
-y=201
+y=196
 width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
 font=495
-text="Line 5"
 
 [quest_reward4_ver3]
 type=Text
 x=157
-y=216
+y=211
 width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
 font=495
-text="Line 6"
 
 [quest_reward5_ver3]
 type=Text
 x=157
-y=231
+y=226
 width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
 font=495
-text="Line 7"
 
 [quest_reward6_ver3]
 type=Sprite
@@ -195,3 +188,13 @@ y=58
 width=32
 height=32
 hide=yes
+
+[close]
+type=Text
+x=157
+y=241
+width=213
+height=14
+colour=0x3B2E22
+hAlign=Center
+font=495

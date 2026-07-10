@@ -21862,8 +21862,6 @@
 540:53=ii_elnocks_exchange:confirm_click
 540:54=ii_elnocks_exchange:shop_build
 540:55=ii_elnocks_exchange:shop_click
-541:0=fade_out_white_quick:fade_to_white_model
-541:1=fade_out_white_quick:fade_text_white
 542:0=glo3_cutscenes:layer_1
 543:0=dragon_slayer_qip_clouds:layer_1
 543:1=dragon_slayer_qip_clouds:cloud1

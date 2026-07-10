@@ -387,6 +387,21 @@ colour=0x383820
 [flo_110]
 colour=0xFBA13A
 
+[flo_111]
+texture=texture_1
+
+[flo_112]
+occlude=no
+colour=0xB89B67
+
+[flo_113]
+colour=0xFFFFFF
+texture=texture_651
+texture_size=2
+waterfogcolour=0x17281B
+waterfogscale=6
+priority=127
+
 [flo_116]
 occlude=no
 colour=0x4F4F4F

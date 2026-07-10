@@ -1,149 +1,205 @@
 [layer_1]
 type=Model
-x=244
-y=153
-width=32
-height=32
+x=-7
+y=-25
+width=527
+height=381
 model1Id=15707
 modelZoom=400
 modelXAn=512
+modelXOf=4
+modelYOf=4
+discardedModelField=64461
 
 [bespoke_window]
 type=Model
-x=238
-y=152
-width=32
-height=32
+x=22
+y=54
+width=465
+height=227
 model1Id=15716
-modelZoom=400
+modelZoom=380
 modelXAn=512
+modelYOf=1
+discardedModelField=64612
 
 [game_brew_backing]
 type=Model
-buttonType=Button
-x=62
-y=95
-width=44
-height=70
+x=44
+y=94
+width=43
+height=74
 model1Id=15708
 modelZoom=650
 modelXAn=514
-eventCode=flag22
+discardedModelField=64187
+eventCode=hasOp(1)
+opName0="Take Pipe"
 
 [game_brew_table]
 type=Model
-buttonType=Button
-x=140
+x=105
 y=98
-width=71
-height=67
+width=69
+height=68
 model1Id=15709
 modelZoom=950
 modelXAn=514
-eventCode=flag22
+discardedModelField=64036
+eventCode=hasOp(1)
+opName0="Take Bridge Section"
 
 [game_brew_bamboo]
 type=Model
-buttonType=Button
-x=233
-y=106
-width=53
-height=50
+x=187
+y=104
+width=61
+height=57
 model1Id=15712
 modelZoom=400
 modelXAn=514
-eventCode=flag22
+modelXOf=-1
+discardedModelField=64420
+eventCode=hasOp(1)
+opName0="Take Bucket"
 
 [game_brew_bridge]
 type=Model
-buttonType=Button
-x=47
-y=225
-width=88
-height=59
+x=27
+y=232
+width=70
+height=14
 model1Id=15713
 modelZoom=650
 modelXAn=514
 modelYAn=512
-eventCode=flag22
+modelXOf=5
+modelYOf=22
+discardedModelField=64072
+eventCode=hasOp(1)
+opName0="Take Torch"
 
 [game_brew_bucket]
 type=Model
-buttonType=Button
-x=406
-y=97
-width=51
-height=72
+x=337
+y=95
+width=67
+height=77
 model1Id=15718
 modelZoom=550
 modelXAn=512
-eventCode=flag22
+modelXOf=-1
+discardedModelField=64140
+eventCode=hasOp(1)
+opName0="Take Lumber Patch"
 
 [game_brew_torch]
 type=Model
-buttonType=Button
-x=150
-y=206
-width=48
-height=52
-model1Id=15685
-modelZoom=600
-modelXAn=514
-eventCode=flag22
+x=427
+y=105
+width=40
+height=50
+model1Id=26324
+modelZoom=422
+modelZAn=1874
+modelXOf=1
+modelYOf=26
+discardedModelField=64373
+eventCode=hasOp(1)
+opName0="Take Jar"
 
 [game_brew_sheets]
 type=Model
-buttonType=Button
-x=233
-y=208
-width=50
-height=47
-model1Id=15717
-modelZoom=400
-modelXAn=512
-eventCode=flag22
+x=115
+y=214
+width=49
+height=49
+model1Id=15685
+modelZoom=600
+modelXAn=514
+discardedModelField=64110
+eventCode=hasOp(1)
+opName0="Take Bowl"
 
 [game_brew_jar]
 type=Model
-buttonType=Button
-x=326
-y=206
-width=37
-height=53
-model1Id=15715
+x=191
+y=214
+width=51
+height=50
+model1Id=15717
 modelZoom=400
 modelXAn=512
-eventCode=flag22
+modelXOf=1
+modelYOf=1
+discardedModelField=64420
+eventCode=hasOp(1)
+opName0="Take Tinderbox"
 
 [game_brew_bowl_blue]
 type=Model
-buttonType=Button
-x=405
-y=196
-width=32
-height=54
-model1Id=15714
+x=277
+y=215
+width=31
+height=51
+model1Id=15715
 modelZoom=400
 modelXAn=512
-eventCode=flag22
+modelYOf=2
+discardedModelField=64420
+eventCode=hasOp(1)
+opName0="Take Meat"
 
 [game_brew_tinderbox]
 type=Model
-buttonType=Button
-x=325
-y=114
-width=46
-height=65
+x=364
+y=215
+width=14
+height=49
+model1Id=15714
+modelZoom=400
+modelXAn=512
+modelXOf=6
+modelYOf=-13
+discardedModelField=64420
+eventCode=hasOp(1)
+opName0="Take Knife"
+
+[game_brew_meat]
+type=Model
+x=414
+y=214
+width=64
+height=62
+model1Id=26326
+modelZoom=784
+modelXAn=512
+modelXOf=-4
+modelYOf=2
+discardedModelField=64115
+eventCode=hasOp(1)
+opName0="Take Net"
+
+[game_brew_knife]
+type=Model
+x=270
+y=104
+width=50
+height=57
 model1Id=15663
 modelZoom=500
 modelXAn=512
 modelYAn=786
-eventCode=flag22
+modelXOf=2
+modelYOf=15
+discardedModelField=64314
+eventCode=hasOp(1)
+opName0="Take Axe"
 
-[game_brew_meat]
+[game_brew_net]
 type=Text
-x=50
-y=67
+x=25
+y=68
 width=75
 height=29
 colour=0xB99116
@@ -152,10 +208,10 @@ font=495
 shadow=yes
 text="Bamboo pipe"
 
-[game_brew_knife]
+[game_brew_axe]
 type=Text
-x=136
-y=67
+x=102
+y=68
 width=75
 height=29
 colour=0xB99116
@@ -165,10 +221,10 @@ font=495
 shadow=yes
 text="Bridge section"
 
-[game_brew_net]
+[game_brew_bamboo_text]
 type=Text
-x=223
-y=67
+x=179
+y=68
 width=75
 height=29
 colour=0xB99116
@@ -178,10 +234,10 @@ font=495
 shadow=yes
 text="Bucket"
 
-[game_brew_axe]
+[game_brew_bridge_text]
 type=Text
-x=48
-y=184
+x=25
+y=185
 width=75
 height=30
 colour=0xB99116
@@ -191,10 +247,10 @@ font=495
 shadow=yes
 text="Torch"
 
-[game_brew_bamboo_text]
+[game_brew_bucket_text]
 type=Text
-x=394
-y=67
+x=333
+y=68
 width=75
 height=29
 colour=0xB99116
@@ -204,10 +260,23 @@ font=495
 shadow=yes
 text="Lumber patch"
 
-[game_brew_bridge_text]
+[game_brew_torch_text]
 type=Text
-x=137
-y=184
+x=410
+y=68
+width=75
+height=29
+colour=0xB99116
+hAlign=Center
+vAlign=Center
+font=495
+shadow=yes
+text="Jar"
+
+[game_brew_sheet_text]
+type=Text
+x=102
+y=185
 width=75
 height=30
 colour=0xB99116
@@ -217,10 +286,10 @@ font=495
 shadow=yes
 text="Bowl"
 
-[game_brew_bucket_text]
+[game_brew_jar_text]
 type=Text
-x=220
-y=184
+x=179
+y=185
 width=75
 height=30
 colour=0xB99116
@@ -230,10 +299,10 @@ font=495
 shadow=yes
 text="Tinderbox"
 
-[game_brew_torch_text]
+[game_brew_bowl_blue_text]
 type=Text
-x=308
-y=184
+x=256
+y=185
 width=75
 height=30
 colour=0xB99116
@@ -243,9 +312,9 @@ font=495
 shadow=yes
 text="Meat"
 
-[game_brew_sheet_text]
+[game_brew_tinder_text]
 type=Text
-x=385
+x=333
 y=185
 width=75
 height=30
@@ -256,10 +325,23 @@ font=495
 shadow=yes
 text="Knife"
 
-[game_brew_jar_text]
+[game_brew_meat_text]
 type=Text
-x=312
-y=67
+x=410
+y=185
+width=75
+height=30
+colour=0xB99116
+hAlign=Center
+vAlign=Center
+font=495
+shadow=yes
+text="Net"
+
+[game_brew_knife_text]
+type=Text
+x=256
+y=68
 width=75
 height=29
 colour=0xB99116
@@ -269,9 +351,9 @@ font=495
 shadow=yes
 text="Axe"
 
-[game_brew_bowl_blue_text]
+[game_brew_net_text]
 type=Text
-x=97
+x=72
 y=145
 width=8
 height=14
@@ -280,9 +362,9 @@ font=495
 shadow=yes
 text="0"
 
-[game_brew_tinder_text]
+[game_brew_axe_text]
 type=Text
-x=190
+x=158
 y=144
 width=8
 height=14
@@ -291,9 +373,9 @@ font=495
 shadow=yes
 text="0"
 
-[game_brew_meat_text]
+[game_brew_bamboo_counter]
 type=Text
-x=445
+x=389
 y=145
 width=8
 height=14
@@ -302,30 +384,15 @@ font=495
 shadow=yes
 text="0"
 
-[game_brew_knife_text]
+[game_brew_bridge_counter]
 type=Sprite
 x=483
 y=6
 width=26
 height=23
-overLayerId=27
 graphic=539
-
-[game_brew_net_text]
-type=Sprite
-buttonType=Close
-x=3
-y=3
-width=26
-height=23
-layerId=27328539
-graphic=540
-buttonText="Ok"
-
-[game_brew_axe_text]
-type=Layer
-x=480
-y=3
-width=32
-height=32
-hide=yes
+eventCode=hasOp(1)
+opName0="Close"
+onmouseover=44,27328541,540
+onmouseleave=44,27328541,539
+onop=29
