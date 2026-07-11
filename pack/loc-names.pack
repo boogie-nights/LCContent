@@ -2148,7 +2148,6 @@
 2147=wizards_tower_laddertop
 2148=wizards_tower_ladder
 2149=loc_2149
-2150=obelisk_earth
 2151=obelisk_water
 2152=obelisk_air
 2153=obelisk_fire
@@ -2488,7 +2487,6 @@
 2487=chaos_altar
 2488=death_altar
 2489=soul_altar
-2490=blood_altar
 2491=blankrunestone
 2492=blankrunestone_exit_portal
 2493=runetemple_pillar_new1
@@ -2898,8 +2896,8 @@
 2897=legendsguilddoorr
 2898=inac_legendsguilddoorl
 2899=inac_legendsguilddoorr
-2900=lgshamancaverock1
-2901=lgshamancaverock2
+2900=inac_legendsguildbed
+2901=sir_palomedes
 2902=lgshamancaverock3
 2903=shaman_entrance_caver
 2904=shaman_entrance_cavel
@@ -3387,11 +3385,6 @@
 3386=cavewall_top_mudtogrey_endr
 3387=shipfloor
 3388=shiprope_withfloor
-3389=elemental_workshop_bookcase
-3390=elemental_workshop_oddwall_r
-3391=elemental_workshop_oddwall_l
-3392=elemental_workshop_oddwall_r_open
-3393=elemental_workshop_oddwall_l_open
 3394=elemental_workshop_box_1
 3395=elemental_workshop_box_2
 3396=elemental_workshop_box_3
@@ -4907,7 +4900,7 @@
 4906=castlewars_saradomin_banner+stand_inactive
 4907=castlewars_zamorak_banner+stand_inactive
 4908=vkq1_ghost_commodore_pos2
-4909=inviswall_no_blockrange
+4909=inviswall_blockrange2
 4910=vkq1_ghost_commodore_pos3
 4911=vkq1_ghost_commodore_pos4
 4912=vkq1_ghost_commodore_pos5
@@ -5136,7 +5129,7 @@
 5135=werewolf_hurdle_end_mirror
 5136=werewolf_skull_climb_1
 5137=werewolf_skull_climb_2
-5138=vt_mazeportal_wrong
+5138=werewolf_stepping_stone
 5139=werewolf_slide_center
 5140=werewolf_slide_side
 5141=werewolf_slide_side_mirror
@@ -12760,7 +12753,7 @@
 12759=burgh_bank_booth_multiloc
 12760=burgh_bank_wall_multiloc
 12761=burgh_village_door
-12762=khazzacklowwall
+12762=burgh_temple_trapdoor
 12763=clan_field_ice_build
 12764=burgh_temple_library_ladder_up
 12765=burgh_library_keyhole
@@ -26120,7 +26113,6 @@
 26119=favour_roof_trapdoor
 26120=murdercompost
 26121=murderhive
-26122=flourbarrel
 26123=murderwindow
 26124=clan_skill_firemaking_hatch_tier_2
 26125=clan_skill_firemaking_resource_tier_2
@@ -28759,7 +28751,6 @@
 28758=lore_monkey_01_boxtrap_e
 28759=lore_monkey_01_boxtrap_s
 28760=lore_monkey_01_boxtrap_w
-28761=eadgar_laundry_basket
 28762=fai_varrock_roof_thatched
 28763=randomsound_woodland_birds3
 28764=randomsound_woodland_birds6
@@ -29179,8 +29170,6 @@
 29178=afr_pit3
 29179=afr_pit4
 29180=afr_pit5
-29181=temple_pyre_magic
-29182=temple_pyre_bones_magic
 29183=afr_goblin_crowd
 29184=afr_goblin_crowd_var
 29185=hunting_boxtrap_trapping_platypus_n

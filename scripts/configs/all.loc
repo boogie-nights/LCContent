@@ -16221,7 +16221,7 @@ name=Ladder
 model1=model_1810,default
 name=Obelisk
 
-[obelisk_earth]
+[loc_2150]
 active=no
 blockwalk=1
 skewType=1
@@ -19057,7 +19057,7 @@ bgsound_range=5
 model1=model_2302,default
 name=Altar
 
-[blood_altar]
+[loc_2490]
 active=yes
 length=2
 multivarbit=varbit_4572
@@ -22416,7 +22416,7 @@ recol3s=24129
 recol3d=20159
 model1=model_593,0
 
-[lgshamancaverock1]
+[inac_legendsguildbed]
 width=2
 length=2
 contrast=75
@@ -22433,7 +22433,7 @@ recol4d=13738
 model1=model_27404,default
 name=Bed
 
-[lgshamancaverock2]
+[sir_palomedes]
 anim=kr_cam_knights_jail_ready_palomedes
 blockrange=no
 blockwalk=0
@@ -26552,7 +26552,7 @@ sharelight=yes
 active=no
 model1=model_154,22
 
-[elemental_workshop_bookcase]
+[loc_3389]
 active=no
 blockwalk=1
 wallwidth=16
@@ -26563,7 +26563,7 @@ model2=model_27431,1
 model3=model_27430,2
 model4=model_27423,9
 
-[elemental_workshop_oddwall_r]
+[loc_3390]
 active=no
 blockwalk=1
 wallwidth=16
@@ -26571,7 +26571,7 @@ contrast=125
 ambient=30
 model1=model_27435,1
 
-[elemental_workshop_oddwall_l]
+[loc_3391]
 sharelight=yes
 active=no
 blockwalk=1
@@ -26583,7 +26583,7 @@ model2=model_27427,1
 model3=model_27439,2
 model4=model_27436,9
 
-[elemental_workshop_oddwall_r_open]
+[loc_3392]
 sharelight=yes
 active=no
 blockwalk=1
@@ -26592,7 +26592,7 @@ contrast=125
 ambient=30
 model1=model_27425,9
 
-[elemental_workshop_oddwall_l_open]
+[loc_3393]
 sharelight=yes
 active=no
 blockwalk=1
@@ -40162,7 +40162,7 @@ model3=model_671,2
 model4=model_672,3
 model5=model_673,9
 
-[inviswall_no_blockrange]
+[inviswall_blockrange2]
 shadow=no
 mapscene=22
 blockrange=no
@@ -42337,7 +42337,7 @@ skewType=1
 forcedecor=yes
 model1=model_5130,22
 
-[vt_mazeportal_wrong]
+[werewolf_stepping_stone]
 op1=Jump-to
 active=yes
 blockwalk=1
@@ -135112,7 +135112,7 @@ recol4d=4256
 model1=model_5189,0
 name=Door
 
-[khazzacklowwall]
+[burgh_temple_trapdoor]
 active=yes
 multivarbit=burgh_temple_trapdoor
 multiloc1=null
@@ -275267,7 +275267,7 @@ contrast=75
 model1=model_27529,default
 name=Sinclair family beehive
 
-[flourbarrel]
+[loc_26122]
 op2=Take From
 contrast=75
 ambient=20
@@ -301811,7 +301811,7 @@ model1=model_31643,default
 model2=model_31642,default
 name=Box trap
 
-[eadgar_laundry_basket]
+[loc_28761]
 op1=Search
 blockrange=no
 model1=model_31655,default
@@ -307404,7 +307404,7 @@ multiloc2=afr_fire_pit_materials
 multiloc3=afr_fire_pit_burning
 multiloc4=afr_fire_pit_burning
 
-[temple_pyre_magic]
+[loc_29181]
 anim=temple_pyre_nobones
 length=3
 recol1s=5216
@@ -307414,7 +307414,7 @@ recol2d=1451
 model1=model_32061,default
 name=Funeral pyre
 
-[temple_pyre_bones_magic]
+[loc_29182]
 length=3
 op1=Light
 op4=Hidden
